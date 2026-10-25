@@ -1,6 +1,6 @@
 ==========================================================================================
 HOJA DE VIDA DE SKILLS - PROVEEDOR LOCAL
-Actualizado: 2026-10-25 09:27    Total: 104 skills
+Actualizado: 2026-10-25 09:48    Total: 107 skills
 Ubicacion: /home/richarddev/Desktop/Proveedor de Skills/.agents/skills
 Archivo generado por actualizar-registro.py (editar skills-meta.json, no este archivo).
 ==========================================================================================
@@ -43,6 +43,8 @@ INDICE
    lean-analytics, lean-startup, lean-ux, mom-test
 [SEO]
    ai-seo, programmatic-seo, seo, seo-audit
+[Sin clasificar]
+   frontend-design, game-ui-ux, ux-writing
 [UI / Diseno web]
    animated-component-libraries, cinematographic-websites, modern-web-design,
    scroll-world-storytelling
@@ -1086,7 +1088,54 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa find-skills para ... (nombrala en el prompt).
 
 ==========================================================================================
-33. GOOD-STRATEGY-BAD-STRATEGY
+33. FRONTEND-DESIGN
+==========================================================================================
+Categoria:      Sin clasificar
+Version:        n/d
+Fuente:         github: anthropics/skills
+Idioma:         n/d
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guidance for distinctive, intentional visual design when building new UI
+                or reshaping an existing one.
+CUANDO USARLA:  Guidance for distinctive, intentional visual design when building new UI
+                or reshaping an existing one. Helps with aesthetic direction, typography,
+                and making choices that don't read as templated defaults.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (19 KB)
+REQUISITOS:     n/d
+EJEMPLO:        Usa frontend-design para ... (nombrala en el prompt).
+
+==========================================================================================
+34. GAME-UI-UX
+==========================================================================================
+Categoria:      Sin clasificar
+Version:        n/d
+Fuente:         github: gamedev-skills/awesome-gamedev-agent-skills
+Idioma:         n/d
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       >
+CUANDO USARLA:  >
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (17 KB); 1 guias de referencia
+REQUISITOS:     n/d
+EJEMPLO:        Usa game-ui-ux para ... (nombrala en el prompt).
+
+==========================================================================================
+35. GOOD-STRATEGY-BAD-STRATEGY
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.2.0
@@ -1122,7 +1171,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa good-strategy-bad-strategy para ... (nombrala en el prompt).
 
 ==========================================================================================
-34. GROW-APP
+36. GROW-APP
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.0.2
@@ -1159,7 +1208,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa grow-app para ... (nombrala en el prompt).
 
 ==========================================================================================
-35. GROW-BUSINESS
+37. GROW-BUSINESS
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.0.1
@@ -1196,7 +1245,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa grow-business para ... (nombrala en el prompt).
 
 ==========================================================================================
-36. GROW-WEBSITE
+38. GROW-WEBSITE
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.0.2
@@ -1235,7 +1284,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa grow-website para ... (nombrala en el prompt).
 
 ==========================================================================================
-37. GSAP-CORE
+39. GSAP-CORE
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -1267,7 +1316,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa gsap-core para ... (nombrala en el prompt).
 
 ==========================================================================================
-38. GSAP-SCROLLTRIGGER
+40. GSAP-SCROLLTRIGGER
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -1296,7 +1345,7 @@ EJEMPLO:        Con gsap-scrolltrigger haz que las tres secciones de mi pagina s
                 revelen su contenido al hacer scroll.
 
 ==========================================================================================
-39. HIGH-OUTPUT-MANAGEMENT
+41. HIGH-OUTPUT-MANAGEMENT
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.2.0
@@ -1332,7 +1381,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa high-output-management para ... (nombrala en el prompt).
 
 ==========================================================================================
-40. HIGH-PERF-BROWSER
+42. HIGH-PERF-BROWSER
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.4.1
@@ -1364,7 +1413,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa high-perf-browser para ... (nombrala en el prompt).
 
 ==========================================================================================
-41. HOOKED-UX
+43. HOOKED-UX
 ==========================================================================================
 Categoria:      Producto y descubrimiento
 Version:        1.5.1
@@ -1395,7 +1444,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa hooked-ux para ... (nombrala en el prompt).
 
 ==========================================================================================
-42. HUNDRED-MILLION-OFFERS
+44. HUNDRED-MILLION-OFFERS
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.4.0
@@ -1428,7 +1477,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa hundred-million-offers para ... (nombrala en el prompt).
 
 ==========================================================================================
-43. HYPERFRAMES-REGISTRY
+45. HYPERFRAMES-REGISTRY
 ==========================================================================================
 Categoria:      Video / Composiciones
 Version:        n/d
@@ -1464,7 +1513,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa hyperframes-registry para ... (nombrala en el prompt).
 
 ==========================================================================================
-44. IMPLEMENT_LENIS_SCROLL
+46. IMPLEMENT_LENIS_SCROLL
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -1489,7 +1538,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa implement_lenis_scroll para ... (nombrala en el prompt).
 
 ==========================================================================================
-45. IMPROVE-APP
+47. IMPROVE-APP
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        2.0.2
@@ -1528,7 +1577,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa improve-app para ... (nombrala en el prompt).
 
 ==========================================================================================
-46. IMPROVE-BUSINESS
+48. IMPROVE-BUSINESS
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.0.1
@@ -1566,7 +1615,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa improve-business para ... (nombrala en el prompt).
 
 ==========================================================================================
-47. IMPROVE-CODE-QUALITY
+49. IMPROVE-CODE-QUALITY
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.0.2
@@ -1605,7 +1654,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa improve-code-quality para ... (nombrala en el prompt).
 
 ==========================================================================================
-48. IMPROVE-RETENTION
+50. IMPROVE-RETENTION
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.4.0
@@ -1636,7 +1685,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa improve-retention para ... (nombrala en el prompt).
 
 ==========================================================================================
-49. IMPROVE-WEBSITE
+51. IMPROVE-WEBSITE
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.0.2
@@ -1675,7 +1724,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa improve-website para ... (nombrala en el prompt).
 
 ==========================================================================================
-50. INFLUENCE-PSYCHOLOGY
+52. INFLUENCE-PSYCHOLOGY
 ==========================================================================================
 Categoria:      Marketing y crecimiento
 Version:        1.4.1
@@ -1709,7 +1758,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa influence-psychology para ... (nombrala en el prompt).
 
 ==========================================================================================
-51. INSPIRED-PRODUCT
+53. INSPIRED-PRODUCT
 ==========================================================================================
 Categoria:      Producto y descubrimiento
 Version:        1.4.0
@@ -1740,7 +1789,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa inspired-product para ... (nombrala en el prompt).
 
 ==========================================================================================
-52. IOS-HIG-DESIGN
+54. IOS-HIG-DESIGN
 ==========================================================================================
 Categoria:      Diseno UX / UI
 Version:        1.5.1
@@ -1772,7 +1821,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa ios-hig-design para ... (nombrala en el prompt).
 
 ==========================================================================================
-53. JOBS-TO-BE-DONE
+55. JOBS-TO-BE-DONE
 ==========================================================================================
 Categoria:      Producto y descubrimiento
 Version:        1.5.0
@@ -1805,7 +1854,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa jobs-to-be-done para ... (nombrala en el prompt).
 
 ==========================================================================================
-54. LEAN-ANALYTICS
+56. LEAN-ANALYTICS
 ==========================================================================================
 Categoria:      Producto y descubrimiento
 Version:        1.2.0
@@ -1839,7 +1888,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa lean-analytics para ... (nombrala en el prompt).
 
 ==========================================================================================
-55. LEAN-STARTUP
+57. LEAN-STARTUP
 ==========================================================================================
 Categoria:      Producto y descubrimiento
 Version:        1.4.0
@@ -1872,7 +1921,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa lean-startup para ... (nombrala en el prompt).
 
 ==========================================================================================
-56. LEAN-UX
+58. LEAN-UX
 ==========================================================================================
 Categoria:      Producto y descubrimiento
 Version:        1.4.0
@@ -1905,7 +1954,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa lean-ux para ... (nombrala en el prompt).
 
 ==========================================================================================
-57. LIGHTWEIGHT-3D-EFFECTS
+59. LIGHTWEIGHT-3D-EFFECTS
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        n/d
@@ -1932,7 +1981,7 @@ EJEMPLO:        Pon un fondo Vanta de ondas en mi hero y tarjetas con tilt en la
                 de planes.
 
 ==========================================================================================
-58. LOCOMOTIVE-SCROLL
+60. LOCOMOTIVE-SCROLL
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -1960,7 +2009,7 @@ EJEMPLO:        Con locomotive-scroll arma una seccion de scroll horizontal con 
                 en las imagenes.
 
 ==========================================================================================
-59. LOTTIE-ANIMATIONS
+61. LOTTIE-ANIMATIONS
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -1986,7 +2035,7 @@ EJEMPLO:        Integra un archivo Lottie como loader en mi app React y optimiza
                 que pese menos.
 
 ==========================================================================================
-60. MADE-TO-STICK
+62. MADE-TO-STICK
 ==========================================================================================
 Categoria:      Marketing y crecimiento
 Version:        1.4.0
@@ -2019,7 +2068,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa made-to-stick para ... (nombrala en el prompt).
 
 ==========================================================================================
-61. MICROINTERACTIONS
+63. MICROINTERACTIONS
 ==========================================================================================
 Categoria:      Diseno UX / UI
 Version:        1.4.1
@@ -2052,7 +2101,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa microinteractions para ... (nombrala en el prompt).
 
 ==========================================================================================
-62. MODERN-WEB-DESIGN
+64. MODERN-WEB-DESIGN
 ==========================================================================================
 Categoria:      UI / Diseno web
 Version:        n/d
@@ -2083,7 +2132,7 @@ EJEMPLO:        Audita mi landing con modern-web-design: accesibilidad, rendimie
                 tendencias tendria sentido aplicar.
 
 ==========================================================================================
-63. MOM-TEST
+65. MOM-TEST
 ==========================================================================================
 Categoria:      Producto y descubrimiento
 Version:        1.4.0
@@ -2116,7 +2165,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa mom-test para ... (nombrala en el prompt).
 
 ==========================================================================================
-64. MONETIZING-INNOVATION
+66. MONETIZING-INNOVATION
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.2.0
@@ -2152,7 +2201,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa monetizing-innovation para ... (nombrala en el prompt).
 
 ==========================================================================================
-65. MOTION-FRAMER
+67. MOTION-FRAMER
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -2181,7 +2230,7 @@ EJEMPLO:        Anima con motion-framer una lista que entra con stagger y una ta
                 arrastrable.
 
 ==========================================================================================
-66. NEGOTIATION
+68. NEGOTIATION
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.5.0
@@ -2214,7 +2263,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa negotiation para ... (nombrala en el prompt).
 
 ==========================================================================================
-67. OBVIOUSLY-AWESOME
+69. OBVIOUSLY-AWESOME
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.4.1
@@ -2246,7 +2295,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa obviously-awesome para ... (nombrala en el prompt).
 
 ==========================================================================================
-68. ONE-PAGE-MARKETING
+70. ONE-PAGE-MARKETING
 ==========================================================================================
 Categoria:      Marketing y crecimiento
 Version:        1.4.0
@@ -2278,7 +2327,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa one-page-marketing para ... (nombrala en el prompt).
 
 ==========================================================================================
-69. PIXIJS-2D
+71. PIXIJS-2D
 ==========================================================================================
 Categoria:      2D / Canvas
 Version:        n/d
@@ -2304,7 +2353,7 @@ EJEMPLO:        Crea con pixijs-2d un campo de particulas que reaccione al movim
                 mouse.
 
 ==========================================================================================
-70. PLAYCANVAS-ENGINE
+72. PLAYCANVAS-ENGINE
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        n/d
@@ -2332,7 +2381,7 @@ EJEMPLO:        Genera con playcanvas-engine un proyecto base con camara orbital
                 de input.
 
 ==========================================================================================
-71. PRAGMATIC-PROGRAMMER
+73. PRAGMATIC-PROGRAMMER
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.4.0
@@ -2364,7 +2413,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa pragmatic-programmer para ... (nombrala en el prompt).
 
 ==========================================================================================
-72. PREDICTABLE-REVENUE
+74. PREDICTABLE-REVENUE
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.4.0
@@ -2396,7 +2445,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa predictable-revenue para ... (nombrala en el prompt).
 
 ==========================================================================================
-73. PROGRAMMATIC-SEO
+75. PROGRAMMATIC-SEO
 ==========================================================================================
 Categoria:      SEO
 Version:        2.1.0
@@ -2423,7 +2472,7 @@ EJEMPLO:        Disena con programmatic-seo la plantilla y la fuente de datos pa
                 «[servicio] en [ciudad]».
 
 ==========================================================================================
-74. REACT-SPRING-PHYSICS
+76. REACT-SPRING-PHYSICS
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -2450,7 +2499,7 @@ EJEMPLO:        Haz con react-spring-physics un panel arrastrable que rebote con
                 al soltarlo.
 
 ==========================================================================================
-75. REACT-THREE-FIBER
+77. REACT-THREE-FIBER
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        n/d
@@ -2478,7 +2527,7 @@ EJEMPLO:        Crea con react-three-fiber un configurador de producto con rotac
                 cambio de color.
 
 ==========================================================================================
-76. REFACTORING-PATTERNS
+78. REFACTORING-PATTERNS
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.4.1
@@ -2510,7 +2559,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa refactoring-patterns para ... (nombrala en el prompt).
 
 ==========================================================================================
-77. REFACTORING-UI
+79. REFACTORING-UI
 ==========================================================================================
 Categoria:      Diseno UX / UI
 Version:        1.5.1
@@ -2541,7 +2590,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa refactoring-ui para ... (nombrala en el prompt).
 
 ==========================================================================================
-78. RELEASE-IT
+80. RELEASE-IT
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.4.0
@@ -2573,7 +2622,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa release-it para ... (nombrala en el prompt).
 
 ==========================================================================================
-79. REMOVE-TECHNICAL-DEBT
+81. REMOVE-TECHNICAL-DEBT
 ==========================================================================================
 Categoria:      Viajes guiados (orquestadores)
 Version:        1.0.2
@@ -2612,7 +2661,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa remove-technical-debt para ... (nombrala en el prompt).
 
 ==========================================================================================
-80. RIVE-INTERACTIVE
+82. RIVE-INTERACTIVE
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -2639,7 +2688,7 @@ EJEMPLO:        Integra un archivo .riv con maquina de estados en React y contro
                 un input.
 
 ==========================================================================================
-81. SCORECARD-MARKETING
+83. SCORECARD-MARKETING
 ==========================================================================================
 Categoria:      Marketing y crecimiento
 Version:        1.5.0
@@ -2670,7 +2719,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa scorecard-marketing para ... (nombrala en el prompt).
 
 ==========================================================================================
-82. SCROLL-REVEAL-LIBRARIES
+84. SCROLL-REVEAL-LIBRARIES
 ==========================================================================================
 Categoria:      Animacion / Motion
 Version:        n/d
@@ -2696,7 +2745,7 @@ NOTAS:          Alternativa simple a gsap-scrolltrigger y locomotive-scroll.
 EJEMPLO:        Agrega con AOS un fade-up escalonado a las tarjetas de beneficios.
 
 ==========================================================================================
-83. SCROLL-WORLD-STORYTELLING
+85. SCROLL-WORLD-STORYTELLING
 ==========================================================================================
 Categoria:      UI / Diseno web
 Version:        n/d
@@ -2728,7 +2777,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa scroll-world-storytelling para ... (nombrala en el prompt).
 
 ==========================================================================================
-84. SEO
+86. SEO
 ==========================================================================================
 Categoria:      SEO
 Version:        2.0
@@ -2753,7 +2802,7 @@ EJEMPLO:        Revisa mi sitio con la skill seo y agrega los datos estructurado
                 falten.
 
 ==========================================================================================
-85. SEO-AUDIT
+87. SEO-AUDIT
 ==========================================================================================
 Categoria:      SEO
 Version:        2.2.2
@@ -2780,7 +2829,7 @@ EJEMPLO:        Haz una auditoria SEO de mi sitio y priorizame los 5 arreglos de
                 impacto.
 
 ==========================================================================================
-86. SHADER-GLSL
+88. SHADER-GLSL
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        0.1.0
@@ -2813,7 +2862,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa shader-glsl para ... (nombrala en el prompt).
 
 ==========================================================================================
-87. SKILL-CREATOR
+89. SKILL-CREATOR
 ==========================================================================================
 Categoria:      Meta / Proceso
 Version:        n/d
@@ -2840,7 +2889,7 @@ EJEMPLO:        Usa skill-creator para crear una skill que documente mis convenc
                 commits.
 
 ==========================================================================================
-88. SOFTWARE-DESIGN-PHILOSOPHY
+90. SOFTWARE-DESIGN-PHILOSOPHY
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.4.0
@@ -2874,7 +2923,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa software-design-philosophy para ... (nombrala en el prompt).
 
 ==========================================================================================
-89. SPEC
+91. SPEC
 ==========================================================================================
 Categoria:      Meta / Proceso
 Version:        n/d
@@ -2900,7 +2949,7 @@ NOTAS:          Solo se ejecuta con /spec (disable-model-invocation). Responde e
 EJEMPLO:        /spec Permitir que los usuarios exporten su historial a PDF
 
 ==========================================================================================
-90. SPLINE-INTERACTIVE
+92. SPLINE-INTERACTIVE
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        n/d
@@ -2927,7 +2976,7 @@ EJEMPLO:        Embebe una escena de Spline en el hero de mi app React y hazla r
                 al hover.
 
 ==========================================================================================
-91. STEVE-JOBS-DESIGN-REVIEW
+93. STEVE-JOBS-DESIGN-REVIEW
 ==========================================================================================
 Categoria:      Diseno UX / UI
 Version:        1.2.0
@@ -2962,7 +3011,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa steve-jobs-design-review para ... (nombrala en el prompt).
 
 ==========================================================================================
-92. STORYBRAND-MESSAGING
+94. STORYBRAND-MESSAGING
 ==========================================================================================
 Categoria:      Marketing y crecimiento
 Version:        1.5.0
@@ -2994,7 +3043,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa storybrand-messaging para ... (nombrala en el prompt).
 
 ==========================================================================================
-93. SUBSTANCE-3D-TEXTURING
+95. SUBSTANCE-3D-TEXTURING
 ==========================================================================================
 Categoria:      Pipeline de assets 3D
 Version:        n/d
@@ -3021,7 +3070,7 @@ EJEMPLO:        Genera un preset de exportacion de Substance para texturas ORM l
                 Three.js.
 
 ==========================================================================================
-94. SYSTEM-DESIGN
+96. SYSTEM-DESIGN
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.4.1
@@ -3054,7 +3103,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa system-design para ... (nombrala en el prompt).
 
 ==========================================================================================
-95. TEAM-TOPOLOGIES
+97. TEAM-TOPOLOGIES
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.2.0
@@ -3088,7 +3137,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa team-topologies para ... (nombrala en el prompt).
 
 ==========================================================================================
-96. TECHNICAL-DOCUMENTATION
+98. TECHNICAL-DOCUMENTATION
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.0.0
@@ -3125,7 +3174,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa technical-documentation para ... (nombrala en el prompt).
 
 ==========================================================================================
-97. THREEJS-ANIMATION
+99. THREEJS-ANIMATION
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        n/d
@@ -3152,7 +3201,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa threejs-animation para ... (nombrala en el prompt).
 
 ==========================================================================================
-98. THREEJS-WEBGL
+100. THREEJS-WEBGL
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        n/d
@@ -3180,7 +3229,7 @@ EJEMPLO:        Con threejs-webgl crea una escena con un cubo texturizado, luces
                 OrbitControls.
 
 ==========================================================================================
-99. TOP-DESIGN
+101. TOP-DESIGN
 ==========================================================================================
 Categoria:      Diseno UX / UI
 Version:        1.6.0
@@ -3211,7 +3260,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa top-design para ... (nombrala en el prompt).
 
 ==========================================================================================
-100. TRACTION-EOS
+102. TRACTION-EOS
 ==========================================================================================
 Categoria:      Estrategia y negocio
 Version:        1.4.1
@@ -3244,7 +3293,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa traction-eos para ... (nombrala en el prompt).
 
 ==========================================================================================
-101. UX-HEURISTICS
+103. UX-HEURISTICS
 ==========================================================================================
 Categoria:      Diseno UX / UI
 Version:        1.6.0
@@ -3275,7 +3324,42 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa ux-heuristics para ... (nombrala en el prompt).
 
 ==========================================================================================
-102. WEB-TYPOGRAPHY
+104. UX-WRITING
+==========================================================================================
+Categoria:      Sin clasificar
+Version:        n/d
+Fuente:         github: content-designer/ux-writing-skill
+Idioma:         n/d
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Create user-centered, accessible interface copy (microcopy) for digital
+                products including buttons, labels, error messages, notifications, forms,
+                onboarding, empty states, success messages, and help text.
+CUANDO USARLA:  Create user-centered, accessible interface copy (microcopy) for digital
+                products including buttons, labels, error messages, notifications, forms,
+                onboarding, empty states, success messages, and help text. Use when
+                writing or editing any text that appears in apps, websites, or software
+                interfaces, designing conversational flows, establishing voice and tone
+                guidelines, auditing product content for consistency and usability,
+                reviewing UI strings, or improving existing interface copy. Applies UX
+                writing best practices based on four quality standards — purposeful,
+                concise, conversational, and clear. Includes accessibility guidelines,
+                research-backed benchmarks (sentence length, comprehension rates, reading
+                levels), expanded error patterns, tone adaptation frameworks, and
+                comprehensive reference materials.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           25 archivos (18261 KB); 4 guias de referencia
+REQUISITOS:     n/d
+EJEMPLO:        Usa ux-writing para ... (nombrala en el prompt).
+
+==========================================================================================
+105. WEB-TYPOGRAPHY
 ==========================================================================================
 Categoria:      Diseno UX / UI
 Version:        1.5.0
@@ -3306,7 +3390,7 @@ NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agent
 EJEMPLO:        Usa web-typography para ... (nombrala en el prompt).
 
 ==========================================================================================
-103. WEB3D-INTEGRATION-PATTERNS
+106. WEB3D-INTEGRATION-PATTERNS
 ==========================================================================================
 Categoria:      3D / WebGL / XR
 Version:        n/d
@@ -3334,7 +3418,7 @@ EJEMPLO:        Plantea con web3d-integration-patterns la arquitectura de una la
                 cuya camara se mueve con el scroll.
 
 ==========================================================================================
-104. WORKING-WITH-LEGACY-CODE
+107. WORKING-WITH-LEGACY-CODE
 ==========================================================================================
 Categoria:      Ingenieria de software
 Version:        1.2.0

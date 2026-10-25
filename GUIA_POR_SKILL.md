@@ -1,6 +1,6 @@
 # Guia por skill
 
-> Generada por `actualizar-registro.py` el **2026-10-25 09:27**. Fuente: `skills-meta.json`. Para el concepto general y la instalacion lee `TUTORIAL.md`.
+> Generada por `actualizar-registro.py` el **2026-10-25 09:48**. Fuente: `skills-meta.json`. Para el concepto general y la instalacion lee `TUTORIAL.md`.
 
 En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill. Ejecutalo desde esta carpeta, o reemplaza `./link-skills.sh` por su ruta absoluta.
 
@@ -17,6 +17,7 @@ En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill
 - **Pipeline de assets 3D:** [blender-web-pipeline](#blender-web-pipeline), [substance-3d-texturing](#substance-3d-texturing)
 - **Producto y descubrimiento:** [continuous-discovery](#continuous-discovery), [design-sprint](#design-sprint), [hooked-ux](#hooked-ux), [inspired-product](#inspired-product), [jobs-to-be-done](#jobs-to-be-done), [lean-analytics](#lean-analytics), [lean-startup](#lean-startup), [lean-ux](#lean-ux), [mom-test](#mom-test)
 - **SEO:** [ai-seo](#ai-seo), [programmatic-seo](#programmatic-seo), [seo](#seo), [seo-audit](#seo-audit)
+- **Sin clasificar:** [frontend-design](#frontend-design), [game-ui-ux](#game-ui-ux), [ux-writing](#ux-writing)
 - **UI / Diseno web:** [animated-component-libraries](#animated-component-libraries), [cinematographic-websites](#cinematographic-websites), [modern-web-design](#modern-web-design), [scroll-world-storytelling](#scroll-world-storytelling)
 - **Viajes guiados (orquestadores):** [architecture-optimization](#architecture-optimization), [conversion-optimization](#conversion-optimization), [create-app](#create-app), [create-business](#create-business), [create-website](#create-website), [design-code-architecture](#design-code-architecture), [grow-app](#grow-app), [grow-business](#grow-business), [grow-website](#grow-website), [improve-app](#improve-app), [improve-business](#improve-business), [improve-code-quality](#improve-code-quality), [improve-retention](#improve-retention), [improve-website](#improve-website), [remove-technical-debt](#remove-technical-debt)
 - **Video / Composiciones:** [hyperframes-registry](#hyperframes-registry)
@@ -438,6 +439,29 @@ En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill
 - **Cuando:** Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
 - **Requisitos:** n/d
 - **Notas:** Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+
+## frontend-design
+
+> Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.
+
+- **Categoria:** Sin clasificar · **Version:** n/d · **Idioma de la skill:** n/d
+- **1. Enlazarla:** `./link-skills.sh -t /ruta/a/tu-proyecto frontend-design`
+- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: ver la descripcion en SKILL.md), o nombrala en el prompt.
+- **Prompt de ejemplo:** «Usa frontend-design para ... (nombrala en el prompt).»
+- **Cuando:** Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
+- **Requisitos:** n/d
+
+## game-ui-ux
+
+> >
+
+- **Categoria:** Sin clasificar · **Version:** n/d · **Idioma de la skill:** n/d
+- **1. Enlazarla:** `./link-skills.sh -t /ruta/a/tu-proyecto game-ui-ux`
+- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: ver la descripcion en SKILL.md), o nombrala en el prompt.
+- **Prompt de ejemplo:** «Usa game-ui-ux para ... (nombrala en el prompt).»
+- **Cuando:** >
+- **Recursos incluidos** (en `.agents/skills/game-ui-ux/`): 1 guias en `references/`
+- **Requisitos:** n/d
 
 ## good-strategy-bad-strategy
 
@@ -1347,6 +1371,18 @@ En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill
 - **Recursos incluidos** (en `.agents/skills/ux-heuristics/`): 7 guias en `references/`
 - **Requisitos:** n/d
 - **Notas:** Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+
+## ux-writing
+
+> Create user-centered, accessible interface copy (microcopy) for digital products including buttons, labels, error messages, notifications, forms, onboarding, empty states, success messages, and help text.
+
+- **Categoria:** Sin clasificar · **Version:** n/d · **Idioma de la skill:** n/d
+- **1. Enlazarla:** `./link-skills.sh -t /ruta/a/tu-proyecto ux-writing`
+- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: ver la descripcion en SKILL.md), o nombrala en el prompt.
+- **Prompt de ejemplo:** «Usa ux-writing para ... (nombrala en el prompt).»
+- **Cuando:** Create user-centered, accessible interface copy (microcopy) for digital products including buttons, labels, error messages, notifications, forms, onboarding, empty states, success messages, and help text. Use when writing or editing any text that appears in apps, websites, or software interfaces, designing conversational flows, establishing voice and tone guidelines, auditing product content for consistency and usability, reviewing UI strings, or improving existing interface copy. Applies UX writing best practices based on four quality standards — purposeful, concise, conversational, and clear. Includes accessibility guidelines, research-backed benchmarks (sentence length, comprehension rates, reading levels), expanded error patterns, tone adaptation frameworks, and comprehensive reference materials.
+- **Recursos incluidos** (en `.agents/skills/ux-writing/`): 4 guias en `references/`
+- **Requisitos:** n/d
 
 ## web-typography
 

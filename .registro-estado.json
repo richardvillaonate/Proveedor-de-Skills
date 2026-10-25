@@ -519,6 +519,21 @@
       "hash": "b6fd4641c8dffe5ce683d574f455b45edaff1884d9ec552732ede277b6a5dcbb",
       "primera_vez": "2026-10-25",
       "revisada": "2026-10-25"
+    },
+    "frontend-design": {
+      "hash": "89496d5dd00f4810205f351759594fc2742bf8eea85a2f2b2d1de59f4bd91576",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "game-ui-ux": {
+      "hash": "e746d5c3c4a375726d089e7b39f0896e23bdba584151efd6c5dc1aa662fe8997",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "ux-writing": {
+      "hash": "9bfb923137532200e99a4c3dce20f39f7ca15a00c674a94ad5997db0d1ef5064",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
     }
   },
   "historial": [
@@ -1041,6 +1056,21 @@
       "fecha": "2026-10-25",
       "evento": "REGISTRADA",
       "skill": "working-with-legacy-code"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "frontend-design"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "game-ui-ux"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "ux-writing"
     }
   ]
 }
