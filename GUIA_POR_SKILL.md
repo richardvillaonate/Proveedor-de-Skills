@@ -1,6 +1,6 @@
 # Guia por skill
 
-> Generada por `actualizar-registro.py` el **2026-10-25 09:48**. Fuente: `skills-meta.json`. Para el concepto general y la instalacion lee `TUTORIAL.md`.
+> Generada por `actualizar-registro.py` el **2026-10-25 09:51**. Fuente: `skills-meta.json`. Para el concepto general y la instalacion lee `TUTORIAL.md`.
 
 En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill. Ejecutalo desde esta carpeta, o reemplaza `./link-skills.sh` por su ruta absoluta.
 
@@ -9,7 +9,7 @@ En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill
 - **2D / Canvas:** [pixijs-2d](#pixijs-2d)
 - **3D / WebGL / XR:** [aframe-webxr](#aframe-webxr), [babylonjs-engine](#babylonjs-engine), [lightweight-3d-effects](#lightweight-3d-effects), [playcanvas-engine](#playcanvas-engine), [react-three-fiber](#react-three-fiber), [shader-glsl](#shader-glsl), [spline-interactive](#spline-interactive), [threejs-animation](#threejs-animation), [threejs-webgl](#threejs-webgl), [web3d-integration-patterns](#web3d-integration-patterns)
 - **Animacion / Motion:** [animejs](#animejs), [barba-js](#barba-js), [cinematic-gsap-lenis-motion-system](#cinematic-gsap-lenis-motion-system), [cinematic-scroll-storytelling](#cinematic-scroll-storytelling), [gsap-core](#gsap-core), [gsap-scrolltrigger](#gsap-scrolltrigger), [implement_lenis_scroll](#implement_lenis_scroll), [locomotive-scroll](#locomotive-scroll), [lottie-animations](#lottie-animations), [motion-framer](#motion-framer), [react-spring-physics](#react-spring-physics), [rive-interactive](#rive-interactive), [scroll-reveal-libraries](#scroll-reveal-libraries)
-- **Diseno UX / UI:** [design-everyday-things](#design-everyday-things), [ios-hig-design](#ios-hig-design), [microinteractions](#microinteractions), [refactoring-ui](#refactoring-ui), [steve-jobs-design-review](#steve-jobs-design-review), [top-design](#top-design), [ux-heuristics](#ux-heuristics), [web-typography](#web-typography)
+- **Diseno UX / UI:** [design-everyday-things](#design-everyday-things), [frontend-design](#frontend-design), [game-ui-ux](#game-ui-ux), [ios-hig-design](#ios-hig-design), [microinteractions](#microinteractions), [refactoring-ui](#refactoring-ui), [steve-jobs-design-review](#steve-jobs-design-review), [top-design](#top-design), [ux-heuristics](#ux-heuristics), [ux-writing](#ux-writing), [web-typography](#web-typography)
 - **Estrategia y negocio:** [37signals-way](#37signals-way), [blue-ocean-strategy](#blue-ocean-strategy), [crossing-the-chasm](#crossing-the-chasm), [drive-motivation](#drive-motivation), [good-strategy-bad-strategy](#good-strategy-bad-strategy), [high-output-management](#high-output-management), [hundred-million-offers](#hundred-million-offers), [monetizing-innovation](#monetizing-innovation), [negotiation](#negotiation), [obviously-awesome](#obviously-awesome), [predictable-revenue](#predictable-revenue), [team-topologies](#team-topologies), [traction-eos](#traction-eos)
 - **Ingenieria de software:** [clean-architecture](#clean-architecture), [clean-code](#clean-code), [ddia-systems](#ddia-systems), [domain-driven-design](#domain-driven-design), [high-perf-browser](#high-perf-browser), [pragmatic-programmer](#pragmatic-programmer), [refactoring-patterns](#refactoring-patterns), [release-it](#release-it), [software-design-philosophy](#software-design-philosophy), [system-design](#system-design), [technical-documentation](#technical-documentation), [working-with-legacy-code](#working-with-legacy-code)
 - **Marketing y crecimiento:** [cold-start-problem](#cold-start-problem), [contagious](#contagious), [cro-methodology](#cro-methodology), [influence-psychology](#influence-psychology), [made-to-stick](#made-to-stick), [one-page-marketing](#one-page-marketing), [scorecard-marketing](#scorecard-marketing), [storybrand-messaging](#storybrand-messaging)
@@ -17,7 +17,6 @@ En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill
 - **Pipeline de assets 3D:** [blender-web-pipeline](#blender-web-pipeline), [substance-3d-texturing](#substance-3d-texturing)
 - **Producto y descubrimiento:** [continuous-discovery](#continuous-discovery), [design-sprint](#design-sprint), [hooked-ux](#hooked-ux), [inspired-product](#inspired-product), [jobs-to-be-done](#jobs-to-be-done), [lean-analytics](#lean-analytics), [lean-startup](#lean-startup), [lean-ux](#lean-ux), [mom-test](#mom-test)
 - **SEO:** [ai-seo](#ai-seo), [programmatic-seo](#programmatic-seo), [seo](#seo), [seo-audit](#seo-audit)
-- **Sin clasificar:** [frontend-design](#frontend-design), [game-ui-ux](#game-ui-ux), [ux-writing](#ux-writing)
 - **UI / Diseno web:** [animated-component-libraries](#animated-component-libraries), [cinematographic-websites](#cinematographic-websites), [modern-web-design](#modern-web-design), [scroll-world-storytelling](#scroll-world-storytelling)
 - **Viajes guiados (orquestadores):** [architecture-optimization](#architecture-optimization), [conversion-optimization](#conversion-optimization), [create-app](#create-app), [create-business](#create-business), [create-website](#create-website), [design-code-architecture](#design-code-architecture), [grow-app](#grow-app), [grow-business](#grow-business), [grow-website](#grow-website), [improve-app](#improve-app), [improve-business](#improve-business), [improve-code-quality](#improve-code-quality), [improve-retention](#improve-retention), [improve-website](#improve-website), [remove-technical-debt](#remove-technical-debt)
 - **Video / Composiciones:** [hyperframes-registry](#hyperframes-registry)
@@ -442,26 +441,28 @@ En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill
 
 ## frontend-design
 
-> Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.
+> Da direccion estetica y criterio visual para interfaces con identidad propia: tipografia, color y composicion que no se leen como plantilla generica.
 
-- **Categoria:** Sin clasificar · **Version:** n/d · **Idioma de la skill:** n/d
+- **Categoria:** Diseno UX / UI · **Version:** n/d · **Idioma de la skill:** EN
 - **1. Enlazarla:** `./link-skills.sh -t /ruta/a/tu-proyecto frontend-design`
-- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: ver la descripcion en SKILL.md), o nombrala en el prompt.
-- **Prompt de ejemplo:** «Usa frontend-design para ... (nombrala en el prompt).»
-- **Cuando:** Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
-- **Requisitos:** n/d
+- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: diseno frontend, que no parezca plantilla, direccion de arte, identidad visual, UI distintiva), o nombrala en el prompt.
+- **Prompt de ejemplo:** «Con frontend-design rediseña el hero de mi landing con una direccion visual propia, nada de look generico.»
+- **Cuando:** Al construir una UI nueva o rehacer una existente cuando quieres un resultado distintivo y no un diseno por defecto.
+- **Enlazala junto a:** `refactoring-ui`, `web-typography`, `top-design` → `./link-skills.sh -t /ruta/a/tu-proyecto frontend-design refactoring-ui web-typography top-design`
+- **Requisitos:** Ninguno.
 
 ## game-ui-ux
 
-> >
+> Disena y construye HUDs, menus y overlays de juegos: layout por anclas, escalado y safe areas, navegacion con teclado/gamepad, pila de pantallas y HUD por eventos.
 
-- **Categoria:** Sin clasificar · **Version:** n/d · **Idioma de la skill:** n/d
+- **Categoria:** Diseno UX / UI · **Version:** n/d · **Idioma de la skill:** EN
 - **1. Enlazarla:** `./link-skills.sh -t /ruta/a/tu-proyecto game-ui-ux`
-- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: ver la descripcion en SKILL.md), o nombrala en el prompt.
-- **Prompt de ejemplo:** «Usa game-ui-ux para ... (nombrala en el prompt).»
-- **Cuando:** >
+- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: HUD, health bar, main menu, pause menu, UI scaling, safe area, navegacion con gamepad), o nombrala en el prompt.
+- **Prompt de ejemplo:** «Con game-ui-ux arma el menu de pausa y el HUD de vida de mi juego, navegable con gamepad.»
+- **Cuando:** Al crear o corregir la interfaz de un juego: menu principal, pausa, ajustes, barras de vida o cualquier UI que debe verse bien en todas las resoluciones.
+- **Enlazala junto a:** `threejs-webgl`, `playcanvas-engine`, `pixijs-2d`, `babylonjs-engine` → `./link-skills.sh -t /ruta/a/tu-proyecto game-ui-ux threejs-webgl playcanvas-engine pixijs-2d babylonjs-engine`
 - **Recursos incluidos** (en `.agents/skills/game-ui-ux/`): 1 guias en `references/`
-- **Requisitos:** n/d
+- **Requisitos:** Ninguno.
 
 ## good-strategy-bad-strategy
 
@@ -1374,15 +1375,16 @@ En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill
 
 ## ux-writing
 
-> Create user-centered, accessible interface copy (microcopy) for digital products including buttons, labels, error messages, notifications, forms, onboarding, empty states, success messages, and help text.
+> Escribe y revisa microcopy de interfaz: botones, etiquetas, errores, notificaciones, formularios, onboarding y estados vacios, con criterios de claridad y accesibilidad.
 
-- **Categoria:** Sin clasificar · **Version:** n/d · **Idioma de la skill:** n/d
+- **Categoria:** Diseno UX / UI · **Version:** n/d · **Idioma de la skill:** EN
 - **1. Enlazarla:** `./link-skills.sh -t /ruta/a/tu-proyecto ux-writing`
-- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: ver la descripcion en SKILL.md), o nombrala en el prompt.
-- **Prompt de ejemplo:** «Usa ux-writing para ... (nombrala en el prompt).»
-- **Cuando:** Create user-centered, accessible interface copy (microcopy) for digital products including buttons, labels, error messages, notifications, forms, onboarding, empty states, success messages, and help text. Use when writing or editing any text that appears in apps, websites, or software interfaces, designing conversational flows, establishing voice and tone guidelines, auditing product content for consistency and usability, reviewing UI strings, or improving existing interface copy. Applies UX writing best practices based on four quality standards — purposeful, concise, conversational, and clear. Includes accessibility guidelines, research-backed benchmarks (sentence length, comprehension rates, reading levels), expanded error patterns, tone adaptation frameworks, and comprehensive reference materials.
+- **2. Llamarla:** se activa sola cuando el pedido encaja (palabras clave: microcopy, mensajes de error, texto de botones, onboarding, empty state, voz y tono), o nombrala en el prompt.
+- **Prompt de ejemplo:** «Con ux-writing reescribe los mensajes de error del formulario de registro para que sean claros y amables.»
+- **Cuando:** Al redactar o auditar cualquier texto que aparece dentro de una app o sitio, o al definir voz y tono del producto.
+- **Enlazala junto a:** `ux-heuristics`, `design-everyday-things`, `storybrand-messaging` → `./link-skills.sh -t /ruta/a/tu-proyecto ux-writing ux-heuristics design-everyday-things storybrand-messaging`
 - **Recursos incluidos** (en `.agents/skills/ux-writing/`): 4 guias en `references/`
-- **Requisitos:** n/d
+- **Requisitos:** Ninguno.
 
 ## web-typography
 

@@ -1,6 +1,14 @@
 {
   "_ayuda": "Fichas curadas a mano, una por skill. actualizar-registro.py las combina con los datos reales del disco (version, tamano, archivos, enlaces) para generar ESTADO_SKILLS.md, HOJA_DE_VIDA_SKILLS.txt y GUIA_POR_SKILL.md. Al instalar una skill nueva: ejecuta ./actualizar-registro.py y completa su ficha aqui.",
   "skills": {
+    "37signals-way": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "aframe-webxr": {
       "categoria": "3D / WebGL / XR",
       "fuente": "no registrada",
@@ -78,6 +86,14 @@
       "requisitos": "Ninguno.",
       "notas": "Alternativa a GSAP para trabajo pesado en SVG."
     },
+    "architecture-optimization": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "babylonjs-engine": {
       "categoria": "3D / WebGL / XR",
       "fuente": "no registrada",
@@ -137,6 +153,30 @@
       "requisitos": "Blender instalado (los scripts usan su Python).",
       "notas": ""
     },
+    "blue-ocean-strategy": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cinematic-gsap-lenis-motion-system": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cinematic-scroll-storytelling": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "cinematographic-websites": {
       "categoria": "UI / Diseno web",
       "fuente": "no registrada",
@@ -157,6 +197,239 @@
       "ejemplo": "Crea una landing cinematografica para un lanzamiento de zapatillas: hero a pantalla completa y tres escenas con pin scroll.",
       "requisitos": "Ninguno.",
       "notas": "El SKILL.md esta escrito en portugues; incluye reglas inegociables, criterios de conclusion y flujo de revision. Es un solo archivo, sin scripts."
+    },
+    "clean-architecture": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "clean-code": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cold-start-problem": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "contagious": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "continuous-discovery": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "conversion-optimization": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "create-app": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "create-business": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "create-website": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cro-methodology": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "crossing-the-chasm": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "ddia-systems": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "deepseek-saver": {
+      "categoria": "Meta / Proceso",
+      "ficha": "basica",
+      "idioma": "ES",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "design-code-architecture": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "design-everyday-things": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "design-sprint": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "domain-driven-design": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "drive-motivation": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "find-skills": {
+      "categoria": "Meta / Proceso",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "frontend-design": {
+      "instalada": "2026-10-25",
+      "notas": "",
+      "categoria": "Diseno UX / UI",
+      "fuente": "github: anthropics/skills (skills/frontend-design/SKILL.md)",
+      "idioma": "EN",
+      "que_hace": "Da direccion estetica y criterio visual para interfaces con identidad propia: tipografia, color y composicion que no se leen como plantilla generica.",
+      "cuando_usarla": "Al construir una UI nueva o rehacer una existente cuando quieres un resultado distintivo y no un diseno por defecto.",
+      "donde_usarla": "Landing pages, apps y componentes web donde el aspecto visual es parte del producto.",
+      "stack": "HTML, CSS, frameworks frontend",
+      "combina_con": [
+        "refactoring-ui",
+        "web-typography",
+        "top-design"
+      ],
+      "disparadores": "diseno frontend, que no parezca plantilla, direccion de arte, identidad visual, UI distintiva",
+      "invocacion": "auto",
+      "ejemplo": "Con frontend-design rediseña el hero de mi landing con una direccion visual propia, nada de look generico.",
+      "requisitos": "Ninguno."
+    },
+    "game-ui-ux": {
+      "instalada": "2026-10-25",
+      "notas": "",
+      "categoria": "Diseno UX / UI",
+      "fuente": "github: gamedev-skills/awesome-gamedev-agent-skills (skills/disciplines/game-ui-ux/SKILL.md)",
+      "idioma": "EN",
+      "que_hace": "Disena y construye HUDs, menus y overlays de juegos: layout por anclas, escalado y safe areas, navegacion con teclado/gamepad, pila de pantallas y HUD por eventos.",
+      "cuando_usarla": "Al crear o corregir la interfaz de un juego: menu principal, pausa, ajustes, barras de vida o cualquier UI que debe verse bien en todas las resoluciones.",
+      "donde_usarla": "Juegos web y de motor (Three.js, PlayCanvas, Babylon.js, Pixi) o cualquier proyecto con UI de juego.",
+      "stack": "Engine-neutral (HTML/Canvas/motores de juego)",
+      "combina_con": [
+        "threejs-webgl",
+        "playcanvas-engine",
+        "pixijs-2d",
+        "babylonjs-engine"
+      ],
+      "disparadores": "HUD, health bar, main menu, pause menu, UI scaling, safe area, navegacion con gamepad",
+      "invocacion": "auto",
+      "ejemplo": "Con game-ui-ux arma el menu de pausa y el HUD de vida de mi juego, navegable con gamepad.",
+      "requisitos": "Ninguno."
+    },
+    "good-strategy-bad-strategy": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "grow-app": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "grow-business": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "grow-website": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "gsap-core": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
     },
     "gsap-scrolltrigger": {
       "categoria": "Animacion / Motion",
@@ -179,6 +452,150 @@
       "ejemplo": "Con gsap-scrolltrigger haz que las tres secciones de mi pagina se fijen y revelen su contenido al hacer scroll.",
       "requisitos": "Ninguno.",
       "notas": "Es la base de la mayoria de skills de scroll; incluye visualizador de easings."
+    },
+    "high-output-management": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "high-perf-browser": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "hooked-ux": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "hundred-million-offers": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "hyperframes-registry": {
+      "categoria": "Video / Composiciones",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "implement_lenis_scroll": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-app": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-business": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-code-quality": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-retention": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-website": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "influence-psychology": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "inspired-product": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "ios-hig-design": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "jobs-to-be-done": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "lean-analytics": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "lean-startup": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "lean-ux": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
     },
     "lightweight-3d-effects": {
       "categoria": "3D / WebGL / XR",
@@ -238,6 +655,22 @@
       "requisitos": "Archivos .json/.lottie (de After Effects o LottieFiles).",
       "notas": ""
     },
+    "made-to-stick": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "microinteractions": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "modern-web-design": {
       "categoria": "UI / Diseno web",
       "fuente": "no registrada",
@@ -259,6 +692,22 @@
       "requisitos": "Ninguno.",
       "notas": "Referencia a las demas skills de animacion y 3D para la implementacion."
     },
+    "mom-test": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "monetizing-innovation": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "motion-framer": {
       "categoria": "Animacion / Motion",
       "fuente": "no registrada",
@@ -278,6 +727,30 @@
       "ejemplo": "Anima con motion-framer una lista que entra con stagger y una tarjeta arrastrable.",
       "requisitos": "Proyecto React.",
       "notas": "Incluye un starter Vite+React con StaggerList, HoverCard y DraggableBox."
+    },
+    "negotiation": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "obviously-awesome": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "one-page-marketing": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
     },
     "pixijs-2d": {
       "categoria": "2D / Canvas",
@@ -316,6 +789,22 @@
       "ejemplo": "Genera con playcanvas-engine un proyecto base con camara orbital y manejo de input.",
       "requisitos": "Cuenta de PlayCanvas solo si usas su editor online.",
       "notas": "Alternativa a threejs-webgl con funciones de motor de juego."
+    },
+    "pragmatic-programmer": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "predictable-revenue": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
     },
     "programmatic-seo": {
       "categoria": "SEO",
@@ -377,6 +866,38 @@
       "requisitos": "Proyecto React.",
       "notas": "Incluye starter Vite+React con Experience, Box y Sphere."
     },
+    "refactoring-patterns": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "refactoring-ui": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "release-it": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "remove-technical-debt": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "rive-interactive": {
       "categoria": "Animacion / Motion",
       "fuente": "no registrada",
@@ -396,6 +917,14 @@
       "requisitos": "Archivos .riv creados en el editor de Rive.",
       "notas": "Alternativa a Lottie cuando se necesita interactividad bidireccional."
     },
+    "scorecard-marketing": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "scroll-reveal-libraries": {
       "categoria": "Animacion / Motion",
       "fuente": "no registrada",
@@ -414,6 +943,14 @@
       "ejemplo": "Agrega con AOS un fade-up escalonado a las tarjetas de beneficios.",
       "requisitos": "Ninguno.",
       "notas": "Alternativa simple a gsap-scrolltrigger y locomotive-scroll."
+    },
+    "scroll-world-storytelling": {
+      "categoria": "UI / Diseno web",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
     },
     "seo": {
       "categoria": "SEO",
@@ -455,6 +992,14 @@
       "requisitos": "Acceso al sitio o a sus datos de Search Console para diagnostico real.",
       "notas": "Incluye evals/evals.json."
     },
+    "shader-glsl": {
+      "categoria": "3D / WebGL / XR",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "skill-creator": {
       "categoria": "Meta / Proceso",
       "fuente": "no registrada",
@@ -472,6 +1017,14 @@
       "ejemplo": "Usa skill-creator para crear una skill que documente mis convenciones de commits.",
       "requisitos": "Python 3.",
       "notas": "Incluye LICENSE.txt propia. Tras crear una skill, ejecuta ./actualizar-registro.py."
+    },
+    "software-design-philosophy": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
     },
     "spec": {
       "categoria": "Meta / Proceso",
@@ -510,6 +1063,22 @@
       "requisitos": "Cuenta de Spline y una escena exportada (URL o archivo).",
       "notas": ""
     },
+    "steve-jobs-design-review": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "storybrand-messaging": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "substance-3d-texturing": {
       "categoria": "Pipeline de assets 3D",
       "fuente": "no registrada",
@@ -531,6 +1100,38 @@
       "requisitos": "Adobe Substance 3D Painter (software comercial).",
       "notas": "Incluye 5 plantillas de exportacion JSON."
     },
+    "system-design": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "team-topologies": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "technical-documentation": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "threejs-animation": {
+      "categoria": "3D / WebGL / XR",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
     "threejs-webgl": {
       "categoria": "3D / WebGL / XR",
       "fuente": "no registrada",
@@ -551,6 +1152,58 @@
       "ejemplo": "Con threejs-webgl crea una escena con un cubo texturizado, luces y OrbitControls.",
       "requisitos": "Ninguno (hay starter incluido).",
       "notas": "Es la base del resto de skills 3D."
+    },
+    "top-design": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "traction-eos": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "ux-heuristics": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "ux-writing": {
+      "instalada": "2026-10-25",
+      "notas": "",
+      "categoria": "Diseno UX / UI",
+      "fuente": "github: content-designer/ux-writing-skill (SKILL.md)",
+      "idioma": "EN",
+      "que_hace": "Escribe y revisa microcopy de interfaz: botones, etiquetas, errores, notificaciones, formularios, onboarding y estados vacios, con criterios de claridad y accesibilidad.",
+      "cuando_usarla": "Al redactar o auditar cualquier texto que aparece dentro de una app o sitio, o al definir voz y tono del producto.",
+      "donde_usarla": "Apps, sitios y software con interfaz; revisiones de textos de UI y guias de voz y tono.",
+      "stack": "Markdown (referencias y plantillas)",
+      "combina_con": [
+        "ux-heuristics",
+        "design-everyday-things",
+        "storybrand-messaging"
+      ],
+      "disparadores": "microcopy, mensajes de error, texto de botones, onboarding, empty state, voz y tono",
+      "invocacion": "auto",
+      "ejemplo": "Con ux-writing reescribe los mensajes de error del formulario de registro para que sean claros y amables.",
+      "requisitos": "Ninguno."
+    },
+    "web-typography": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
     },
     "web3d-integration-patterns": {
       "categoria": "3D / WebGL / XR",
@@ -574,602 +1227,10 @@
       "requisitos": "Ninguno.",
       "notas": "Es un solo archivo, sin scripts."
     },
-    "37signals-way": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "blue-ocean-strategy": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "crossing-the-chasm": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "good-strategy-bad-strategy": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "high-output-management": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "hundred-million-offers": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "monetizing-innovation": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "negotiation": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "obviously-awesome": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "predictable-revenue": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "traction-eos": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "team-topologies": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "drive-motivation": {
-      "categoria": "Estrategia y negocio",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "cold-start-problem": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "contagious": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "made-to-stick": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "one-page-marketing": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "scorecard-marketing": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "storybrand-messaging": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "influence-psychology": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "cro-methodology": {
-      "categoria": "Marketing y crecimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "continuous-discovery": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "design-sprint": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "inspired-product": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "jobs-to-be-done": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "lean-analytics": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "lean-startup": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "lean-ux": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "mom-test": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "hooked-ux": {
-      "categoria": "Producto y descubrimiento",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "design-everyday-things": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "ios-hig-design": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "microinteractions": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "refactoring-ui": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "steve-jobs-design-review": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "top-design": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "ux-heuristics": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "web-typography": {
-      "categoria": "Diseno UX / UI",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "clean-architecture": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "clean-code": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "ddia-systems": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "domain-driven-design": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "pragmatic-programmer": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "refactoring-patterns": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "release-it": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "software-design-philosophy": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "system-design": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
     "working-with-legacy-code": {
       "categoria": "Ingenieria de software",
       "ficha": "basica",
       "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "technical-documentation": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "high-perf-browser": {
-      "categoria": "Ingenieria de software",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "architecture-optimization": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "conversion-optimization": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "create-app": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "create-business": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "create-website": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "design-code-architecture": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "grow-app": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "grow-business": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "grow-website": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "improve-app": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "improve-business": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "improve-code-quality": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "improve-retention": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "improve-website": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "remove-technical-debt": {
-      "categoria": "Viajes guiados (orquestadores)",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "cinematic-gsap-lenis-motion-system": {
-      "categoria": "Animacion / Motion",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "cinematic-scroll-storytelling": {
-      "categoria": "Animacion / Motion",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "gsap-core": {
-      "categoria": "Animacion / Motion",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "implement_lenis_scroll": {
-      "categoria": "Animacion / Motion",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "scroll-world-storytelling": {
-      "categoria": "UI / Diseno web",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "shader-glsl": {
-      "categoria": "3D / WebGL / XR",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "threejs-animation": {
-      "categoria": "3D / WebGL / XR",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "hyperframes-registry": {
-      "categoria": "Video / Composiciones",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "find-skills": {
-      "categoria": "Meta / Proceso",
-      "ficha": "basica",
-      "idioma": "EN",
-      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
-      "instalada": "2026-10-25",
-      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
-    },
-    "deepseek-saver": {
-      "categoria": "Meta / Proceso",
-      "ficha": "basica",
-      "idioma": "ES",
       "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
       "instalada": "2026-10-25",
       "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."

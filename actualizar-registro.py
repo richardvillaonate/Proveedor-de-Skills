@@ -5,6 +5,7 @@ Lee .agents/skills/ (la verdad del disco) y skills-meta.json (fichas curadas) y 
   ESTADO_SKILLS.md          estado general (tabla, proyectos conectados, historial)
   HOJA_DE_VIDA_SKILLS.txt   hoja de vida de cada skill
   GUIA_POR_SKILL.md         como enlazar y llamar cada skill
+  CATALOGO_POR_CATEGORIA.md skills agrupadas por categoria, con para que sirve cada una y como usarla
 
 Uso:  ./actualizar-registro.py [--quiet]
 Ejecutalo cada vez que instales, modifiques o borres una skill.
@@ -25,6 +26,23 @@ LINKS_LOG = ROOT / "registro-enlaces.tsv"
 LOCK_FILE = ROOT / "skills-lock.json"
 GLOBAL_SKILLS = Path.home() / ".agents" / "skills"
 PENDIENTE = "(pendiente: completar la ficha en skills-meta.json)"
+# Orientacion por categoria para el catalogo; una categoria nueva sale sin esta linea hasta que la agregues aqui.
+CATEGORIA_AYUDA = {
+    "Viajes guiados (orquestadores)": "Recorridos por fases que encadenan varias skills; empieza por aqui si tu objetivo es amplio (crear, mejorar o hacer crecer un negocio, app o sitio).",
+    "Estrategia y negocio": "Validar ideas, posicionar, fijar precios y decidir estrategia.",
+    "Producto y descubrimiento": "Entender al cliente, descubrir que construir y como medirlo.",
+    "Marketing y crecimiento": "Mensaje, conversion, ventas y adquisicion de clientes.",
+    "SEO": "Posicionamiento en buscadores y en respuestas de IA.",
+    "Diseno UX / UI": "Usabilidad, interfaces, textos de interfaz y revision de diseno.",
+    "UI / Diseno web": "Direccion visual, tipografia y patrones de diseno para sitios web.",
+    "Animacion / Motion": "Animacion, scroll y movimiento en la web.",
+    "3D / WebGL / XR": "Escenas 3D, WebGL, juegos y realidad virtual o aumentada en el navegador.",
+    "Pipeline de assets 3D": "Preparar y optimizar modelos y texturas 3D para la web.",
+    "2D / Canvas": "Graficos 2D acelerados en el navegador.",
+    "Video / Composiciones": "Video y composiciones programaticas.",
+    "Ingenieria de software": "Arquitectura, calidad de codigo, refactorizacion, sistemas y documentacion tecnica.",
+    "Meta / Proceso": "Skills para crear skills, planear y trabajar con el propio asistente.",
+}
 
 NOW = datetime.now()
 TODAY = NOW.strftime("%Y-%m-%d")
@@ -209,6 +227,7 @@ def main(quiet=False):
     write_estado(skills, sin_ficha, ausentes, projects, global_extra, state)
     write_hoja_de_vida(skills, projects)
     write_guia(skills)
+    write_catalogo(skills)
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     if not quiet:
@@ -417,6 +436,57 @@ def write_guia(skills):
             out.append(f"- **Notas:** {m['notas']}")
         out.append("")
     (ROOT / "GUIA_POR_SKILL.md").write_text("\n".join(out), encoding="utf-8")
+
+
+def write_catalogo(skills):
+    cats = {}
+    for name, s in skills.items():
+        cats.setdefault(s["m"]["categoria"], []).append(name)
+    orden = sorted(cats, key=lambda c: (c == "Sin clasificar", c))
+
+    out = [
+        "# Catalogo de skills por categoria",
+        "",
+        f"> Generado automaticamente por `actualizar-registro.py` el **{STAMP}**. No lo edites a mano: "
+        "cambia `skills-meta.json` y vuelve a ejecutar el script.",
+        "",
+        f"**{len(skills)} skills en {len(cats)} categorias.** Busca tu necesidad en la categoria, lee "
+        "para que sirve cada skill y copia como llamarla. Para enlazarla a un proyecto: "
+        "`./link-skills.sh -t /ruta/a/tu-proyecto <skill>` (detalle en `GUIA_POR_SKILL.md`).",
+        "",
+        "## Categorias",
+        "",
+    ]
+    for cat in orden:
+        anchor = "".join(ch for ch in cat.lower().replace(" ", "-") if ch.isalnum() or ch == "-")
+        ayuda = CATEGORIA_AYUDA.get(cat, "")
+        out.append(f"- [{cat}](#{anchor}) ({len(cats[cat])})" + (f": {ayuda}" if ayuda else ""))
+    out.append("")
+
+    for cat in orden:
+        out += [f"## {cat}", ""]
+        if cat in CATEGORIA_AYUDA:
+            out += [f"_{CATEGORIA_AYUDA[cat]}_", ""]
+        for name in cats[cat]:
+            s = skills[name]
+            m = s["m"]
+            if m["invocacion"] == "manual":
+                llamar = f"solo con comando: `/{name} <descripcion>`"
+            else:
+                llamar = f"se activa sola o nombrala en el prompt (palabras clave: {m['disparadores']})"
+            out.append(f"### `{name}`" + ("  _(ficha basica)_" if s["ficha_basica"] else ""))
+            out += [
+                "",
+                f"- **Para que sirve:** {m['que_hace']}",
+                f"- **Cuando usarla:** {m['cuando_usarla']}",
+                f"- **Donde:** {m['donde_usarla']}",
+                f"- **Como llamarla:** {llamar}",
+                f"- **Ejemplo:** «{m['ejemplo']}»",
+            ]
+            if m["combina_con"]:
+                out.append("- **Combina con:** " + ", ".join(f"`{c}`" for c in m["combina_con"]))
+            out.append("")
+    (ROOT / "CATALOGO_POR_CATEGORIA.md").write_text("\n".join(out), encoding="utf-8")
 
 
 if __name__ == "__main__":

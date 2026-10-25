@@ -1,6 +1,6 @@
 # Estado general de skills
 
-> Generado automaticamente por `actualizar-registro.py` el **2026-10-25 09:48**. No lo edites a mano: cambia `skills-meta.json` y vuelve a ejecutar el script.
+> Generado automaticamente por `actualizar-registro.py` el **2026-10-25 09:51**. No lo edites a mano: cambia `skills-meta.json` y vuelve a ejecutar el script.
 
 ## Resumen
 
@@ -8,7 +8,7 @@
 - **Copias reales en `.claude/skills` de este proyecto:** 107 de 107
 - **Skills con ficha basica (pendientes de detallar):** 75
 - **Proyectos consumidores con enlaces vivos:** 0
-- **Skills sin ficha completa:** 3
+- **Skills sin ficha completa:** 0
 - **Skills globales en `~/.agents/skills` que aun no estan en el proveedor:** 0
 
 | Categoria | Cantidad | Skills |
@@ -16,7 +16,7 @@
 | 2D / Canvas | 1 | `pixijs-2d` |
 | 3D / WebGL / XR | 10 | `aframe-webxr`, `babylonjs-engine`, `lightweight-3d-effects`, `playcanvas-engine`, `react-three-fiber`, `shader-glsl`, `spline-interactive`, `threejs-animation`, `threejs-webgl`, `web3d-integration-patterns` |
 | Animacion / Motion | 13 | `animejs`, `barba-js`, `cinematic-gsap-lenis-motion-system`, `cinematic-scroll-storytelling`, `gsap-core`, `gsap-scrolltrigger`, `implement_lenis_scroll`, `locomotive-scroll`, `lottie-animations`, `motion-framer`, `react-spring-physics`, `rive-interactive`, `scroll-reveal-libraries` |
-| Diseno UX / UI | 8 | `design-everyday-things`, `ios-hig-design`, `microinteractions`, `refactoring-ui`, `steve-jobs-design-review`, `top-design`, `ux-heuristics`, `web-typography` |
+| Diseno UX / UI | 11 | `design-everyday-things`, `frontend-design`, `game-ui-ux`, `ios-hig-design`, `microinteractions`, `refactoring-ui`, `steve-jobs-design-review`, `top-design`, `ux-heuristics`, `ux-writing`, `web-typography` |
 | Estrategia y negocio | 13 | `37signals-way`, `blue-ocean-strategy`, `crossing-the-chasm`, `drive-motivation`, `good-strategy-bad-strategy`, `high-output-management`, `hundred-million-offers`, `monetizing-innovation`, `negotiation`, `obviously-awesome`, `predictable-revenue`, `team-topologies`, `traction-eos` |
 | Ingenieria de software | 12 | `clean-architecture`, `clean-code`, `ddia-systems`, `domain-driven-design`, `high-perf-browser`, `pragmatic-programmer`, `refactoring-patterns`, `release-it`, `software-design-philosophy`, `system-design`, `technical-documentation`, `working-with-legacy-code` |
 | Marketing y crecimiento | 8 | `cold-start-problem`, `contagious`, `cro-methodology`, `influence-psychology`, `made-to-stick`, `one-page-marketing`, `scorecard-marketing`, `storybrand-messaging` |
@@ -24,7 +24,6 @@
 | Pipeline de assets 3D | 2 | `blender-web-pipeline`, `substance-3d-texturing` |
 | Producto y descubrimiento | 9 | `continuous-discovery`, `design-sprint`, `hooked-ux`, `inspired-product`, `jobs-to-be-done`, `lean-analytics`, `lean-startup`, `lean-ux`, `mom-test` |
 | SEO | 4 | `ai-seo`, `programmatic-seo`, `seo`, `seo-audit` |
-| Sin clasificar | 3 | `frontend-design`, `game-ui-ux`, `ux-writing` |
 | UI / Diseno web | 4 | `animated-component-libraries`, `cinematographic-websites`, `modern-web-design`, `scroll-world-storytelling` |
 | Viajes guiados (orquestadores) | 15 | `architecture-optimization`, `conversion-optimization`, `create-app`, `create-business`, `create-website`, `design-code-architecture`, `grow-app`, `grow-business`, `grow-website`, `improve-app`, `improve-business`, `improve-code-quality`, `improve-retention`, `improve-website`, `remove-technical-debt` |
 | Video / Composiciones | 1 | `hyperframes-registry` |
@@ -65,8 +64,8 @@
 | `domain-driven-design` | Ingenieria de software | 1.4.0 | EN | 7 | 95 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `drive-motivation` | Estrategia y negocio | 1.4.0 | EN | 8 | 114 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `find-skills` | Meta / Proceso | n/d | EN | 1 | 5 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
-| `frontend-design` | Sin clasificar | n/d | n/d | 2 | 19 | 0 | 0 | auto | si | 2026-10-25 | nueva |
-| `game-ui-ux` | Sin clasificar | n/d | n/d | 2 | 17 | 0 | 0 | auto | si | 2026-10-25 | nueva |
+| `frontend-design` | Diseno UX / UI | n/d | EN | 2 | 19 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
+| `game-ui-ux` | Diseno UX / UI | n/d | EN | 2 | 17 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `good-strategy-bad-strategy` | Estrategia y negocio | 1.2.0 | EN | 6 | 78 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `grow-app` | Viajes guiados (orquestadores) | 1.0.2 | EN | 2 | 25 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `grow-business` | Viajes guiados (orquestadores) | 1.0.1 | EN | 2 | 27 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
@@ -136,7 +135,7 @@
 | `top-design` | Diseno UX / UI | 1.6.0 | EN | 6 | 77 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `traction-eos` | Estrategia y negocio | 1.4.1 | EN | 10 | 140 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `ux-heuristics` | Diseno UX / UI | 1.6.0 | EN | 8 | 81 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
-| `ux-writing` | Sin clasificar | n/d | n/d | 25 | 18261 | 0 | 0 | auto | si | 2026-10-25 | nueva |
+| `ux-writing` | Diseno UX / UI | n/d | EN | 25 | 18261 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `web-typography` | Diseno UX / UI | 1.5.0 | EN | 6 | 62 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `web3d-integration-patterns` | 3D / WebGL / XR | n/d | EN | 1 | 21 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
 | `working-with-legacy-code` | Ingenieria de software | 1.2.0 | EN | 6 | 81 | 0 | 0 | auto | si | 2026-10-25 | sin cambios |
@@ -149,9 +148,7 @@ Aun no hay proyectos conectados. `link-skills.sh -t <proyecto>` los registra aqu
 
 ## Pendientes y avisos
 
-- `frontend-design`: sin ficha en `skills-meta.json`
-- `game-ui-ux`: sin ficha en `skills-meta.json`
-- `ux-writing`: sin ficha en `skills-meta.json`
+Todo en orden.
 
 ## Fichas basicas por detallar
 

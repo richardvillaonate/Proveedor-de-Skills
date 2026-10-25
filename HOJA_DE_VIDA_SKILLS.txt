@@ -1,6 +1,6 @@
 ==========================================================================================
 HOJA DE VIDA DE SKILLS - PROVEEDOR LOCAL
-Actualizado: 2026-10-25 09:48    Total: 107 skills
+Actualizado: 2026-10-25 09:51    Total: 107 skills
 Ubicacion: /home/richarddev/Desktop/Proveedor de Skills/.agents/skills
 Archivo generado por actualizar-registro.py (editar skills-meta.json, no este archivo).
 ==========================================================================================
@@ -19,8 +19,9 @@ INDICE
    lottie-animations, motion-framer, react-spring-physics, rive-interactive,
    scroll-reveal-libraries
 [Diseno UX / UI]
-   design-everyday-things, ios-hig-design, microinteractions, refactoring-ui,
-   steve-jobs-design-review, top-design, ux-heuristics, web-typography
+   design-everyday-things, frontend-design, game-ui-ux, ios-hig-design,
+   microinteractions, refactoring-ui, steve-jobs-design-review, top-design,
+   ux-heuristics, ux-writing, web-typography
 [Estrategia y negocio]
    37signals-way, blue-ocean-strategy, crossing-the-chasm, drive-motivation,
    good-strategy-bad-strategy, high-output-management, hundred-million-offers,
@@ -43,8 +44,6 @@ INDICE
    lean-analytics, lean-startup, lean-ux, mom-test
 [SEO]
    ai-seo, programmatic-seo, seo, seo-audit
-[Sin clasificar]
-   frontend-design, game-ui-ux, ux-writing
 [UI / Diseno web]
    animated-component-libraries, cinematographic-websites, modern-web-design,
    scroll-world-storytelling
@@ -1090,49 +1089,60 @@ EJEMPLO:        Usa find-skills para ... (nombrala en el prompt).
 ==========================================================================================
 33. FRONTEND-DESIGN
 ==========================================================================================
-Categoria:      Sin clasificar
+Categoria:      Diseno UX / UI
 Version:        n/d
-Fuente:         github: anthropics/skills
-Idioma:         n/d
+Fuente:         github: anthropics/skills (skills/frontend-design/SKILL.md)
+Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
 Usada en:       ningun otro proyecto registrado
 
-QUE HACE:       Guidance for distinctive, intentional visual design when building new UI
-                or reshaping an existing one.
-CUANDO USARLA:  Guidance for distinctive, intentional visual design when building new UI
-                or reshaping an existing one. Helps with aesthetic direction, typography,
-                and making choices that don't read as templated defaults.
-DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
-STACK:          n/d
-COMBINA CON:    n/d
-DISPARADORES:   ver la descripcion en SKILL.md
+QUE HACE:       Da direccion estetica y criterio visual para interfaces con identidad
+                propia: tipografia, color y composicion que no se leen como plantilla
+                generica.
+CUANDO USARLA:  Al construir una UI nueva o rehacer una existente cuando quieres un
+                resultado distintivo y no un diseno por defecto.
+DONDE USARLA:   Landing pages, apps y componentes web donde el aspecto visual es parte del
+                producto.
+STACK:          HTML, CSS, frameworks frontend
+COMBINA CON:    refactoring-ui, web-typography, top-design
+DISPARADORES:   diseno frontend, que no parezca plantilla, direccion de arte, identidad
+                visual, UI distintiva
 TRAE:           2 archivos (19 KB)
-REQUISITOS:     n/d
-EJEMPLO:        Usa frontend-design para ... (nombrala en el prompt).
+REQUISITOS:     Ninguno.
+EJEMPLO:        Con frontend-design rediseña el hero de mi landing con una direccion
+                visual propia, nada de look generico.
 
 ==========================================================================================
 34. GAME-UI-UX
 ==========================================================================================
-Categoria:      Sin clasificar
+Categoria:      Diseno UX / UI
 Version:        n/d
 Fuente:         github: gamedev-skills/awesome-gamedev-agent-skills
-Idioma:         n/d
+                (skills/disciplines/game-ui-ux/SKILL.md)
+Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
 Usada en:       ningun otro proyecto registrado
 
-QUE HACE:       >
-CUANDO USARLA:  >
-DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
-STACK:          n/d
-COMBINA CON:    n/d
-DISPARADORES:   ver la descripcion en SKILL.md
+QUE HACE:       Disena y construye HUDs, menus y overlays de juegos: layout por anclas,
+                escalado y safe areas, navegacion con teclado/gamepad, pila de pantallas y
+                HUD por eventos.
+CUANDO USARLA:  Al crear o corregir la interfaz de un juego: menu principal, pausa,
+                ajustes, barras de vida o cualquier UI que debe verse bien en todas las
+                resoluciones.
+DONDE USARLA:   Juegos web y de motor (Three.js, PlayCanvas, Babylon.js, Pixi) o cualquier
+                proyecto con UI de juego.
+STACK:          Engine-neutral (HTML/Canvas/motores de juego)
+COMBINA CON:    threejs-webgl, playcanvas-engine, pixijs-2d, babylonjs-engine
+DISPARADORES:   HUD, health bar, main menu, pause menu, UI scaling, safe area, navegacion
+                con gamepad
 TRAE:           2 archivos (17 KB); 1 guias de referencia
-REQUISITOS:     n/d
-EJEMPLO:        Usa game-ui-ux para ... (nombrala en el prompt).
+REQUISITOS:     Ninguno.
+EJEMPLO:        Con game-ui-ux arma el menu de pausa y el HUD de vida de mi juego,
+                navegable con gamepad.
 
 ==========================================================================================
 35. GOOD-STRATEGY-BAD-STRATEGY
@@ -3326,37 +3336,30 @@ EJEMPLO:        Usa ux-heuristics para ... (nombrala en el prompt).
 ==========================================================================================
 104. UX-WRITING
 ==========================================================================================
-Categoria:      Sin clasificar
+Categoria:      Diseno UX / UI
 Version:        n/d
-Fuente:         github: content-designer/ux-writing-skill
-Idioma:         n/d
+Fuente:         github: content-designer/ux-writing-skill (SKILL.md)
+Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
 Usada en:       ningun otro proyecto registrado
 
-QUE HACE:       Create user-centered, accessible interface copy (microcopy) for digital
-                products including buttons, labels, error messages, notifications, forms,
-                onboarding, empty states, success messages, and help text.
-CUANDO USARLA:  Create user-centered, accessible interface copy (microcopy) for digital
-                products including buttons, labels, error messages, notifications, forms,
-                onboarding, empty states, success messages, and help text. Use when
-                writing or editing any text that appears in apps, websites, or software
-                interfaces, designing conversational flows, establishing voice and tone
-                guidelines, auditing product content for consistency and usability,
-                reviewing UI strings, or improving existing interface copy. Applies UX
-                writing best practices based on four quality standards — purposeful,
-                concise, conversational, and clear. Includes accessibility guidelines,
-                research-backed benchmarks (sentence length, comprehension rates, reading
-                levels), expanded error patterns, tone adaptation frameworks, and
-                comprehensive reference materials.
-DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
-STACK:          n/d
-COMBINA CON:    n/d
-DISPARADORES:   ver la descripcion en SKILL.md
+QUE HACE:       Escribe y revisa microcopy de interfaz: botones, etiquetas, errores,
+                notificaciones, formularios, onboarding y estados vacios, con criterios de
+                claridad y accesibilidad.
+CUANDO USARLA:  Al redactar o auditar cualquier texto que aparece dentro de una app o
+                sitio, o al definir voz y tono del producto.
+DONDE USARLA:   Apps, sitios y software con interfaz; revisiones de textos de UI y guias
+                de voz y tono.
+STACK:          Markdown (referencias y plantillas)
+COMBINA CON:    ux-heuristics, design-everyday-things, storybrand-messaging
+DISPARADORES:   microcopy, mensajes de error, texto de botones, onboarding, empty state,
+                voz y tono
 TRAE:           25 archivos (18261 KB); 4 guias de referencia
-REQUISITOS:     n/d
-EJEMPLO:        Usa ux-writing para ... (nombrala en el prompt).
+REQUISITOS:     Ninguno.
+EJEMPLO:        Con ux-writing reescribe los mensajes de error del formulario de registro
+                para que sean claros y amables.
 
 ==========================================================================================
 105. WEB-TYPOGRAPHY

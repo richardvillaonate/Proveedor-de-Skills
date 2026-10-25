@@ -1,6 +1,6 @@
 # Tutorial: usar este repositorio como proveedor de skills
 
-Como entregar una skill a un proyecto, como llamarla desde Claude Code y como instalar skills nuevas sin perder el control del inventario. Para el comando exacto de cada una de las 104 skills ve a [GUIA_POR_SKILL.md](GUIA_POR_SKILL.md).
+Como entregar una skill a un proyecto, como llamarla desde Claude Code y como instalar skills nuevas sin perder el control del inventario. Para el comando exacto de cada una de las 107 skills ve a [GUIA_POR_SKILL.md](GUIA_POR_SKILL.md).
 
 ## 1. Como funciona
 
@@ -151,7 +151,7 @@ Si la skill es nueva, el script avisa: `FALTA ficha en skills-meta.json`. Agrega
 }
 ```
 
-Vuelve a ejecutar `./actualizar-registro.py`. Ya aparece completa en `ESTADO_SKILLS.md`, `HOJA_DE_VIDA_SKILLS.txt` y `GUIA_POR_SKILL.md`. Para skills que solo se invocan con comando (como `spec`), usa `"invocacion": "manual"`.
+Vuelve a ejecutar `./actualizar-registro.py`. Ya aparece completa en `ESTADO_SKILLS.md`, `HOJA_DE_VIDA_SKILLS.txt`, `GUIA_POR_SKILL.md` y `CATALOGO_POR_CATEGORIA.md`. Para skills que solo se invocan con comando (como `spec`), usa `"invocacion": "manual"`.
 
 ## 6. Actualizar o eliminar skills
 
@@ -165,6 +165,7 @@ Vuelve a ejecutar `./actualizar-registro.py`. Ya aparece completa en `ESTADO_SKI
 | ¿Con cuantas skills cuento y en que proyectos estan? | `ESTADO_SKILLS.md` |
 | ¿Que hace X, cuando y donde la uso? | `HOJA_DE_VIDA_SKILLS.txt` |
 | ¿Que comando y prompt uso para X? | `GUIA_POR_SKILL.md` |
+| ¿Que skills tengo por categoria y para que sirve cada una? | `CATALOGO_POR_CATEGORIA.md` |
 | ¿Cuando se instalo o cambio algo? | Historial al final de `ESTADO_SKILLS.md` |
 
 ## 8. Solucion de problemas

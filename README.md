@@ -13,6 +13,7 @@ Proveedor de Skills/              <- fuente unica de verdad
 ├── ESTADO_SKILLS.md              <- (generado) estado general del inventario
 ├── HOJA_DE_VIDA_SKILLS.txt       <- (generado) hoja de vida de cada skill
 ├── GUIA_POR_SKILL.md             <- (generado) como enlazar y llamar cada skill
+├── CATALOGO_POR_CATEGORIA.md     <- (generado) skills por categoria: para que sirve y como usar cada una
 ├── TUTORIAL.md                   <- como funciona el proveedor, paso a paso
 └── registro-enlaces.tsv          <- (generado) bitacora de a que proyectos se ha enlazado cada skill
 ```
@@ -39,7 +40,7 @@ Luego abre Claude Code en `~/proyectos/mi-web`: las skills se activan solas segu
 
 ## Que hay en el inventario
 
-104 skills, ~13 MB. Resumen por categoria (la lista viva esta en [ESTADO_SKILLS.md](ESTADO_SKILLS.md)):
+107 skills, ~13 MB. Resumen por categoria (la lista viva esta en [ESTADO_SKILLS.md](ESTADO_SKILLS.md)):
 
 | Categoria | Skills |
 |---|---|
@@ -68,6 +69,7 @@ Las 29 de web/3D/animacion/SEO tienen ficha completa en `skills-meta.json`; las 
 | Ver el estado general (cuantas, de que tipo, en que proyectos) | [ESTADO_SKILLS.md](ESTADO_SKILLS.md) |
 | Saber que hace cada skill, cuando y donde usarla | [HOJA_DE_VIDA_SKILLS.txt](HOJA_DE_VIDA_SKILLS.txt) |
 | El comando y el prompt exactos para una skill concreta | [GUIA_POR_SKILL.md](GUIA_POR_SKILL.md) |
+| Ver las skills por categoria y saber para que sirve cada una | [CATALOGO_POR_CATEGORIA.md](CATALOGO_POR_CATEGORIA.md) |
 
 ## Mantener el registro al dia
 
@@ -77,7 +79,7 @@ Cada vez que **instales, modifiques o elimines** una skill:
 ./actualizar-registro.py
 ```
 
-Regenera `ESTADO_SKILLS.md`, `HOJA_DE_VIDA_SKILLS.txt` y `GUIA_POR_SKILL.md` leyendo el disco. Detecta skills nuevas, modificadas (por hash) y eliminadas, y las anota en el historial. Si encuentra una skill sin ficha, te avisa: completa su entrada en `skills-meta.json` y vuelve a ejecutarlo. `link-skills.sh` lo ejecuta solo despues de enlazar.
+Regenera `ESTADO_SKILLS.md`, `HOJA_DE_VIDA_SKILLS.txt`, `GUIA_POR_SKILL.md` y `CATALOGO_POR_CATEGORIA.md` leyendo el disco. Detecta skills nuevas, modificadas (por hash) y eliminadas, y las anota en el historial. Si encuentra una skill sin ficha, te avisa: completa su entrada en `skills-meta.json` y vuelve a ejecutarlo. `link-skills.sh` lo ejecuta solo despues de enlazar.
 
 > No edites los tres documentos generados: se sobrescriben. Lo unico que se escribe a mano es `skills-meta.json`.
 
