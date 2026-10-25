@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "spec": {
+      "source": "czabala847/spec-loop",
+      "sourceType": "github",
+      "skillPath": "skills/spec/SKILL.md",
+      "computedHash": "4b3fb803e480cab51e9aedb7bd17fcbc7024da52a398ddf8160ae53fa79da26b"
+    }
+  }
+}

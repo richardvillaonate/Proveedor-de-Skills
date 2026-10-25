@@ -1,0 +1,1178 @@
+{
+  "_ayuda": "Fichas curadas a mano, una por skill. actualizar-registro.py las combina con los datos reales del disco (version, tamano, archivos, enlaces) para generar ESTADO_SKILLS.md, HOJA_DE_VIDA_SKILLS.txt y GUIA_POR_SKILL.md. Al instalar una skill nueva: ejecuta ./actualizar-registro.py y completa su ficha aqui.",
+  "skills": {
+    "aframe-webxr": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Construye experiencias VR, AR y visores 360° con A-Frame: escenas 3D declarativas en HTML con arquitectura entidad-componente, sobre Three.js.",
+      "cuando_usarla": "Cuando necesitas una escena inmersiva o WebXR con poco JavaScript, un visor de fotos/videos 360° o un prototipo VR/AR rapido.",
+      "donde_usarla": "Sitios y prototipos web con WebXR: tours virtuales, galerias 360°, demos inmersivas en navegador, visores de producto en AR.",
+      "stack": "A-Frame, WebXR, Three.js, HTML",
+      "combina_con": [
+        "threejs-webgl",
+        "blender-web-pipeline"
+      ],
+      "disparadores": "A-Frame, WebXR, VR, AR, escena 360, 3D declarativo",
+      "invocacion": "auto",
+      "ejemplo": "Con aframe-webxr crea un visor 360° para una foto panoramica con dos hotspots clicables.",
+      "requisitos": "Navegador con WebXR para probar VR/AR; servir por HTTPS o localhost.",
+      "notas": ""
+    },
+    "ai-seo": {
+      "categoria": "SEO",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Optimiza contenido para que los buscadores de IA lo citen (AEO/GEO/LLMO): llms.txt, agent-readiness, formatos de contenido que los LLM citan, YouTube/LinkedIn como fuentes de citas.",
+      "cuando_usarla": "Cuando quieres aparecer en respuestas de ChatGPT, Perplexity, AI Overviews o Claude, o saber si tu sitio esta listo para agentes.",
+      "donde_usarla": "Sitios de contenido, blogs, SaaS, ecommerce y paginas de marca que buscan visibilidad en IA ademas de Google.",
+      "stack": "Contenido, schema, llms.txt, OKF, WebMCP",
+      "combina_con": [
+        "seo-audit",
+        "seo",
+        "programmatic-seo"
+      ],
+      "disparadores": "AI SEO, AEO, GEO, llms.txt, citas de IA, optimizar para ChatGPT/Perplexity",
+      "invocacion": "auto",
+      "ejemplo": "Usa ai-seo para revisar si mi pagina de precios tiene el formato que los LLM suelen citar y que cambiaria.",
+      "requisitos": "Ninguno.",
+      "notas": "Incluye evals/evals.json con casos de prueba propios."
+    },
+    "animated-component-libraries": {
+      "categoria": "UI / Diseno web",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Guia para usar colecciones de componentes React animados ya hechos: Magic UI (150+) y React Bits (90+), con integracion shadcn/ui y Tailwind.",
+      "cuando_usarla": "Cuando prefieres montar una landing o dashboard con componentes animados listos en vez de programar cada animacion a mano.",
+      "donde_usarla": "Proyectos React/Next con Tailwind: landings, marketing sites, dashboards, portafolios.",
+      "stack": "React, TypeScript, Tailwind CSS, Motion, shadcn/ui",
+      "combina_con": [
+        "motion-framer",
+        "modern-web-design"
+      ],
+      "disparadores": "Magic UI, React Bits, componentes animados, shadcn",
+      "invocacion": "auto",
+      "ejemplo": "Arma el hero de mi landing con componentes de Magic UI y React Bits; dime cuales elegiste y como los instalo.",
+      "requisitos": "Proyecto React con Tailwind (y shadcn/ui para Magic UI).",
+      "notas": "Incluye generadores de props e importadores de componentes."
+    },
+    "animejs": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Motor de animacion JavaScript para DOM, CSS, SVG y objetos: timelines, stagger, morphing de SVG y secuencias coreografiadas.",
+      "cuando_usarla": "Animaciones con timeline, efectos stagger, trazado/morph de SVG o proyectos sin React donde GSAP es excesivo.",
+      "donde_usarla": "Sitios estaticos, landings en HTML/JS puro, ilustraciones SVG animadas, microinteracciones.",
+      "stack": "Anime.js, JavaScript, SVG, CSS",
+      "combina_con": [
+        "gsap-scrolltrigger",
+        "lottie-animations"
+      ],
+      "disparadores": "Anime.js, timeline, stagger, morphing SVG",
+      "invocacion": "auto",
+      "ejemplo": "Con animejs anima el logo SVG de mi header dibujando los trazos y luego entrando el texto con stagger.",
+      "requisitos": "Ninguno.",
+      "notas": "Alternativa a GSAP para trabajo pesado en SVG."
+    },
+    "babylonjs-engine": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Motor 3D Babylon.js: escenas en tiempo real, fisica, materiales PBR, sombras, carga de modelos, WebGL/WebGPU.",
+      "cuando_usarla": "Juegos y visualizaciones 3D en navegador donde quieres un motor completo con editor y fisica integrada.",
+      "donde_usarla": "Juegos web, configuradores 3D, visualizaciones interactivas y apps inmersivas.",
+      "stack": "Babylon.js, WebGL/WebGPU, JavaScript/TypeScript, Vite",
+      "combina_con": [
+        "blender-web-pipeline",
+        "substance-3d-texturing"
+      ],
+      "disparadores": "Babylon.js, escena 3D, fisica, PBR, WebGPU",
+      "invocacion": "auto",
+      "ejemplo": "Crea con babylonjs-engine una escena con un modelo glTF, luz, sombras y camara orbital.",
+      "requisitos": "Node/Vite si usas el starter incluido.",
+      "notas": "Alternativa a threejs-webgl con mas funciones de motor de juego."
+    },
+    "barba-js": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Transiciones fluidas entre paginas (estilo SPA) con Barba.js: hooks, vistas y integracion con GSAP.",
+      "cuando_usarla": "Cuando un sitio multipagina necesita transiciones de ruta animadas sin recargas bruscas.",
+      "donde_usarla": "Portafolios, sitios de agencia y landings multipagina en HTML/JS.",
+      "stack": "Barba.js, GSAP, JavaScript",
+      "combina_con": [
+        "gsap-scrolltrigger",
+        "cinematographic-websites"
+      ],
+      "disparadores": "Barba.js, transicion de paginas, page transitions",
+      "invocacion": "auto",
+      "ejemplo": "Agrega con barba-js una transicion de cortina entre mi home y la pagina de proyectos usando GSAP.",
+      "requisitos": "Sitio multipagina con contenedor comun entre paginas.",
+      "notas": "Reiniciar ScrollTrigger tras cada transicion (ver gsap_integration.md)."
+    },
+    "blender-web-pipeline": {
+      "categoria": "Pipeline de assets 3D",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Flujos de exportacion de Blender a la web: glTF, optimizacion de modelos, LODs, compresion, horneado de texturas y automatizacion con bpy.",
+      "cuando_usarla": "Cuando tienes modelos en Blender y deben quedar ligeros y listos para Three.js, R3F o Babylon.js.",
+      "donde_usarla": "Cualquier proyecto 3D web que consuma glTF; procesamiento por lotes de modelos.",
+      "stack": "Blender, Python (bpy), glTF/GLB",
+      "combina_con": [
+        "threejs-webgl",
+        "react-three-fiber",
+        "babylonjs-engine",
+        "substance-3d-texturing"
+      ],
+      "disparadores": "Blender, glTF, bpy, optimizar modelo, LOD, exportar GLB",
+      "invocacion": "auto",
+      "ejemplo": "Escribe un script bpy que exporte todos los .blend de una carpeta a GLB optimizado con LODs.",
+      "requisitos": "Blender instalado (los scripts usan su Python).",
+      "notas": ""
+    },
+    "cinematographic-websites": {
+      "categoria": "UI / Diseno web",
+      "fuente": "no registrada",
+      "idioma": "PT",
+      "instalada": "2026-10-25",
+      "que_hace": "Disena, implementa y revisa sitios cinematograficos: direccion de arte autoral, narrativa por scroll, hero cinematografico, pin scroll y movimiento deliberado con Lenis + GSAP + ScrollTrigger.",
+      "cuando_usarla": "Cuando pides una landing, portafolio, hero o seccion con look editorial, inmersivo o de pelicula.",
+      "donde_usarla": "Landings de marca, portafolios, lanzamientos de producto, sitios de campana.",
+      "stack": "Lenis, GSAP, ScrollTrigger, HTML/CSS/JS",
+      "combina_con": [
+        "gsap-scrolltrigger",
+        "locomotive-scroll",
+        "modern-web-design",
+        "barba-js"
+      ],
+      "disparadores": "sitio cinematografico, hero cinematografico, scroll narrativo, film-like, inmersivo",
+      "invocacion": "auto",
+      "ejemplo": "Crea una landing cinematografica para un lanzamiento de zapatillas: hero a pantalla completa y tres escenas con pin scroll.",
+      "requisitos": "Ninguno.",
+      "notas": "El SKILL.md esta escrito en portugues; incluye reglas inegociables, criterios de conclusion y flujo de revision. Es un solo archivo, sin scripts."
+    },
+    "gsap-scrolltrigger": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "GSAP y ScrollTrigger completos: tweens, timelines, pinning, scrub, parallax y animacion de DOM, SVG, Canvas, WebGL o Three.js.",
+      "cuando_usarla": "Cualquier animacion seria en web o experiencia guiada por scroll.",
+      "donde_usarla": "Landings, portafolios, sitios de producto, experiencias 3D con scroll.",
+      "stack": "GSAP, ScrollTrigger, JavaScript",
+      "combina_con": [
+        "cinematographic-websites",
+        "locomotive-scroll",
+        "barba-js",
+        "threejs-webgl",
+        "web3d-integration-patterns"
+      ],
+      "disparadores": "GSAP, ScrollTrigger, timeline, parallax, pin, scrub",
+      "invocacion": "auto",
+      "ejemplo": "Con gsap-scrolltrigger haz que las tres secciones de mi pagina se fijen y revelen su contenido al hacer scroll.",
+      "requisitos": "Ninguno.",
+      "notas": "Es la base de la mayoria de skills de scroll; incluye visualizador de easings."
+    },
+    "lightweight-3d-effects": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Efectos 3D ligeros para decoracion y microinteracciones con Zdog (pseudo-3D), Vanta.js (fondos animados) y Vanilla-Tilt.js (tilt parallax).",
+      "cuando_usarla": "Cuando quieres profundidad o fondos animados sin cargar un motor 3D completo.",
+      "donde_usarla": "Heroes de landing, tarjetas con tilt, ilustraciones pseudo-3D, sitios donde importa el peso.",
+      "stack": "Zdog, Vanta.js, Vanilla-Tilt.js",
+      "combina_con": [
+        "modern-web-design",
+        "scroll-reveal-libraries"
+      ],
+      "disparadores": "Zdog, Vanta, Vanilla-Tilt, fondo animado, tilt",
+      "invocacion": "auto",
+      "ejemplo": "Pon un fondo Vanta de ondas en mi hero y tarjetas con tilt en la seccion de planes.",
+      "requisitos": "Ninguno.",
+      "notas": ""
+    },
+    "locomotive-scroll": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Scroll suave con Locomotive Scroll: parallax, deteccion de viewport, sticky, scroll horizontal e integracion con GSAP ScrollTrigger.",
+      "cuando_usarla": "Cuando buscas scroll suavizado con parallax por data-attributes o un sitio inmersivo de scroll.",
+      "donde_usarla": "Portafolios y sitios de agencia en HTML/JS.",
+      "stack": "Locomotive Scroll, GSAP, JavaScript",
+      "combina_con": [
+        "gsap-scrolltrigger",
+        "cinematographic-websites"
+      ],
+      "disparadores": "Locomotive Scroll, smooth scroll, parallax, scroll horizontal",
+      "invocacion": "auto",
+      "ejemplo": "Con locomotive-scroll arma una seccion de scroll horizontal con parallax en las imagenes.",
+      "requisitos": "Ninguno.",
+      "notas": "Si ya usas Lenis (cinematographic-websites), evita mezclar ambos smooth scrolls."
+    },
+    "lottie-animations": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Renderiza animaciones de After Effects en web y React con Lottie: lottie-web, lottie-react, dotLottie, optimizacion y exportacion Bodymovin.",
+      "cuando_usarla": "Iconos animados, loaders, microinteracciones o animaciones hechas por un disenador.",
+      "donde_usarla": "Cualquier web o app React que reciba animaciones JSON de diseno.",
+      "stack": "lottie-web, lottie-react, dotLottie, After Effects",
+      "combina_con": [
+        "rive-interactive",
+        "motion-framer",
+        "gsap-scrolltrigger"
+      ],
+      "disparadores": "Lottie, dotLottie, Bodymovin, JSON de After Effects, icono animado",
+      "invocacion": "auto",
+      "ejemplo": "Integra un archivo Lottie como loader en mi app React y optimizalo para que pese menos.",
+      "requisitos": "Archivos .json/.lottie (de After Effects o LottieFiles).",
+      "notas": ""
+    },
+    "modern-web-design": {
+      "categoria": "UI / Diseno web",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Tendencias, principios y patrones de diseno web moderno (2024-2025): minimalismo audaz, glassmorphism, scrollytelling, cursor UX, accesibilidad y rendimiento. Incluye auditoria de diseno.",
+      "cuando_usarla": "Al disenar o rediseñar un sitio, definir un sistema de diseno o auditar accesibilidad y rendimiento.",
+      "donde_usarla": "Cualquier proyecto web de interfaz; sirve de brujula para elegir las skills de animacion/3D.",
+      "stack": "HTML/CSS/JS, design systems, a11y",
+      "combina_con": [
+        "animated-component-libraries",
+        "gsap-scrolltrigger",
+        "motion-framer",
+        "threejs-webgl"
+      ],
+      "disparadores": "diseno web moderno, tendencias, glassmorphism, accesibilidad, design system",
+      "invocacion": "auto",
+      "ejemplo": "Audita mi landing con modern-web-design: accesibilidad, rendimiento y que tendencias tendria sentido aplicar.",
+      "requisitos": "Ninguno.",
+      "notas": "Referencia a las demas skills de animacion y 3D para la implementacion."
+    },
+    "motion-framer": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Libreria Motion (Framer Motion) para React y JS: componentes motion, variants, gestos, layout animations, AnimatePresence, springs y efectos por scroll.",
+      "cuando_usarla": "Animar componentes de UI en React: hover/tap/drag, entradas y salidas, transiciones de pagina.",
+      "donde_usarla": "Apps y sitios React/Next.",
+      "stack": "Motion / Framer Motion, React, Vite",
+      "combina_con": [
+        "react-spring-physics",
+        "animated-component-libraries",
+        "react-three-fiber"
+      ],
+      "disparadores": "Framer Motion, Motion, variants, AnimatePresence, layout animation",
+      "invocacion": "auto",
+      "ejemplo": "Anima con motion-framer una lista que entra con stagger y una tarjeta arrastrable.",
+      "requisitos": "Proyecto React.",
+      "notas": "Incluye un starter Vite+React con StaggerList, HoverCard y DraggableBox."
+    },
+    "pixijs-2d": {
+      "categoria": "2D / Canvas",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Render 2D acelerado (WebGL/WebGPU) con PixiJS: sprites, spritesheets, particulas, filtros y miles de objetos a 60 FPS.",
+      "cuando_usarla": "Juegos 2D, sistemas de particulas, canvases interactivos o capas UI sobre escenas 3D.",
+      "donde_usarla": "Juegos web 2D, visualizaciones, efectos de fondo de alto rendimiento.",
+      "stack": "PixiJS, WebGL/WebGPU, JavaScript",
+      "combina_con": [
+        "gsap-scrolltrigger",
+        "threejs-webgl"
+      ],
+      "disparadores": "PixiJS, sprites, particulas, canvas 2D, filtros",
+      "invocacion": "auto",
+      "ejemplo": "Crea con pixijs-2d un campo de particulas que reaccione al movimiento del mouse.",
+      "requisitos": "Ninguno.",
+      "notas": ""
+    },
+    "playcanvas-engine": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Motor de juegos WebGL/WebGPU ligero con entidad-componente y editor visual: scripts de camara, input y proyectos generados.",
+      "cuando_usarla": "Juegos 3D en navegador o apps de rendimiento critico, con flujo editor-first.",
+      "donde_usarla": "Juegos web, configuradores y experiencias 3D ligeras.",
+      "stack": "PlayCanvas, WebGL/WebGPU, JavaScript",
+      "combina_con": [
+        "blender-web-pipeline",
+        "substance-3d-texturing"
+      ],
+      "disparadores": "PlayCanvas, motor de juegos, editor 3D, WebGL",
+      "invocacion": "auto",
+      "ejemplo": "Genera con playcanvas-engine un proyecto base con camara orbital y manejo de input.",
+      "requisitos": "Cuenta de PlayCanvas solo si usas su editor online.",
+      "notas": "Alternativa a threejs-webgl con funciones de motor de juego."
+    },
+    "programmatic-seo": {
+      "categoria": "SEO",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Crea paginas SEO a escala con plantillas y datos: directorios, paginas por ciudad, comparativas, integraciones; con playbooks y guia de plataformas.",
+      "cuando_usarla": "Cuando necesitas generar decenas o cientos de paginas similares que apunten a keywords distintas.",
+      "donde_usarla": "Directorios, marketplaces, SaaS con paginas de integracion/comparacion, sitios locales.",
+      "stack": "Plantillas, datos, CMS/frameworks",
+      "combina_con": [
+        "seo-audit",
+        "seo",
+        "ai-seo"
+      ],
+      "disparadores": "programmatic SEO, paginas a escala, paginas por ciudad, pSEO",
+      "invocacion": "auto",
+      "ejemplo": "Disena con programmatic-seo la plantilla y la fuente de datos para paginas «[servicio] en [ciudad]».",
+      "requisitos": "Un set de datos para alimentar las plantillas.",
+      "notas": "Incluye evals/evals.json."
+    },
+    "react-spring-physics": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Animacion basada en fisica con React Spring y Popmotion: springs, gestos, inercia y utilidades de composicion.",
+      "cuando_usarla": "Interfaces con sensacion natural, interacciones por gesto y movimiento fisicamente realista.",
+      "donde_usarla": "Apps React; tambien escenas R3F con movimiento fisico.",
+      "stack": "React Spring, Popmotion, React",
+      "combina_con": [
+        "motion-framer",
+        "react-three-fiber"
+      ],
+      "disparadores": "React Spring, spring physics, inercia, gestos",
+      "invocacion": "auto",
+      "ejemplo": "Haz con react-spring-physics un panel arrastrable que rebote con inercia al soltarlo.",
+      "requisitos": "Proyecto React.",
+      "notas": "Enfoque fisico alternativo a motion-framer."
+    },
+    "react-three-fiber": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Escenas 3D declarativas con React Three Fiber (renderer React de Three.js): componentes, estado y abstracciones reutilizables.",
+      "cuando_usarla": "Experiencias 3D dentro de apps React: configuradores, portafolios, juegos, visualizacion de datos.",
+      "donde_usarla": "Proyectos React/Next con 3D.",
+      "stack": "React Three Fiber, Three.js, React, Vite",
+      "combina_con": [
+        "threejs-webgl",
+        "blender-web-pipeline",
+        "react-spring-physics",
+        "web3d-integration-patterns"
+      ],
+      "disparadores": "React Three Fiber, R3F, drei, 3D en React",
+      "invocacion": "auto",
+      "ejemplo": "Crea con react-three-fiber un configurador de producto con rotacion y cambio de color.",
+      "requisitos": "Proyecto React.",
+      "notas": "Incluye starter Vite+React con Experience, Box y Sphere."
+    },
+    "rive-interactive": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Animacion vectorial con maquinas de estado y control en runtime (Rive): inputs, ViewModel data binding, integracion React.",
+      "cuando_usarla": "Animaciones interactivas con logica (estados, entradas) que van mas alla de reproducir un JSON.",
+      "donde_usarla": "UI con personajes/iconos interactivos, onboarding, widgets animados.",
+      "stack": "Rive, state machines, React Rive",
+      "combina_con": [
+        "lottie-animations",
+        "motion-framer"
+      ],
+      "disparadores": "Rive, state machine, animacion interactiva, ViewModel",
+      "invocacion": "auto",
+      "ejemplo": "Integra un archivo .riv con maquina de estados en React y controlalo desde un input.",
+      "requisitos": "Archivos .riv creados en el editor de Rive.",
+      "notas": "Alternativa a Lottie cuando se necesita interactividad bidireccional."
+    },
+    "scroll-reveal-libraries": {
+      "categoria": "Animacion / Motion",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Reveals simples al hacer scroll con AOS (Animate On Scroll): fades y slides sin orquestacion compleja.",
+      "cuando_usarla": "Paginas de marketing o contenido que solo necesitan efectos basicos de aparicion.",
+      "donde_usarla": "Landings y sitios de contenido ligeros.",
+      "stack": "AOS, HTML/CSS/JS",
+      "combina_con": [
+        "lightweight-3d-effects",
+        "modern-web-design"
+      ],
+      "disparadores": "AOS, animate on scroll, reveal al scroll",
+      "invocacion": "auto",
+      "ejemplo": "Agrega con AOS un fade-up escalonado a las tarjetas de beneficios.",
+      "requisitos": "Ninguno.",
+      "notas": "Alternativa simple a gsap-scrolltrigger y locomotive-scroll."
+    },
+    "seo": {
+      "categoria": "SEO",
+      "fuente": "web-quality-skills (autor segun metadata, licencia MIT)",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "SEO tecnico y on-page general: meta tags, datos estructurados, sitemap y visibilidad en buscadores.",
+      "cuando_usarla": "Para mejorar o corregir lo basico de SEO de un sitio rapidamente.",
+      "donde_usarla": "Cualquier sitio web.",
+      "stack": "Meta tags, JSON-LD / schema, sitemap",
+      "combina_con": [
+        "seo-audit",
+        "ai-seo",
+        "programmatic-seo"
+      ],
+      "disparadores": "mejorar SEO, meta tags, datos estructurados, sitemap",
+      "invocacion": "auto",
+      "ejemplo": "Revisa mi sitio con la skill seo y agrega los datos estructurados que falten.",
+      "requisitos": "Ninguno.",
+      "notas": "Incluye guia de datos estructurados."
+    },
+    "seo-audit": {
+      "categoria": "SEO",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Audita y diagnostica problemas de SEO: tecnico, on-page, caida de trafico, indexacion, Core Web Vitals, titulos, CTR y SEO local.",
+      "cuando_usarla": "Cuando el sitio no posiciona, perdio trafico o quieres un chequeo de salud SEO completo.",
+      "donde_usarla": "Cualquier sitio publicado; incluye guias de SEO internacional y local.",
+      "stack": "Auditoria tecnica y on-page, Search Console",
+      "combina_con": [
+        "seo",
+        "ai-seo",
+        "programmatic-seo"
+      ],
+      "disparadores": "auditoria SEO, por que no posiciono, trafico cayo, indexacion, Core Web Vitals",
+      "invocacion": "auto",
+      "ejemplo": "Haz una auditoria SEO de mi sitio y priorizame los 5 arreglos de mayor impacto.",
+      "requisitos": "Acceso al sitio o a sus datos de Search Console para diagnostico real.",
+      "notas": "Incluye evals/evals.json."
+    },
+    "skill-creator": {
+      "categoria": "Meta / Proceso",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Guia para crear y actualizar skills: estructura, buenas practicas y scripts para inicializar, validar y empaquetar.",
+      "cuando_usarla": "Cuando quieres crear una skill propia o mejorar una existente.",
+      "donde_usarla": "Aqui, en el proveedor: es la herramienta para fabricar nuevas skills.",
+      "stack": "SKILL.md, Python (init_skill, quick_validate, package_skill)",
+      "combina_con": [
+        "spec"
+      ],
+      "disparadores": "crear una skill, nueva skill, actualizar skill",
+      "invocacion": "auto",
+      "ejemplo": "Usa skill-creator para crear una skill que documente mis convenciones de commits.",
+      "requisitos": "Python 3.",
+      "notas": "Incluye LICENSE.txt propia. Tras crear una skill, ejecuta ./actualizar-registro.py."
+    },
+    "spec": {
+      "categoria": "Meta / Proceso",
+      "fuente": "github: czabala847/spec-loop (skills/spec/SKILL.md)",
+      "idioma": "ES",
+      "instalada": "2026-10-25",
+      "que_hace": "Disena specs con el metodo spec-driven: triaje del pedido (rechaza lo vago, separa problema de solucion, divide lo grande), preguntas de aclaracion y construccion de la spec por secciones. No escribe codigo.",
+      "cuando_usarla": "Al arrancar una feature grande, antes de escribir codigo.",
+      "donde_usarla": "Cualquier repositorio; deja las specs en la carpeta specs/ del proyecto.",
+      "stack": "Markdown, template.md, scripts/specs-index.mjs (Node)",
+      "combina_con": [
+        "skill-creator"
+      ],
+      "disparadores": "/spec <descripcion de la feature>",
+      "invocacion": "manual",
+      "ejemplo": "/spec Permitir que los usuarios exporten su historial a PDF",
+      "requisitos": "Node.js para el indexador de specs.",
+      "notas": "Solo se ejecuta con /spec (disable-model-invocation). Responde en el idioma del prompt. Es la unica skill con entrada en skills-lock.json."
+    },
+    "spline-interactive": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Integra escenas de Spline (herramienta 3D visual) en la web: exportacion, interacciones por estado, React Spline.",
+      "cuando_usarla": "Cuando un disenador crea la escena 3D en un editor visual y tu la llevas al sitio sin escribir 3D a mano.",
+      "donde_usarla": "Heroes 3D, prototipos de UI 3D, sitios React con escenas diseñadas visualmente.",
+      "stack": "Spline, React Spline",
+      "combina_con": [
+        "threejs-webgl",
+        "react-three-fiber"
+      ],
+      "disparadores": "Spline, 3D sin codigo, escena Spline, React Spline",
+      "invocacion": "auto",
+      "ejemplo": "Embebe una escena de Spline en el hero de mi app React y hazla reaccionar al hover.",
+      "requisitos": "Cuenta de Spline y una escena exportada (URL o archivo).",
+      "notas": ""
+    },
+    "substance-3d-texturing": {
+      "categoria": "Pipeline de assets 3D",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Flujo de texturizado con Adobe Substance 3D Painter: materiales PBR, presets de exportacion para Three.js/Babylon/glTF/mobile, empaquetado ORM y automatizacion con la API Python.",
+      "cuando_usarla": "Cuando necesitas texturas PBR optimizadas para tiempo real.",
+      "donde_usarla": "Pipelines 3D que terminan en Three.js, R3F, Babylon.js, Unity o Unreal.",
+      "stack": "Substance 3D Painter, Python API, PBR, glTF",
+      "combina_con": [
+        "blender-web-pipeline",
+        "threejs-webgl",
+        "react-three-fiber",
+        "babylonjs-engine"
+      ],
+      "disparadores": "Substance Painter, PBR, texturas, ORM, export preset",
+      "invocacion": "auto",
+      "ejemplo": "Genera un preset de exportacion de Substance para texturas ORM listas para Three.js.",
+      "requisitos": "Adobe Substance 3D Painter (software comercial).",
+      "notas": "Incluye 5 plantillas de exportacion JSON."
+    },
+    "threejs-webgl": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Desarrollo 3D con Three.js: escenas, camaras, mallas, materiales, luces, animacion, texturas y render WebGL/WebGPU.",
+      "cuando_usarla": "Escenas 3D interactivas, configuradores de producto, visualizaciones o experiencias inmersivas en JS puro.",
+      "donde_usarla": "Cualquier sitio o app web con 3D.",
+      "stack": "Three.js, WebGL/WebGPU, JavaScript",
+      "combina_con": [
+        "react-three-fiber",
+        "gsap-scrolltrigger",
+        "blender-web-pipeline",
+        "web3d-integration-patterns"
+      ],
+      "disparadores": "Three.js, escena 3D, WebGL, materiales, luces",
+      "invocacion": "auto",
+      "ejemplo": "Con threejs-webgl crea una escena con un cubo texturizado, luces y OrbitControls.",
+      "requisitos": "Ninguno (hay starter incluido).",
+      "notas": "Es la base del resto de skills 3D."
+    },
+    "web3d-integration-patterns": {
+      "categoria": "3D / WebGL / XR",
+      "fuente": "no registrada",
+      "idioma": "EN",
+      "instalada": "2026-10-25",
+      "que_hace": "Meta-skill para combinar Three.js, GSAP ScrollTrigger, React Three Fiber, Motion y React Spring: arquitectura, estado, rendimiento, errores comunes y matriz de decision.",
+      "cuando_usarla": "Cuando un proyecto integra varias librerias 3D y de animacion y debes decidir como se coordinan.",
+      "donde_usarla": "Experiencias 3D con scroll, 3D con fisica, apps 3D complejas.",
+      "stack": "Three.js, R3F, GSAP, Motion, React Spring",
+      "combina_con": [
+        "threejs-webgl",
+        "react-three-fiber",
+        "gsap-scrolltrigger",
+        "motion-framer",
+        "react-spring-physics"
+      ],
+      "disparadores": "integrar librerias 3D, scroll con 3D, arquitectura 3D multi-libreria",
+      "invocacion": "auto",
+      "ejemplo": "Plantea con web3d-integration-patterns la arquitectura de una landing R3F cuya camara se mueve con el scroll.",
+      "requisitos": "Ninguno.",
+      "notas": "Es un solo archivo, sin scripts."
+    },
+    "37signals-way": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "blue-ocean-strategy": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "crossing-the-chasm": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "good-strategy-bad-strategy": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "high-output-management": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "hundred-million-offers": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "monetizing-innovation": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "negotiation": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "obviously-awesome": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "predictable-revenue": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "traction-eos": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "team-topologies": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "drive-motivation": {
+      "categoria": "Estrategia y negocio",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cold-start-problem": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "contagious": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "made-to-stick": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "one-page-marketing": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "scorecard-marketing": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "storybrand-messaging": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "influence-psychology": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cro-methodology": {
+      "categoria": "Marketing y crecimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "continuous-discovery": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "design-sprint": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "inspired-product": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "jobs-to-be-done": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "lean-analytics": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "lean-startup": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "lean-ux": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "mom-test": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "hooked-ux": {
+      "categoria": "Producto y descubrimiento",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "design-everyday-things": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "ios-hig-design": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "microinteractions": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "refactoring-ui": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "steve-jobs-design-review": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "top-design": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "ux-heuristics": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "web-typography": {
+      "categoria": "Diseno UX / UI",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "clean-architecture": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "clean-code": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "ddia-systems": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "domain-driven-design": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "pragmatic-programmer": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "refactoring-patterns": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "release-it": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "software-design-philosophy": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "system-design": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "working-with-legacy-code": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "technical-documentation": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "high-perf-browser": {
+      "categoria": "Ingenieria de software",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "architecture-optimization": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "conversion-optimization": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "create-app": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "create-business": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "create-website": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "design-code-architecture": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "grow-app": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "grow-business": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "grow-website": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-app": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-business": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-code-quality": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-retention": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "improve-website": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "remove-technical-debt": {
+      "categoria": "Viajes guiados (orquestadores)",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cinematic-gsap-lenis-motion-system": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "cinematic-scroll-storytelling": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "gsap-core": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "implement_lenis_scroll": {
+      "categoria": "Animacion / Motion",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "scroll-world-storytelling": {
+      "categoria": "UI / Diseno web",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "shader-glsl": {
+      "categoria": "3D / WebGL / XR",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "threejs-animation": {
+      "categoria": "3D / WebGL / XR",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "hyperframes-registry": {
+      "categoria": "Video / Composiciones",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "find-skills": {
+      "categoria": "Meta / Proceso",
+      "ficha": "basica",
+      "idioma": "EN",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    },
+    "deepseek-saver": {
+      "categoria": "Meta / Proceso",
+      "ficha": "basica",
+      "idioma": "ES",
+      "fuente": "copiada de ~/.agents/skills (origen original no registrado)",
+      "instalada": "2026-10-25",
+      "notas": "Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills."
+    }
+  }
+}

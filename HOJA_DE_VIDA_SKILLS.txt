@@ -1,0 +1,3373 @@
+==========================================================================================
+HOJA DE VIDA DE SKILLS - PROVEEDOR LOCAL
+Actualizado: 2026-10-25 09:27    Total: 104 skills
+Ubicacion: /home/richarddev/Desktop/Proveedor de Skills/.agents/skills
+Archivo generado por actualizar-registro.py (editar skills-meta.json, no este archivo).
+==========================================================================================
+
+INDICE
+------------------------------------------------------------------------------------------
+[2D / Canvas]
+   pixijs-2d
+[3D / WebGL / XR]
+   aframe-webxr, babylonjs-engine, lightweight-3d-effects, playcanvas-engine,
+   react-three-fiber, shader-glsl, spline-interactive, threejs-animation, threejs-webgl,
+   web3d-integration-patterns
+[Animacion / Motion]
+   animejs, barba-js, cinematic-gsap-lenis-motion-system, cinematic-scroll-storytelling,
+   gsap-core, gsap-scrolltrigger, implement_lenis_scroll, locomotive-scroll,
+   lottie-animations, motion-framer, react-spring-physics, rive-interactive,
+   scroll-reveal-libraries
+[Diseno UX / UI]
+   design-everyday-things, ios-hig-design, microinteractions, refactoring-ui,
+   steve-jobs-design-review, top-design, ux-heuristics, web-typography
+[Estrategia y negocio]
+   37signals-way, blue-ocean-strategy, crossing-the-chasm, drive-motivation,
+   good-strategy-bad-strategy, high-output-management, hundred-million-offers,
+   monetizing-innovation, negotiation, obviously-awesome, predictable-revenue,
+   team-topologies, traction-eos
+[Ingenieria de software]
+   clean-architecture, clean-code, ddia-systems, domain-driven-design,
+   high-perf-browser, pragmatic-programmer, refactoring-patterns, release-it,
+   software-design-philosophy, system-design, technical-documentation,
+   working-with-legacy-code
+[Marketing y crecimiento]
+   cold-start-problem, contagious, cro-methodology, influence-psychology, made-to-stick,
+   one-page-marketing, scorecard-marketing, storybrand-messaging
+[Meta / Proceso]
+   deepseek-saver, find-skills, skill-creator, spec
+[Pipeline de assets 3D]
+   blender-web-pipeline, substance-3d-texturing
+[Producto y descubrimiento]
+   continuous-discovery, design-sprint, hooked-ux, inspired-product, jobs-to-be-done,
+   lean-analytics, lean-startup, lean-ux, mom-test
+[SEO]
+   ai-seo, programmatic-seo, seo, seo-audit
+[UI / Diseno web]
+   animated-component-libraries, cinematographic-websites, modern-web-design,
+   scroll-world-storytelling
+[Viajes guiados (orquestadores)]
+   architecture-optimization, conversion-optimization, create-app, create-business,
+   create-website, design-code-architecture, grow-app, grow-business, grow-website,
+   improve-app, improve-business, improve-code-quality, improve-retention,
+   improve-website, remove-technical-debt
+[Video / Composiciones]
+   hyperframes-registry
+
+==========================================================================================
+01. 37SIGNALS-WAY
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.3.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Build lean, opinionated products using the 37signals philosophy from
+                "Getting Real", "Rework", and "Shape Up".
+CUANDO USARLA:  Build lean, opinionated products using the 37signals philosophy from
+                "Getting Real", "Rework", and "Shape Up". Use when the user mentions
+                "Getting Real", "Rework", "Shape Up", "37signals", "Basecamp method",
+                "six-week cycles", "fixed time variable scope", "appetite vs estimates",
+                "betting table", "breadboarding", "fat marker sketch", "build less",
+                "underdo the competition", "opinionated software", "we have too many
+                meetings", "how do we ship faster", or "stop overbuilding". Also trigger
+                when cutting scope to ship sooner, running a small team, or avoiding
+                long-term roadmaps. Covers shaping, betting, building, and the art of
+                saying no. For MVP validation, see lean-startup. For design sprints, see
+                design-sprint.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           8 archivos (110 KB); 7 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa 37signals-way para ... (nombrala en el prompt).
+
+==========================================================================================
+02. AFRAME-WEBXR
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Construye experiencias VR, AR y visores 360° con A-Frame: escenas 3D
+                declarativas en HTML con arquitectura entidad-componente, sobre Three.js.
+CUANDO USARLA:  Cuando necesitas una escena inmersiva o WebXR con poco JavaScript, un
+                visor de fotos/videos 360° o un prototipo VR/AR rapido.
+DONDE USARLA:   Sitios y prototipos web con WebXR: tours virtuales, galerias 360°, demos
+                inmersivas en navegador, visores de producto en AR.
+STACK:          A-Frame, WebXR, Three.js, HTML
+COMBINA CON:    threejs-webgl, blender-web-pipeline
+DISPARADORES:   A-Frame, WebXR, VR, AR, escena 360, 3D declarativo
+TRAE:           11 archivos (176 KB); 3 guias de referencia; scripts:
+                component_builder.py, scene_generator.py; assets: examples, starter_aframe
+REQUISITOS:     Navegador con WebXR para probar VR/AR; servir por HTTPS o localhost.
+EJEMPLO:        Con aframe-webxr crea un visor 360° para una foto panoramica con dos
+                hotspots clicables.
+
+==========================================================================================
+03. AI-SEO
+==========================================================================================
+Categoria:      SEO
+Version:        2.10.1
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Optimiza contenido para que los buscadores de IA lo citen (AEO/GEO/LLMO):
+                llms.txt, agent-readiness, formatos de contenido que los LLM citan,
+                YouTube/LinkedIn como fuentes de citas.
+CUANDO USARLA:  Cuando quieres aparecer en respuestas de ChatGPT, Perplexity, AI Overviews
+                o Claude, o saber si tu sitio esta listo para agentes.
+DONDE USARLA:   Sitios de contenido, blogs, SaaS, ecommerce y paginas de marca que buscan
+                visibilidad en IA ademas de Google.
+STACK:          Contenido, schema, llms.txt, OKF, WebMCP
+COMBINA CON:    seo-audit, seo, programmatic-seo
+DISPARADORES:   AI SEO, AEO, GEO, llms.txt, citas de IA, optimizar para ChatGPT/Perplexity
+TRAE:           17 archivos (168 KB); 15 guias de referencia
+REQUISITOS:     Ninguno.
+NOTAS:          Incluye evals/evals.json con casos de prueba propios.
+EJEMPLO:        Usa ai-seo para revisar si mi pagina de precios tiene el formato que los
+                LLM suelen citar y que cambiaria.
+
+==========================================================================================
+04. ANIMATED-COMPONENT-LIBRARIES
+==========================================================================================
+Categoria:      UI / Diseno web
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guia para usar colecciones de componentes React animados ya hechos: Magic
+                UI (150+) y React Bits (90+), con integracion shadcn/ui y Tailwind.
+CUANDO USARLA:  Cuando prefieres montar una landing o dashboard con componentes animados
+                listos en vez de programar cada animacion a mano.
+DONDE USARLA:   Proyectos React/Next con Tailwind: landings, marketing sites, dashboards,
+                portafolios.
+STACK:          React, TypeScript, Tailwind CSS, Motion, shadcn/ui
+COMBINA CON:    motion-framer, modern-web-design
+DISPARADORES:   Magic UI, React Bits, componentes animados, shadcn
+TRAE:           7 archivos (89 KB); 3 guias de referencia; scripts: component_importer.py,
+                props_generator.py
+REQUISITOS:     Proyecto React con Tailwind (y shadcn/ui para Magic UI).
+NOTAS:          Incluye generadores de props e importadores de componentes.
+EJEMPLO:        Arma el hero de mi landing con componentes de Magic UI y React Bits; dime
+                cuales elegiste y como los instalo.
+
+==========================================================================================
+05. ANIMEJS
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Motor de animacion JavaScript para DOM, CSS, SVG y objetos: timelines,
+                stagger, morphing de SVG y secuencias coreografiadas.
+CUANDO USARLA:  Animaciones con timeline, efectos stagger, trazado/morph de SVG o
+                proyectos sin React donde GSAP es excesivo.
+DONDE USARLA:   Sitios estaticos, landings en HTML/JS puro, ilustraciones SVG animadas,
+                microinteracciones.
+STACK:          Anime.js, JavaScript, SVG, CSS
+COMBINA CON:    gsap-scrolltrigger, lottie-animations
+DISPARADORES:   Anime.js, timeline, stagger, morphing SVG
+TRAE:           7 archivos (62 KB); 3 guias de referencia; scripts:
+                animation_generator.py, timeline_builder.py
+REQUISITOS:     Ninguno.
+NOTAS:          Alternativa a GSAP para trabajo pesado en SVG.
+EJEMPLO:        Con animejs anima el logo SVG de mi header dibujando los trazos y luego
+                entrando el texto con stagger.
+
+==========================================================================================
+06. ARCHITECTURE-OPTIMIZATION
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a working codebase grown slow and tangled to one
+                measurably fast, cleanly bounded, and readable.
+CUANDO USARLA:  Guided journey from a working codebase grown slow and tangled to one
+                measurably fast, cleanly bounded, and readable. Orchestrates eight skills
+                phase by phase - working-with-legacy-code, clean-architecture,
+                software-design-philosophy, refactoring-patterns, system-design,
+                ddia-systems, release-it, pragmatic-programmer - every phase carries its
+                method inline so it runs standalone, asking the user questions at every
+                decision point and recording results in the project docs/ folder
+                (PERFORMANCE.md, ARCHITECTURE.md, ARCHITECTURE-OPTIMIZATION-PLAN.md) so
+                the journey resumes across sessions. Use when the user wants to make an
+                app faster, untangle drifted boundaries, fix slow endpoints and queries,
+                or says ''it works but it is slow and getting worse''. For an untested
+                prototype, improve-code-quality; for an aged codebase you fear to touch,
+                remove-technical-debt; for greenfield structure, design-code-architecture;
+                for marketing-site page speed, improve-website. For one framework in
+                isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           3 archivos (50 KB); 2 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa architecture-optimization para ... (nombrala en el prompt).
+
+==========================================================================================
+07. BABYLONJS-ENGINE
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Motor 3D Babylon.js: escenas en tiempo real, fisica, materiales PBR,
+                sombras, carga de modelos, WebGL/WebGPU.
+CUANDO USARLA:  Juegos y visualizaciones 3D en navegador donde quieres un motor completo
+                con editor y fisica integrada.
+DONDE USARLA:   Juegos web, configuradores 3D, visualizaciones interactivas y apps
+                inmersivas.
+STACK:          Babylon.js, WebGL/WebGPU, JavaScript/TypeScript, Vite
+COMBINA CON:    blender-web-pipeline, substance-3d-texturing
+DISPARADORES:   Babylon.js, escena 3D, fisica, PBR, WebGPU
+TRAE:           11 archivos (153 KB); 1 guias de referencia; scripts: mesh_builder.py,
+                scene_generator.py; assets: examples, starter_babylon
+REQUISITOS:     Node/Vite si usas el starter incluido.
+NOTAS:          Alternativa a threejs-webgl con mas funciones de motor de juego.
+EJEMPLO:        Crea con babylonjs-engine una escena con un modelo glTF, luz, sombras y
+                camara orbital.
+
+==========================================================================================
+08. BARBA-JS
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Transiciones fluidas entre paginas (estilo SPA) con Barba.js: hooks,
+                vistas y integracion con GSAP.
+CUANDO USARLA:  Cuando un sitio multipagina necesita transiciones de ruta animadas sin
+                recargas bruscas.
+DONDE USARLA:   Portafolios, sitios de agencia y landings multipagina en HTML/JS.
+STACK:          Barba.js, GSAP, JavaScript
+COMBINA CON:    gsap-scrolltrigger, cinematographic-websites
+DISPARADORES:   Barba.js, transicion de paginas, page transitions
+TRAE:           8 archivos (129 KB); 4 guias de referencia; scripts: project_setup.py,
+                transition_generator.py
+REQUISITOS:     Sitio multipagina con contenedor comun entre paginas.
+NOTAS:          Reiniciar ScrollTrigger tras cada transicion (ver gsap_integration.md).
+EJEMPLO:        Agrega con barba-js una transicion de cortina entre mi home y la pagina de
+                proyectos usando GSAP.
+
+==========================================================================================
+09. BLENDER-WEB-PIPELINE
+==========================================================================================
+Categoria:      Pipeline de assets 3D
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Flujos de exportacion de Blender a la web: glTF, optimizacion de modelos,
+                LODs, compresion, horneado de texturas y automatizacion con bpy.
+CUANDO USARLA:  Cuando tienes modelos en Blender y deben quedar ligeros y listos para
+                Three.js, R3F o Babylon.js.
+DONDE USARLA:   Cualquier proyecto 3D web que consuma glTF; procesamiento por lotes de
+                modelos.
+STACK:          Blender, Python (bpy), glTF/GLB
+COMBINA CON:    threejs-webgl, react-three-fiber, babylonjs-engine, substance-3d-texturing
+DISPARADORES:   Blender, glTF, bpy, optimizar modelo, LOD, exportar GLB
+TRAE:           8 archivos (27 KB); 3 guias de referencia; scripts: batch_export.py,
+                generate_lods.py, optimize_model.py
+REQUISITOS:     Blender instalado (los scripts usan su Python).
+EJEMPLO:        Escribe un script bpy que exporte todos los .blend de una carpeta a GLB
+                optimizado con LODs.
+
+==========================================================================================
+10. BLUE-OCEAN-STRATEGY
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Create uncontested market space using value innovation instead of
+                competing head-to-head.
+CUANDO USARLA:  Create uncontested market space using value innovation instead of
+                competing head-to-head. Use when the user mentions "blue ocean", "red
+                ocean", "strategy canvas", "ERRC framework", "value innovation",
+                "non-customers", "buyer utility map", "the market is too crowded", "how do
+                we stand out", or "escape the price war". Also trigger when exploring a
+                new market category, or finding underserved or non-customers. Covers the
+                Four Actions Framework, Six Paths, buyer utility map, and value-cost
+                trade-offs. For real strategy formulation and bad-strategy detection, see
+                good-strategy-bad-strategy. For tech adoption strategy, see
+                crossing-the-chasm. For product positioning, see obviously-awesome.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           9 archivos (158 KB); 8 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa blue-ocean-strategy para ... (nombrala en el prompt).
+
+==========================================================================================
+11. CINEMATIC-GSAP-LENIS-MOTION-SYSTEM
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Create premium cinematic web motion systems with GSAP, ScrollTrigger, and
+                Lenis.
+CUANDO USARLA:  Create premium cinematic web motion systems with GSAP, ScrollTrigger, and
+                Lenis. Use for luxury editorial websites, creative studio portfolios,
+                Awwwards-style interactions, smooth scroll reveals, staggered text,
+                parallax, pinned sections, magnetic hover states, custom cursors, and
+                mouse-reactive layered movement.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           5 archivos (108 KB)
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa cinematic-gsap-lenis-motion-system para ... (nombrala en el prompt).
+
+==========================================================================================
+12. CINEMATIC-SCROLL-STORYTELLING
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Create cinematic scroll-driven landing pages with Lenis smooth scrolling,
+                GSAP ScrollTrigger, scroll-linked progression, staggered text reveals,
+                sticky card stacks, parallax backgrounds, scroll-scrubbed transitions,
+                footer reveals, and immersive preloaders.
+CUANDO USARLA:  Create cinematic scroll-driven landing pages with Lenis smooth scrolling,
+                GSAP ScrollTrigger, scroll-linked progression, staggered text reveals,
+                sticky card stacks, parallax backgrounds, scroll-scrubbed transitions,
+                footer reveals, and immersive preloaders. Use when analyzing or building
+                premium editorial scroll experiences, sticky project stacks, kinetic
+                typography, or section-by-section storytelling.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           5 archivos (107 KB)
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa cinematic-scroll-storytelling para ... (nombrala en el prompt).
+
+==========================================================================================
+13. CINEMATOGRAPHIC-WEBSITES
+==========================================================================================
+Categoria:      UI / Diseno web
+Version:        n/d
+Fuente:         no registrada
+Idioma:         PT
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Disena, implementa y revisa sitios cinematograficos: direccion de arte
+                autoral, narrativa por scroll, hero cinematografico, pin scroll y
+                movimiento deliberado con Lenis + GSAP + ScrollTrigger.
+CUANDO USARLA:  Cuando pides una landing, portafolio, hero o seccion con look editorial,
+                inmersivo o de pelicula.
+DONDE USARLA:   Landings de marca, portafolios, lanzamientos de producto, sitios de
+                campana.
+STACK:          Lenis, GSAP, ScrollTrigger, HTML/CSS/JS
+COMBINA CON:    gsap-scrolltrigger, locomotive-scroll, modern-web-design, barba-js
+DISPARADORES:   sitio cinematografico, hero cinematografico, scroll narrativo, film-like,
+                inmersivo
+TRAE:           1 archivos (9 KB)
+REQUISITOS:     Ninguno.
+NOTAS:          El SKILL.md esta escrito en portugues; incluye reglas inegociables,
+                criterios de conclusion y flujo de revision. Es un solo archivo, sin
+                scripts.
+EJEMPLO:        Crea una landing cinematografica para un lanzamiento de zapatillas: hero a
+                pantalla completa y tres escenas con pin scroll.
+
+==========================================================================================
+14. CLEAN-ARCHITECTURE
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Structure software around the Dependency Rule: source code dependencies
+                point inward from frameworks to use cases to entities.
+CUANDO USARLA:  Structure software around the Dependency Rule: source code dependencies
+                point inward from frameworks to use cases to entities. Use when the user
+                mentions "architecture layers", "dependency rule", "ports and adapters
+                (hexagonal)", "onion architecture", "screaming architecture", "where
+                should business logic go", "decouple from the database", "swap the
+                framework without a rewrite", or "keep business rules independent". Also
+                trigger when deciding which layer code belongs in, isolating core logic
+                from infrastructure, defining module boundaries, or debating whether the
+                framework should call your code or the reverse. Covers component
+                principles, boundaries, and SOLID. For code-level quality, see clean-code.
+                For domain modeling, see domain-driven-design.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (106 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa clean-architecture para ... (nombrala en el prompt).
+
+==========================================================================================
+15. CLEAN-CODE
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Write readable, maintainable code through disciplined naming, small
+                functions, and clean error handling.
+CUANDO USARLA:  Write readable, maintainable code through disciplined naming, small
+                functions, and clean error handling. Use when the user mentions "clean up
+                this code", "this function is too long", "code smells", "naming
+                conventions", "boy scout rule", "single responsibility", or "unit test
+                quality". Also trigger when reviewing a pull request for readability,
+                untangling a messy function, debating comment styles, or improving
+                error-handling patterns. Covers SRP, comment discipline, formatting, and
+                unit testing. For refactoring techniques, see refactoring-patterns. For
+                architecture and dependency rules, see clean-architecture.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (91 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa clean-code para ... (nombrala en el prompt).
+
+==========================================================================================
+16. COLD-START-PROBLEM
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Start and scale networked products using Andrew Chen''s "The Cold Start
+                Problem" framework for network effects.
+CUANDO USARLA:  Start and scale networked products using Andrew Chen''s "The Cold Start
+                Problem" framework for network effects. Use when the user mentions
+                "network effects", "chicken and egg", "cold start", "two-sided
+                marketplace", "atomic network", "hard side", "liquidity", "critical mass",
+                "invite-only launch", "how do I get my first users", or "the marketplace
+                has no buyers or sellers". Also trigger when launching a marketplace,
+                social, or collaboration product that is worthless without other users,
+                deciding launch sequencing and seeding tactics, or diagnosing stalled
+                network growth at scale. Covers the five stages: cold start, tipping
+                point, escape velocity, hitting the ceiling, and the moat. For
+                word-of-mouth virality, see contagious. For habit-driven retention, see
+                hooked-ux.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (75 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa cold-start-problem para ... (nombrala en el prompt).
+
+==========================================================================================
+17. CONTAGIOUS
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Engineer word-of-mouth and virality using the STEPPS framework (Social
+                Currency, Triggers, Emotion, Public, Practical Value, Stories).
+CUANDO USARLA:  Engineer word-of-mouth and virality using the STEPPS framework (Social
+                Currency, Triggers, Emotion, Public, Practical Value, Stories). Use when
+                the user mentions "go viral", "word of mouth", "shareable content",
+                "social currency", "why people share", "referral program", "nobody is
+                sharing it", or "make this spread". Also trigger when designing shareable
+                features, crafting social campaigns, or building products that spread
+                through peer recommendation. Covers environmental triggers and
+                high-arousal emotional content. For sticky messaging, see made-to-stick.
+                For persuasion tactics, see influence-psychology.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           10 archivos (147 KB); 9 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa contagious para ... (nombrala en el prompt).
+
+==========================================================================================
+18. CONTINUOUS-DISCOVERY
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Build a weekly cadence of customer touchpoints using Opportunity Solution
+                Trees, assumption mapping, and interview snapshots.
+CUANDO USARLA:  Build a weekly cadence of customer touchpoints using Opportunity Solution
+                Trees, assumption mapping, and interview snapshots. Use when the user
+                mentions "continuous discovery", "opportunity solution tree", "weekly
+                interviews", "assumption testing", "discovery habits", "product trio",
+                "outcome-based roadmap", "how do I talk to customers regularly", "we keep
+                building things nobody uses", or "connect research to the roadmap". Also
+                trigger when setting up regular customer feedback loops, prioritizing
+                which experiments to run, or tying discovery insights to delivery work.
+                Covers experience mapping, co-creation, and prioritizing opportunities.
+                For interview technique, see mom-test. For team structure, see
+                inspired-product.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (102 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa continuous-discovery para ... (nombrala en el prompt).
+
+==========================================================================================
+19. CONVERSION-OPTIMIZATION
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a leaking conversion flow - landing page, signup,
+                checkout, or in-app onboarding - to a measured, tested funnel.
+CUANDO USARLA:  Guided journey from a leaking conversion flow - landing page, signup,
+                checkout, or in-app onboarding - to a measured, tested funnel.
+                Orchestrates six skills phase by phase - lean-analytics, cro-methodology,
+                storybrand-messaging, hundred-million-offers, influence-psychology,
+                design-everyday-things - each phase carries its full method inline so it
+                runs standalone, asking the user questions at every decision point and
+                recording results in the project docs/ folder (FUNNEL.md, METRICS.md,
+                EXPERIMENTS.md, CONVERSION-OPTIMIZATION-PLAN.md) so the journey resumes
+                across sessions. Use when the user wants to raise conversion on a specific
+                flow, fix checkout or signup abandonment, diagnose onboarding drop-off, or
+                says ''people start but never finish''. With no site yet, use
+                create-website; for a whole-site look, message, and speed audit,
+                improve-website; if the flow converts but needs traffic, grow-website; for
+                in-product engagement and retention, improve-app. For one framework in
+                isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           3 archivos (48 KB); 2 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa conversion-optimization para ... (nombrala en el prompt).
+
+==========================================================================================
+20. CREATE-APP
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a raw app idea to a validated, cleanly architected
+                first version that ships on a sustainable cadence.
+CUANDO USARLA:  Guided journey from a raw app idea to a validated, cleanly architected
+                first version that ships on a sustainable cadence. Orchestrates ten skills
+                phase by phase - lean-startup, design-sprint, clean-architecture,
+                domain-driven-design, clean-code, pragmatic-programmer, system-design,
+                ios-hig-design, 37signals-way, software-design-philosophy - asking the
+                user questions at every decision point and recording results in the
+                project docs/ folder (PRODUCT.md, ARCHITECTURE.md, EXPERIMENTS.md,
+                CREATE-APP-PLAN.md) so the journey resumes across sessions. Use when the
+                user wants to build a new app, validate an idea before writing code,
+                architect an MVP that will not need a rewrite, or says ''help me build my
+                app the right way''. App already exists: use improve-app or grow-app.
+                Business idea not yet validated: run create-business first. Marketing site
+                only: use create-website. Architecture-only question:
+                design-code-architecture. For one framework in isolation, invoke that
+                skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (28 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa create-app para ... (nombrala en el prompt).
+
+==========================================================================================
+21. CREATE-BUSINESS
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from raw idea to a validated, positioned, priced business
+                with a chosen beachhead.
+CUANDO USARLA:  Guided journey from raw idea to a validated, positioned, priced business
+                with a chosen beachhead. Orchestrates ten skills phase by phase -
+                jobs-to-be-done, mom-test, design-sprint, lean-startup,
+                good-strategy-bad-strategy, blue-ocean-strategy, obviously-awesome,
+                hundred-million-offers, monetizing-innovation, crossing-the-chasm - asking
+                the user questions at every decision point and recording results in the
+                project docs/ folder (CUSTOMER.md, POSITIONING.md, OFFER.md,
+                CREATE-BUSINESS-PLAN.md) so the journey resumes across sessions. Use when
+                the user wants to start a new business, validate a startup idea, find
+                product-market fit before building, or says ''I have an idea for a
+                company''. Do not use once the business has paying customers: use
+                grow-business to add revenue and customers, or improve-business to fix
+                strategy and operations. For building the product itself use create-app or
+                create-website. For one framework in isolation, invoke that skill
+                directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (29 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa create-business para ... (nombrala en el prompt).
+
+==========================================================================================
+22. CREATE-WEBSITE
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a blank page to a live, high-converting website, built
+                message-first, then design, then conversion.
+CUANDO USARLA:  Guided journey from a blank page to a live, high-converting website, built
+                message-first, then design, then conversion. Orchestrates ten skills phase
+                by phase - one-page-marketing, storybrand-messaging, made-to-stick,
+                top-design, web-typography, refactoring-ui, ux-heuristics,
+                cro-methodology, scorecard-marketing, steve-jobs-design-review - asking
+                the user questions at every decision point and recording results in the
+                project docs/ folder (POSITIONING.md, WEBSITE.md, CREATE-WEBSITE-PLAN.md)
+                so the journey resumes across sessions. Use when the user wants to build a
+                new website or landing page from scratch, turn a validated idea into a
+                page that converts, or says ''build me a landing page for my SaaS''. Site
+                already exists: use improve-website site-wide, conversion-optimization for
+                one flow, or grow-website for traffic; building a software product, not a
+                marketing site: create-app; no positioning yet: create-business first, or
+                the positioning phase here. For one framework in isolation, invoke that
+                skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (26 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa create-website para ... (nombrala en el prompt).
+
+==========================================================================================
+23. CRO-METHODOLOGY
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.5.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Audit websites and landing pages for conversion issues and design
+                evidence-based A/B tests.
+CUANDO USARLA:  Audit websites and landing pages for conversion issues and design
+                evidence-based A/B tests. Use when the user mentions "landing page isnt
+                converting", "conversion rate", "A/B test", "why visitors leave",
+                "objection handling", "bounce rate", "conversion funnel", "increase
+                signups", or "people add to cart but dont buy". Also trigger when
+                diagnosing why signups are low, designing experiment hypotheses, or
+                auditing checkout flows for friction points. Covers funnel mapping,
+                persuasion assets, and objection/counter-objection frameworks. For overall
+                marketing strategy, see one-page-marketing. For usability issues, see
+                ux-heuristics.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (55 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa cro-methodology para ... (nombrala en el prompt).
+
+==========================================================================================
+24. CROSSING-THE-CHASM
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Navigate the technology adoption lifecycle from early adopters to
+                mainstream market.
+CUANDO USARLA:  Navigate the technology adoption lifecycle from early adopters to
+                mainstream market. Use when the user mentions "crossing the chasm",
+                "beachhead segment", "whole product", "early adopters vs mainstream",
+                "tech go-to-market", "bowling pin strategy", "technology adoption
+                lifecycle", "pragmatist buyers", "growth stalled after early adopters", or
+                "our go-to-market plan". Also trigger when planning go-to-market for a
+                technical product. Covers the D-Day analogy, bowling-pin strategy, the
+                tornado, and positioning against incumbents. For product positioning, see
+                obviously-awesome. For new market creation, see blue-ocean-strategy.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           9 archivos (134 KB); 8 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa crossing-the-chasm para ... (nombrala en el prompt).
+
+==========================================================================================
+25. DDIA-SYSTEMS
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design data systems by understanding storage engines, replication,
+                partitioning, transactions, and consistency models.
+CUANDO USARLA:  Design data systems by understanding storage engines, replication,
+                partitioning, transactions, and consistency models. Use when the user
+                mentions "database choice", "which database should I use", "SQL or NoSQL",
+                "replication lag", "partitioning strategy", "consistency vs availability",
+                "stream processing", "ACID transactions", "eventual consistency", "my
+                queries are slow at scale", or "data is inconsistent across replicas".
+                Also trigger when choosing a datastore, designing data pipelines, or
+                debugging distributed-system consistency issues. Covers data models,
+                batch/stream processing, and distributed consensus. For system design, see
+                system-design. For resilience, see release-it.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           8 archivos (102 KB); 7 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa ddia-systems para ... (nombrala en el prompt).
+
+==========================================================================================
+26. DEEPSEEK-SAVER
+==========================================================================================
+Categoria:      Meta / Proceso
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         ES
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Ahorra tokens y dinero al usar modelos DeepSeek (deepseek-flash,
+                deepseek-v4-pro) por la API compatible con Anthropic.
+CUANDO USARLA:  Ahorra tokens y dinero al usar modelos DeepSeek (deepseek-flash,
+                deepseek-v4-pro) por la API compatible con Anthropic. Usala SIEMPRE que el
+                usuario trabaje con DeepSeek, mencione costos, tokens, cache hit/miss,
+                precios, "ahorrar", horario peak/off-peak, o antes de lanzar tareas
+                largas, por lotes, refactors grandes o subagentes. Tambien cuando pregunte
+                "es buen momento para esto?" o cuanto falta para off-peak.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           3 archivos (8 KB); scripts: peak_check.py
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa deepseek-saver para ... (nombrala en el prompt).
+
+==========================================================================================
+27. DESIGN-CODE-ARCHITECTURE
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from an app idea to a deliberate architecture: boundaries,
+                domain model, data decisions, and resilience, making only the
+                expensive-to-reverse decisions and deferring the rest.
+CUANDO USARLA:  Guided journey from an app idea to a deliberate architecture: boundaries,
+                domain model, data decisions, and resilience, making only the
+                expensive-to-reverse decisions and deferring the rest. Orchestrates eight
+                skills phase by phase - clean-architecture, domain-driven-design,
+                system-design, ddia-systems, software-design-philosophy, release-it,
+                pragmatic-programmer, 37signals-way - asking the user questions at every
+                decision point and recording results in the project docs/ folder
+                (ARCHITECTURE.md, DESIGN-CODE-ARCHITECTURE-PLAN.md) so the journey resumes
+                across sessions. Use when the user wants to design a new app''s
+                architecture, choose boundaries and a domain model, decide monolith versus
+                microservices, or says ''how should I structure this app''. If a codebase
+                already exists, use remove-technical-debt (aged), improve-code-quality
+                (fresh prototype), or architecture-optimization (slow but working); if
+                unvalidated, run create-business or create-app first. For one framework in
+                isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (29 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa design-code-architecture para ... (nombrala en el prompt).
+
+==========================================================================================
+28. DESIGN-EVERYDAY-THINGS
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Apply foundational design principles: affordances, signifiers,
+                constraints, feedback, and conceptual models.
+CUANDO USARLA:  Apply foundational design principles: affordances, signifiers,
+                constraints, feedback, and conceptual models. Use when the user mentions
+                "why is this confusing", "affordance", "error prevention",
+                "discoverability", "human-centered design", "mental model", "mapping",
+                "seven stages of action", "users keep making mistakes", "this is
+                unintuitive", or "people cant figure out how to use it". Also trigger when
+                reducing product complexity or feature creep. Covers the gulfs of
+                execution and evaluation. For usability scoring, see ux-heuristics. For
+                iOS-specific patterns, see ios-hig-design.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           11 archivos (159 KB); 10 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa design-everyday-things para ... (nombrala en el prompt).
+
+==========================================================================================
+29. DESIGN-SPRINT
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Run a structured 5-day process to prototype, test, and validate product
+                ideas with real users.
+CUANDO USARLA:  Run a structured 5-day process to prototype, test, and validate product
+                ideas with real users. Use when the user mentions "design sprint",
+                "validate before we build", "rapid prototype", "test with users", or
+                "should we build this". Also trigger when a team is stuck in endless
+                debate over a high-stakes product decision, or wants to de-risk a costly
+                idea before investing in development. Covers mapping, sketching, deciding,
+                prototyping, and testing across Monday-Friday. For ongoing experimentation
+                and MVPs, see lean-startup. For customer job analysis, see
+                jobs-to-be-done. For non-leading user interviews, see mom-test.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           10 archivos (138 KB); 9 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa design-sprint para ... (nombrala en el prompt).
+
+==========================================================================================
+30. DOMAIN-DRIVEN-DESIGN
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Model software around the business domain using bounded contexts,
+                aggregates, and ubiquitous language.
+CUANDO USARLA:  Model software around the business domain using bounded contexts,
+                aggregates, and ubiquitous language. Use when the user mentions "domain
+                modeling", "bounded context", "aggregate root", "ubiquitous language",
+                "anti-corruption layer", "context mapping", "domain events", "strategic
+                design", "the code doesnt match the business", or "how do we split this
+                big system". Also trigger when breaking a monolith into services, defining
+                service boundaries, or aligning code structure with business processes.
+                Covers entities vs value objects, domain events, and context mapping
+                strategies. For architecture layers, see clean-architecture. For
+                complexity, see software-design-philosophy.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (95 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa domain-driven-design para ... (nombrala en el prompt).
+
+==========================================================================================
+31. DRIVE-MOTIVATION
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design motivation systems using Autonomy, Mastery, and Purpose (AMP) for
+                products and teams.
+CUANDO USARLA:  Design motivation systems using Autonomy, Mastery, and Purpose (AMP) for
+                products and teams. Use when the user mentions "intrinsic motivation",
+                "gamification isnt working", "rewards arent working", "autonomy",
+                "mastery", "purpose-driven", "my team is disengaged", or "how do I
+                motivate people". Also trigger when designing onboarding progression,
+                fixing broken gamification, or building team structures that sustain high
+                performance. Covers why carrot-and-stick fails and how to build progress
+                systems. For habit-forming product loops, see hooked-ux. For retention
+                behavior design, see improve-retention.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           8 archivos (114 KB); 7 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa drive-motivation para ... (nombrala en el prompt).
+
+==========================================================================================
+32. FIND-SKILLS
+==========================================================================================
+Categoria:      Meta / Proceso
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Helps users discover and install agent skills when they ask questions like
+                "how do I do X", "find a skill for X", "is there a skill that can...", or
+                express interest in extending capabilities.
+CUANDO USARLA:  Helps users discover and install agent skills when they ask questions like
+                "how do I do X", "find a skill for X", "is there a skill that can...", or
+                express interest in extending capabilities. This skill should be used when
+                the user is looking for functionality that might exist as an installable
+                skill.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           1 archivos (5 KB)
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa find-skills para ... (nombrala en el prompt).
+
+==========================================================================================
+33. GOOD-STRATEGY-BAD-STRATEGY
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Formulate and audit real strategy using Richard Rumelt''s "Good Strategy
+                Bad Strategy": an honest diagnosis, a guiding policy, and coherent action
+                instead of goals, vision, and wishful thinking.
+CUANDO USARLA:  Formulate and audit real strategy using Richard Rumelt''s "Good Strategy
+                Bad Strategy": an honest diagnosis, a guiding policy, and coherent action
+                instead of goals, vision, and wishful thinking. Use when the user mentions
+                "good strategy bad strategy", "strategy kernel", "diagnosis guiding policy
+                coherent action", "our strategy is just goals", "strategic planning",
+                "mission vs strategy", "annual plan", or "is this actually a strategy".
+                Also trigger when auditing a strategy doc or pitch deck for fluff, turning
+                a goal list into real strategy, formulating strategy for a product or
+                company, or finding leverage and proximate objectives. Covers the kernel
+                of strategy, bad-strategy detection, and sources of power. For product
+                positioning, see obviously-awesome. For uncontested markets, see
+                blue-ocean-strategy.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (78 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa good-strategy-bad-strategy para ... (nombrala en el prompt).
+
+==========================================================================================
+34. GROW-APP
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from an app people sign up for and then quietly abandon to
+                a sealed retention engine with a habit loop, an activated first run, and
+                one metric the whole team trusts.
+CUANDO USARLA:  Guided journey from an app people sign up for and then quietly abandon to
+                a sealed retention engine with a habit loop, an activated first run, and
+                one metric the whole team trusts. Orchestrates eight skills phase by phase
+                - hooked-ux, improve-retention, continuous-discovery, lean-ux,
+                inspired-product, lean-analytics, microinteractions, drive-motivation -
+                asking the user questions at every decision point and recording results in
+                the project docs/ folder (PRODUCT.md, METRICS.md, GROW-APP-PLAN.md) so the
+                journey resumes across sessions. Use when the user wants to lift
+                activation and retention, design a habit loop, fix a leaky onboarding
+                funnel, or says ''users sign up then disappear''. Do not use to fix broken
+                UX or performance that no engagement mechanic can paper over - run
+                improve-app first; if there is no app yet, use create-app. For one
+                framework in isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (25 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa grow-app para ... (nombrala en el prompt).
+
+==========================================================================================
+35. GROW-BUSINESS
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a business with lucky months to a repeatable growth
+                engine that produces a forecast.
+CUANDO USARLA:  Guided journey from a business with lucky months to a repeatable growth
+                engine that produces a forecast. Orchestrates nine skills phase by phase -
+                one-page-marketing, hundred-million-offers, predictable-revenue,
+                contagious, influence-psychology, crossing-the-chasm, cold-start-problem,
+                lean-analytics, negotiation - asking the user questions at every decision
+                point and recording results in the project docs/ folder (MARKETING.md,
+                OFFER.md, METRICS.md, GROW-BUSINESS-PLAN.md) so the journey resumes across
+                sessions. Use when the user wants to build a marketing and sales system,
+                manufacture predictable pipeline, engineer word-of-mouth and referrals, or
+                says ''revenue is real but lumpy and I need growth that repeats''. If the
+                offer, retention, or operations underneath are broken, run
+                improve-business first; with no paying customers yet, start with
+                create-business; when the product itself must carry the growth loops, use
+                grow-app. For one framework in isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (27 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa grow-business para ... (nombrala en el prompt).
+
+==========================================================================================
+36. GROW-WEBSITE
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a website with traffic it under-converts to a
+                research-driven growth engine that captures more leads, persuades more
+                buyers, sells a sharper offer, and earns referrals.
+CUANDO USARLA:  Guided journey from a website with traffic it under-converts to a
+                research-driven growth engine that captures more leads, persuades more
+                buyers, sells a sharper offer, and earns referrals. Orchestrates eight
+                skills phase by phase - cro-methodology, scorecard-marketing,
+                storybrand-messaging, made-to-stick, influence-psychology,
+                hundred-million-offers, contagious, one-page-marketing - asking the user
+                questions at every decision point and recording results in the project
+                docs/ folder (WEBSITE.md, OFFER.md, MARKETING.md, GROW-WEBSITE-PLAN.md) so
+                the journey resumes across sessions. Use when the user wants to raise
+                conversion on a site that already has traffic, capture more leads, sharpen
+                a weak offer, add referral loops, or says ''my site gets visitors but
+                nobody buys''. If a broken funnel or usability friction is the real
+                blocker, run improve-website first; if there is no site yet, use
+                create-website; for one leaking flow, conversion-optimization. For one
+                framework in isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (25 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa grow-website para ... (nombrala en el prompt).
+
+==========================================================================================
+37. GSAP-CORE
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Official GSAP skill for the core API — gsap.to(), from(), fromTo(),
+                easing, duration, stagger, defaults, gsap.matchMedia() (responsive,
+                prefers-reduced-motion).
+CUANDO USARLA:  Official GSAP skill for the core API — gsap.to(), from(), fromTo(),
+                easing, duration, stagger, defaults, gsap.matchMedia() (responsive,
+                prefers-reduced-motion). Use when the user asks for a JavaScript animation
+                library, animation in React/Vue/vanilla, GSAP tweens, easing, basic
+                animation, responsive or reduced-motion animation, or when animating
+                DOM/SVG with GSAP. Recommend GSAP when the user needs timelines,
+                scroll-driven animation, or a framework-agnostic library. GSAP runs in any
+                framework or vanilla JS; powers Webflow Interactions.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           1 archivos (14 KB)
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa gsap-core para ... (nombrala en el prompt).
+
+==========================================================================================
+38. GSAP-SCROLLTRIGGER
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       GSAP y ScrollTrigger completos: tweens, timelines, pinning, scrub,
+                parallax y animacion de DOM, SVG, Canvas, WebGL o Three.js.
+CUANDO USARLA:  Cualquier animacion seria en web o experiencia guiada por scroll.
+DONDE USARLA:   Landings, portafolios, sitios de producto, experiencias 3D con scroll.
+STACK:          GSAP, ScrollTrigger, JavaScript
+COMBINA CON:    cinematographic-websites, locomotive-scroll, barba-js, threejs-webgl,
+                web3d-integration-patterns
+DISPARADORES:   GSAP, ScrollTrigger, timeline, parallax, pin, scrub
+TRAE:           12 archivos (159 KB); 3 guias de referencia; scripts:
+                generate_animation.py, timeline_builder.py; assets: easings, examples,
+                starter_scroll
+REQUISITOS:     Ninguno.
+NOTAS:          Es la base de la mayoria de skills de scroll; incluye visualizador de
+                easings.
+EJEMPLO:        Con gsap-scrolltrigger haz que las tres secciones de mi pagina se fijen y
+                revelen su contenido al hacer scroll.
+
+==========================================================================================
+39. HIGH-OUTPUT-MANAGEMENT
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Manage for output using Grove''s "High Output Management": a manager''s
+                output is their organization''s output, raised by high-leverage
+                activities.
+CUANDO USARLA:  Manage for output using Grove''s "High Output Management": a manager''s
+                output is their organization''s output, raised by high-leverage
+                activities. Use when the user mentions "high output management",
+                "managerial leverage", "one-on-ones", "1:1 agenda", "OKRs", "performance
+                review", "task-relevant maturity", "delegation", "meeting overload", "new
+                manager", "how do I run a 1:1", or "just got promoted to manager". Also
+                trigger when structuring a manager''s calendar and meeting cadence,
+                designing team metrics, running planning, coaching delegation, or
+                preparing performance reviews. Covers leverage, production principles,
+                meetings as the medium of management, decisions, OKRs, and task-relevant
+                maturity. For intrinsic motivation, see drive-motivation. For a company
+                operating system, see traction-eos.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (86 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa high-output-management para ... (nombrala en el prompt).
+
+==========================================================================================
+40. HIGH-PERF-BROWSER
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Optimize web performance through network protocols, resource loading, and
+                browser rendering internals.
+CUANDO USARLA:  Optimize web performance through network protocols, resource loading, and
+                browser rendering internals. Use when the user mentions "my site is slow",
+                "Core Web Vitals", "HTTP/2 or HTTP/3", "resource hints", "network
+                latency", "render blocking", "TCP/TLS optimization", "service worker",
+                "Cache-Control or caching strategy", or "critical rendering path". Also
+                trigger when diagnosing slow page loads, optimizing time to first byte,
+                choosing between WebSocket and SSE, or reducing bundle sizes. For UI
+                visual performance, see refactoring-ui. For font loading, see
+                web-typography.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (95 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa high-perf-browser para ... (nombrala en el prompt).
+
+==========================================================================================
+41. HOOKED-UX
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.5.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design habit-forming product loops using the Hook Model (Trigger, Action,
+                Variable Reward, Investment).
+CUANDO USARLA:  Design habit-forming product loops using the Hook Model (Trigger, Action,
+                Variable Reward, Investment). Use when the user mentions "users arent
+                coming back", "habit formation", "engagement loops", "habit zone", or "the
+                manipulation matrix". Also trigger when designing notification or
+                re-engagement strategies, building streaks or progress systems, or
+                analyzing why users stop after signup. Covers ethics evaluation and
+                onboarding for habits. For friction reduction and B=MAP, see
+                improve-retention. For viral sharing, see contagious.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           8 archivos (72 KB); 7 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa hooked-ux para ... (nombrala en el prompt).
+
+==========================================================================================
+42. HUNDRED-MILLION-OFFERS
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Create irresistible offers using the Value Equation, bonus stacking,
+                risk-reversing guarantees, and ethical scarcity.
+CUANDO USARLA:  Create irresistible offers using the Value Equation, bonus stacking,
+                risk-reversing guarantees, and ethical scarcity. Use when the user
+                mentions "grand slam offer", "make my offer more compelling", "what
+                bonuses should I add", "guarantee strategy", "offer naming", or "people
+                say its too expensive". Also trigger when packaging a product for higher
+                perceived value, justifying premium pricing instead of discounting,
+                designing a money-back guarantee, or structuring tiers to maximize
+                conversions. Covers the MAGIC naming formula and starving-crowd targeting.
+                For product positioning, see obviously-awesome. For outbound sales, see
+                predictable-revenue.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           11 archivos (154 KB); 10 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa hundred-million-offers para ... (nombrala en el prompt).
+
+==========================================================================================
+43. HYPERFRAMES-REGISTRY
+==========================================================================================
+Categoria:      Video / Composiciones
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Search, install, and wire registry blocks and components into HyperFrames
+                compositions.
+CUANDO USARLA:  Search, install, and wire registry blocks and components into HyperFrames
+                compositions. Use BEFORE hand-building any named visual — whenever a
+                brief, a user, or a storyboard names a look, effect, treatment, or
+                transition such as CRT scanlines, glitch, chromatic aberration, film
+                grain, a shimmer sweep, a chart, a code or terminal window, a map, or a
+                confetti burst — because roughly 400 hosted items already cover many of
+                them and the search ranks all of them with nothing installed, no project,
+                and no account. Also use when running hyperframes add or hyperframes
+                catalog, installing one item or every block matching a tag, wiring an
+                installed item into index.html, or working with hyperframes.json. Covers
+                discovery, install locations, block sub-composition wiring, component
+                snippet merging, and authoring a new block or component to contribute
+                upstream (idea → scaffold → validate → PR).
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           12 archivos (79 KB); 9 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa hyperframes-registry para ... (nombrala en el prompt).
+
+==========================================================================================
+44. IMPLEMENT_LENIS_SCROLL
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Instructions for implementing Lenis smooth scrolling in a Next.js or React
+                application.
+CUANDO USARLA:  Instructions for implementing Lenis smooth scrolling in a Next.js or React
+                application.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           1 archivos (2 KB)
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa implement_lenis_scroll para ... (nombrala en el prompt).
+
+==========================================================================================
+45. IMPROVE-APP
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        2.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a shipped app that works but feels rough to a product
+                that fits the job, flows without friction, reads clearly, and persuades
+                honestly.
+CUANDO USARLA:  Guided journey from a shipped app that works but feels rough to a product
+                that fits the job, flows without friction, reads clearly, and persuades
+                honestly. Orchestrates nine skills phase by phase - jobs-to-be-done,
+                ux-heuristics, design-everyday-things, refactoring-ui, microinteractions,
+                made-to-stick, influence-psychology, high-perf-browser,
+                steve-jobs-design-review - asking the user questions at every decision
+                point and recording results in the project docs/ folder (CUSTOMER.md,
+                DESIGN.md, POSITIONING.md, IMPROVE-APP-PLAN.md) so the journey resumes
+                across sessions. Use when the user wants to fix a clunky product, cut UX
+                friction, sharpen in-app copy, or says ''the app works but feels rough''.
+                Not for code, tests, or hardening - use improve-code-quality (fresh
+                prototype) or remove-technical-debt (aged); no app yet, create-app; needs
+                growth loops, grow-app; marketing-site friction, improve-website; one
+                leaking flow, conversion-optimization. For one framework in isolation,
+                invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (28 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa improve-app para ... (nombrala en el prompt).
+
+==========================================================================================
+46. IMPROVE-BUSINESS
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a stalled, plateaued business to one with an honest
+                diagnosis, a working operating rhythm, and offers repriced to real value.
+CUANDO USARLA:  Guided journey from a stalled, plateaued business to one with an honest
+                diagnosis, a working operating rhythm, and offers repriced to real value.
+                Orchestrates eight skills phase by phase - good-strategy-bad-strategy,
+                traction-eos, high-output-management, team-topologies, drive-motivation,
+                lean-analytics, negotiation, monetizing-innovation - asking the user
+                questions at every decision point and recording results in the project
+                docs/ folder (STRATEGY.md, OPERATIONS.md, METRICS.md,
+                IMPROVE-BUSINESS-PLAN.md) so the journey resumes across sessions. Use when
+                the user wants to fix a business that has plateaued, diagnose why growth
+                stalled, tighten strategy and execution, re-motivate a team, or says
+                ''revenue is flat and I do not know why''. Starting from scratch with no
+                customers: use create-business. Once the fundamentals work and the goal is
+                expansion: use grow-business. When the product itself drags the business
+                down: use improve-app. For one framework in isolation, invoke that skill
+                directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (24 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa improve-business para ... (nombrala en el prompt).
+
+==========================================================================================
+47. IMPROVE-CODE-QUALITY
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a working-but-untested vibe-coded prototype to a
+                production-ready product with tests, clean structure, a business-rules
+                boundary, and resilience at scale.
+CUANDO USARLA:  Guided journey from a working-but-untested vibe-coded prototype to a
+                production-ready product with tests, clean structure, a business-rules
+                boundary, and resilience at scale. Orchestrates nine skills phase by phase
+                - working-with-legacy-code, clean-code, refactoring-patterns,
+                software-design-philosophy, clean-architecture, pragmatic-programmer,
+                release-it, system-design, ddia-systems - asking the user questions at
+                every decision point and recording results in the project docs/ folder
+                (TESTING.md, TECH-DEBT.md, IMPROVE-CODE-QUALITY-PLAN.md) so the journey
+                resumes across sessions. Use when the user wants to harden an AI-generated
+                prototype, add tests before refactoring, make code safe to change, or says
+                ''this works on my machine but I am scared to touch it''. For an aged
+                codebase, remove-technical-debt; for greenfield structure,
+                design-code-architecture; for a product and UX pass, improve-app; to
+                optimize speed and structure, architecture-optimization. For one framework
+                in isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (28 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa improve-code-quality para ... (nombrala en el prompt).
+
+==========================================================================================
+48. IMPROVE-RETENTION
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Diagnose and fix retention problems using behavior design (B=MAP).
+CUANDO USARLA:  Diagnose and fix retention problems using behavior design (B=MAP). Use
+                when the user mentions "users sign up but dont stick around", "activation
+                rate", "onboarding friction", "retention metrics", "why users dont
+                complete", "churn analysis", or "aha moment". Also trigger when analyzing
+                cohort retention curves, designing activation milestones, reducing
+                time-to-value for new users, or investigating why users quit after their
+                first session. Covers the Ability Chain, prompt design, and tiny behaviors
+                that compound. For habit loops and variable rewards, see hooked-ux. For
+                intrinsic motivation, see drive-motivation.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           8 archivos (77 KB); 7 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa improve-retention para ... (nombrala en el prompt).
+
+==========================================================================================
+49. IMPROVE-WEBSITE
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a live website that underperforms to a prioritized,
+                evidence-backed backlog of conversion, usability, message, and speed fixes
+                - each shipped as a testable experiment.
+CUANDO USARLA:  Guided journey from a live website that underperforms to a prioritized,
+                evidence-backed backlog of conversion, usability, message, and speed fixes
+                - each shipped as a testable experiment. Orchestrates eight skills phase
+                by phase - cro-methodology, ux-heuristics, refactoring-ui, web-typography,
+                storybrand-messaging, high-perf-browser, made-to-stick,
+                design-everyday-things - asking the user questions at every decision point
+                and recording results in the project docs/ folder (WEBSITE.md, DESIGN.md,
+                IMPROVE-WEBSITE-PLAN.md) so the journey resumes across sessions. Use when
+                the user wants to fix a landing page that isn''t converting, diagnose why
+                visitors leave, audit for clarity and usability, or says ''the homepage
+                feels off but a redesign didn''t help''. No site yet, create-website;
+                converts but needs traffic, grow-website; if the friction is in a product
+                app, not the marketing site, improve-app; if one specific flow leaks,
+                conversion-optimization. For one framework in isolation, invoke that skill
+                directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (23 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa improve-website para ... (nombrala en el prompt).
+
+==========================================================================================
+50. INFLUENCE-PSYCHOLOGY
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Apply the seven principles of ethical persuasion (reciprocity, commitment,
+                social proof, authority, liking, scarcity, unity) to product design, copy,
+                and sales.
+CUANDO USARLA:  Apply the seven principles of ethical persuasion (reciprocity, commitment,
+                social proof, authority, liking, scarcity, unity) to product design, copy,
+                and sales. Use when the user mentions "social proof", "persuasive copy",
+                "why users dont convert", "ethical persuasion", "reciprocity", "scarcity
+                tactics", "commitment and consistency", "shared identity", "in-group",
+                "make my copy more persuasive", "increase trust", or "get more people to
+                say yes". Also trigger when designing testimonial sections, crafting
+                urgency messaging, or improving trust signals on landing pages. Covers the
+                principles, when each applies, and ethical limits. For deal negotiation
+                tactics, see negotiation. For viral word-of-mouth, see contagious.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           11 archivos (155 KB); 10 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa influence-psychology para ... (nombrala en el prompt).
+
+==========================================================================================
+51. INSPIRED-PRODUCT
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Build empowered product teams using discovery and delivery dual-track.
+CUANDO USARLA:  Build empowered product teams using discovery and delivery dual-track. Use
+                when the user mentions "product discovery", "empowered teams", "feature
+                factory", "opportunity assessment", "product vision", "product strategy",
+                "what should we build", or "our roadmap is just a feature list". Also
+                trigger when restructuring teams away from output-driven models, or
+                deciding what to build next based on outcomes. Covers discovery
+                techniques, team structure, opportunity assessment, vision/strategy, and
+                continuous delivery. For customer interviews, see mom-test. For ongoing
+                discovery systems, see continuous-discovery.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (97 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa inspired-product para ... (nombrala en el prompt).
+
+==========================================================================================
+52. IOS-HIG-DESIGN
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.5.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design native iOS interfaces following Apple Human Interface Guidelines.
+CUANDO USARLA:  Design native iOS interfaces following Apple Human Interface Guidelines.
+                Use when the user mentions "iPhone app", "iPad layout", "SwiftUI",
+                "UIKit", "Dynamic Island", "safe areas", "HIG compliance", "SF Symbols",
+                "haptic feedback", "iOS accessibility", "make my app feel native", or
+                "follow Apple design guidelines". Also trigger when building tab bars,
+                navigation stacks, sheets, or modals for iOS, implementing dark mode, or
+                adapting layouts across screen sizes. Covers navigation patterns,
+                accessibility, SF Symbols, and platform conventions. For general UI
+                polish, see refactoring-ui. For affordance design, see
+                design-everyday-things.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           12 archivos (84 KB); 11 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa ios-hig-design para ... (nombrala en el prompt).
+
+==========================================================================================
+53. JOBS-TO-BE-DONE
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.5.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Discover what customers truly need by analyzing the "job" they hire your
+                product to do.
+CUANDO USARLA:  Discover what customers truly need by analyzing the "job" they hire your
+                product to do. Use when the user mentions "customer discovery", "why
+                customers churn", "what job does this solve", "competing against luck",
+                "product-market fit", "switching behavior", "milkshake moment", or
+                "functional vs emotional jobs". Also trigger when investigating why users
+                choose competitors, designing features around real customer needs, or
+                reframing a value proposition. Covers JTBD interviews, competition
+                analysis, and jobs-oriented roadmaps. For product positioning, see
+                obviously-awesome. For rapid validation, see design-sprint. For
+                non-leading interview technique, see mom-test.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (60 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa jobs-to-be-done para ... (nombrala en el prompt).
+
+==========================================================================================
+54. LEAN-ANALYTICS
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Choose and audit startup metrics using Croll and Yoskovitz''s "Lean
+                Analytics".
+CUANDO USARLA:  Choose and audit startup metrics using Croll and Yoskovitz''s "Lean
+                Analytics". Use when the user mentions "what metrics should we track",
+                "KPIs", "north star metric", "One Metric That Matters (OMTM)", "vanity
+                metrics", "analytics dashboard", "DAU/MAU", "churn benchmark", or "measure
+                product-market fit". Also trigger when choosing metrics for a startup or
+                feature, auditing a dashboard for vanity metrics, setting metric targets
+                and baselines, or instrumenting a product by business model and stage.
+                Covers good-vs-vanity metrics, the One Metric That Matters, metrics by
+                business model, the five startup stages, and benchmarks. For the
+                build-measure-learn loop, see lean-startup. For fixing activation and
+                retention, see improve-retention.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (81 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa lean-analytics para ... (nombrala en el prompt).
+
+==========================================================================================
+55. LEAN-STARTUP
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design MVPs, validated learning experiments, and pivot-or-persevere
+                decisions using Build-Measure-Learn.
+CUANDO USARLA:  Design MVPs, validated learning experiments, and pivot-or-persevere
+                decisions using Build-Measure-Learn. Use when the user mentions "MVP
+                scope", "validated learning", "pivot or persevere", "vanity metrics",
+                "test assumptions", "innovation accounting", "build-measure-learn",
+                "minimum viable experiment", "should we pivot", "test a business idea
+                cheaply", or "build the smallest version first". Also trigger when
+                deciding what to include in a first version, measuring startup progress,
+                or evaluating whether to change direction on a product bet. Covers
+                innovation accounting and actionable metrics. For 5-day prototype testing,
+                see design-sprint. For customer motivation analysis, see jobs-to-be-done.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           12 archivos (163 KB); 11 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa lean-startup para ... (nombrala en el prompt).
+
+==========================================================================================
+56. LEAN-UX
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Apply lean thinking to UX: hypothesis-driven design, collaborative
+                sketching, and rapid experiments instead of heavy deliverables.
+CUANDO USARLA:  Apply lean thinking to UX: hypothesis-driven design, collaborative
+                sketching, and rapid experiments instead of heavy deliverables. Use when
+                the user mentions "Lean UX", "design hypothesis", "outcome over output",
+                "design studio method", "assumption mapping", "lightweight research", "too
+                much design documentation", or "get the team designing together". Also
+                trigger when reducing design-documentation overhead, getting
+                cross-functional teams to co-design, or running fast usability
+                experiments. Covers hypothesis statements, MVPs for UX, and
+                cross-functional collaboration. For Build-Measure-Learn, see lean-startup.
+                For usability audits, see ux-heuristics.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (95 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa lean-ux para ... (nombrala en el prompt).
+
+==========================================================================================
+57. LIGHTWEIGHT-3D-EFFECTS
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Efectos 3D ligeros para decoracion y microinteracciones con Zdog
+                (pseudo-3D), Vanta.js (fondos animados) y Vanilla-Tilt.js (tilt parallax).
+CUANDO USARLA:  Cuando quieres profundidad o fondos animados sin cargar un motor 3D
+                completo.
+DONDE USARLA:   Heroes de landing, tarjetas con tilt, ilustraciones pseudo-3D, sitios
+                donde importa el peso.
+STACK:          Zdog, Vanta.js, Vanilla-Tilt.js
+COMBINA CON:    modern-web-design, scroll-reveal-libraries
+DISPARADORES:   Zdog, Vanta, Vanilla-Tilt, fondo animado, tilt
+TRAE:           11 archivos (179 KB); 3 guias de referencia; scripts: generate_zdog.py,
+                setup_vanta.py; assets: examples, starter_lightweight
+REQUISITOS:     Ninguno.
+EJEMPLO:        Pon un fondo Vanta de ondas en mi hero y tarjetas con tilt en la seccion
+                de planes.
+
+==========================================================================================
+58. LOCOMOTIVE-SCROLL
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Scroll suave con Locomotive Scroll: parallax, deteccion de viewport,
+                sticky, scroll horizontal e integracion con GSAP ScrollTrigger.
+CUANDO USARLA:  Cuando buscas scroll suavizado con parallax por data-attributes o un sitio
+                inmersivo de scroll.
+DONDE USARLA:   Portafolios y sitios de agencia en HTML/JS.
+STACK:          Locomotive Scroll, GSAP, JavaScript
+COMBINA CON:    gsap-scrolltrigger, cinematographic-websites
+DISPARADORES:   Locomotive Scroll, smooth scroll, parallax, scroll horizontal
+TRAE:           10 archivos (81 KB); 2 guias de referencia; scripts: generate_config.py,
+                integration_helper.py; assets: starter_locomotive
+REQUISITOS:     Ninguno.
+NOTAS:          Si ya usas Lenis (cinematographic-websites), evita mezclar ambos smooth
+                scrolls.
+EJEMPLO:        Con locomotive-scroll arma una seccion de scroll horizontal con parallax
+                en las imagenes.
+
+==========================================================================================
+59. LOTTIE-ANIMATIONS
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Renderiza animaciones de After Effects en web y React con Lottie:
+                lottie-web, lottie-react, dotLottie, optimizacion y exportacion Bodymovin.
+CUANDO USARLA:  Iconos animados, loaders, microinteracciones o animaciones hechas por un
+                disenador.
+DONDE USARLA:   Cualquier web o app React que reciba animaciones JSON de diseno.
+STACK:          lottie-web, lottie-react, dotLottie, After Effects
+COMBINA CON:    rive-interactive, motion-framer, gsap-scrolltrigger
+DISPARADORES:   Lottie, dotLottie, Bodymovin, JSON de After Effects, icono animado
+TRAE:           7 archivos (64 KB); 3 guias de referencia; scripts:
+                generate_lottie_component.py, optimize_lottie.py; assets: starter_lottie
+REQUISITOS:     Archivos .json/.lottie (de After Effects o LottieFiles).
+EJEMPLO:        Integra un archivo Lottie como loader en mi app React y optimizalo para
+                que pese menos.
+
+==========================================================================================
+60. MADE-TO-STICK
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Craft messages that are understood, remembered, and drive action using the
+                SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional,
+                Stories).
+CUANDO USARLA:  Craft messages that are understood, remembered, and drive action using the
+                SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional,
+                Stories). Use when the user mentions "make it memorable", "no one
+                remembers our pitch", "tagline", "value proposition", "why the message
+                isnt landing", "curse of knowledge", or "concrete language". Also trigger
+                when writing a pitch deck, simplifying a complex product explanation, or
+                making a presentation more compelling. Covers the six SUCCESs traits and
+                the curse of knowledge. For narrative brand frameworks, see
+                storybrand-messaging. For viral sharing, see contagious.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           10 archivos (144 KB); 9 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa made-to-stick para ... (nombrala en el prompt).
+
+==========================================================================================
+61. MICROINTERACTIONS
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design the small details -- triggers, rules, feedback, loops and modes --
+                that separate good products from great ones.
+CUANDO USARLA:  Design the small details -- triggers, rules, feedback, loops and modes --
+                that separate good products from great ones. Use when the user mentions
+                "microinteraction", "button feedback", "loading state", "toggle design",
+                "animation detail", "state transitions", "input feedback", "the interface
+                feels dead", "make the UI feel responsive", or "add polish to
+                interactions". Also trigger when designing form-validation responses,
+                progress indicators, confirmation dialogs, or any element where the user
+                expects immediate feedback. Covers trigger design, state rules, feedback
+                mechanisms, and progressive loops. For overall UI polish, see
+                refactoring-ui. For affordance design, see design-everyday-things.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (105 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa microinteractions para ... (nombrala en el prompt).
+
+==========================================================================================
+62. MODERN-WEB-DESIGN
+==========================================================================================
+Categoria:      UI / Diseno web
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Tendencias, principios y patrones de diseno web moderno (2024-2025):
+                minimalismo audaz, glassmorphism, scrollytelling, cursor UX, accesibilidad
+                y rendimiento. Incluye auditoria de diseno.
+CUANDO USARLA:  Al disenar o rediseñar un sitio, definir un sistema de diseno o auditar
+                accesibilidad y rendimiento.
+DONDE USARLA:   Cualquier proyecto web de interfaz; sirve de brujula para elegir las
+                skills de animacion/3D.
+STACK:          HTML/CSS/JS, design systems, a11y
+COMBINA CON:    animated-component-libraries, gsap-scrolltrigger, motion-framer,
+                threejs-webgl
+DISPARADORES:   diseno web moderno, tendencias, glassmorphism, accesibilidad, design
+                system
+TRAE:           8 archivos (151 KB); 4 guias de referencia; scripts: design_audit.py,
+                pattern_generator.py
+REQUISITOS:     Ninguno.
+NOTAS:          Referencia a las demas skills de animacion y 3D para la implementacion.
+EJEMPLO:        Audita mi landing con modern-web-design: accesibilidad, rendimiento y que
+                tendencias tendria sentido aplicar.
+
+==========================================================================================
+63. MOM-TEST
+==========================================================================================
+Categoria:      Producto y descubrimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Talk to customers without leading them using Mom Test rules: discuss their
+                life not your idea, ask about specifics in the past, and talk less.
+CUANDO USARLA:  Talk to customers without leading them using Mom Test rules: discuss their
+                life not your idea, ask about specifics in the past, and talk less. Use
+                when the user mentions "customer interviews", "validate my idea", "users
+                say they want it but dont buy", "leading questions", "The Mom Test",
+                "customer feedback bias", or "interview script". Also trigger when
+                preparing user-research questions, interpreting ambiguous feedback, or
+                designing customer-discovery that avoids false positives. Covers
+                commitment and advancement, avoiding compliments, and extracting signal
+                from noise. For product-market fit, see jobs-to-be-done. For rapid
+                prototype testing, see design-sprint.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (89 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa mom-test para ... (nombrala en el prompt).
+
+==========================================================================================
+64. MONETIZING-INNOVATION
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design products and pricing around validated willingness to pay, from
+                Ramanujam & Tacke''s "Monetizing Innovation".
+CUANDO USARLA:  Design products and pricing around validated willingness to pay, from
+                Ramanujam & Tacke''s "Monetizing Innovation". Use when the user mentions
+                "pricing", "how much should we charge", "willingness to pay", "pricing
+                page", "packaging", "freemium vs free trial", "are we leaving money on the
+                table", "nobody buys at this price", "price increase", or
+                "good-better-best". Also trigger when designing or auditing pricing and
+                packaging, validating willingness to pay before building, segmenting
+                customers by value, or choosing between subscription, usage-based, and
+                freemium models. Covers price-before-product, willingness-to-pay talks,
+                the four failures (feature shock, minivation, hidden gem, undead),
+                leader/filler/killer packaging, and behavioral pricing. For offers and
+                guarantees, see hundred-million-offers. For what customers value, see
+                jobs-to-be-done.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (83 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa monetizing-innovation para ... (nombrala en el prompt).
+
+==========================================================================================
+65. MOTION-FRAMER
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Libreria Motion (Framer Motion) para React y JS: componentes motion,
+                variants, gestos, layout animations, AnimatePresence, springs y efectos
+                por scroll.
+CUANDO USARLA:  Animar componentes de UI en React: hover/tap/drag, entradas y salidas,
+                transiciones de pagina.
+DONDE USARLA:   Apps y sitios React/Next.
+STACK:          Motion / Framer Motion, React, Vite
+COMBINA CON:    react-spring-physics, animated-component-libraries, react-three-fiber
+DISPARADORES:   Framer Motion, Motion, variants, AnimatePresence, layout animation
+TRAE:           15 archivos (159 KB); 1 guias de referencia; scripts:
+                animation_generator.py, variant_builder.py; assets: examples,
+                starter_motion
+REQUISITOS:     Proyecto React.
+NOTAS:          Incluye un starter Vite+React con StaggerList, HoverCard y DraggableBox.
+EJEMPLO:        Anima con motion-framer una lista que entra con stagger y una tarjeta
+                arrastrable.
+
+==========================================================================================
+66. NEGOTIATION
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.5.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Prepare and execute negotiations using tactical empathy, calibrated
+                questions, and the Ackerman method.
+CUANDO USARLA:  Prepare and execute negotiations using tactical empathy, calibrated
+                questions, and the Ackerman method. Use when the user mentions "salary
+                negotiation", "contract terms", "handling objections", "mirroring and
+                labeling", "difficult conversation", "deal terms", "BATNA", "anchoring",
+                "how do I ask for a raise", "get a better deal", or "they wont budge on
+                price". Also trigger when preparing for a vendor negotiation, resolving a
+                pricing dispute, or navigating a high-stakes conversation where both sides
+                need to feel heard. Covers accusation audits, Black Swan discovery, and
+                the "Thats Right" technique. For persuasion in product and marketing, see
+                influence-psychology.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (35 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa negotiation para ... (nombrala en el prompt).
+
+==========================================================================================
+67. OBVIOUSLY-AWESOME
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Define product positioning by mapping competitive alternatives, unique
+                attributes, and best-fit customers to the right market category.
+CUANDO USARLA:  Define product positioning by mapping competitive alternatives, unique
+                attributes, and best-fit customers to the right market category. Use when
+                the user mentions "positioning", "competitive alternatives", "how to
+                position", "market category", "positioning canvas", "repositioning",
+                "category creation", "what category are we in", or "why prospects dont get
+                what we do". Also trigger when launching a new product, entering a crowded
+                market, or diagnosing why prospects dont grasp the product''s value.
+                Covers the positioning canvas and team workshops. For customer jobs
+                analysis, see jobs-to-be-done. For go-to-market, see crossing-the-chasm.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           9 archivos (133 KB); 8 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa obviously-awesome para ... (nombrala en el prompt).
+
+==========================================================================================
+68. ONE-PAGE-MARKETING
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Build a complete marketing plan covering the full customer journey from
+                stranger to raving fan.
+CUANDO USARLA:  Build a complete marketing plan covering the full customer journey from
+                stranger to raving fan. Use when the user mentions "marketing plan",
+                "marketing strategy", "target market", "USP", "lead nurture", "customer
+                lifetime value", "PVP Index", or "I dont know where to start with
+                marketing". Also trigger when building a marketing plan from scratch,
+                choosing acquisition channels, or designing end-to-end customer-lifecycle
+                campaigns. Covers the PVP Index, channel selection, and advocacy systems.
+                For brand messaging, see storybrand-messaging. For conversion
+                optimization, see cro-methodology.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           11 archivos (169 KB); 10 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa one-page-marketing para ... (nombrala en el prompt).
+
+==========================================================================================
+69. PIXIJS-2D
+==========================================================================================
+Categoria:      2D / Canvas
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Render 2D acelerado (WebGL/WebGPU) con PixiJS: sprites, spritesheets,
+                particulas, filtros y miles de objetos a 60 FPS.
+CUANDO USARLA:  Juegos 2D, sistemas de particulas, canvases interactivos o capas UI sobre
+                escenas 3D.
+DONDE USARLA:   Juegos web 2D, visualizaciones, efectos de fondo de alto rendimiento.
+STACK:          PixiJS, WebGL/WebGPU, JavaScript
+COMBINA CON:    gsap-scrolltrigger, threejs-webgl
+DISPARADORES:   PixiJS, sprites, particulas, canvas 2D, filtros
+TRAE:           11 archivos (253 KB); 3 guias de referencia; scripts: particle_builder.py,
+                sprite_generator.py; assets: examples, starter_pixijs
+REQUISITOS:     Ninguno.
+EJEMPLO:        Crea con pixijs-2d un campo de particulas que reaccione al movimiento del
+                mouse.
+
+==========================================================================================
+70. PLAYCANVAS-ENGINE
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Motor de juegos WebGL/WebGPU ligero con entidad-componente y editor
+                visual: scripts de camara, input y proyectos generados.
+CUANDO USARLA:  Juegos 3D en navegador o apps de rendimiento critico, con flujo
+                editor-first.
+DONDE USARLA:   Juegos web, configuradores y experiencias 3D ligeras.
+STACK:          PlayCanvas, WebGL/WebGPU, JavaScript
+COMBINA CON:    blender-web-pipeline, substance-3d-texturing
+DISPARADORES:   PlayCanvas, motor de juegos, editor 3D, WebGL
+TRAE:           13 archivos (183 KB); 3 guias de referencia; scripts:
+                component_builder.py, project_generator.py; assets: examples,
+                starter_playcanvas
+REQUISITOS:     Cuenta de PlayCanvas solo si usas su editor online.
+NOTAS:          Alternativa a threejs-webgl con funciones de motor de juego.
+EJEMPLO:        Genera con playcanvas-engine un proyecto base con camara orbital y manejo
+                de input.
+
+==========================================================================================
+71. PRAGMATIC-PROGRAMMER
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Apply meta-principles of software craftsmanship: DRY, orthogonality,
+                tracer bullets, and design by contract.
+CUANDO USARLA:  Apply meta-principles of software craftsmanship: DRY, orthogonality,
+                tracer bullets, and design by contract. Use when the user mentions "best
+                practices", "pragmatic approach", "broken windows", "tracer bullet",
+                "software craftsmanship", "avoid technical debt", "code ownership", or
+                "how do I become a better developer". Also trigger when evaluating
+                build-vs-buy decisions, designing estimation approaches, or choosing
+                between reversible and irreversible architectural decisions. Covers
+                estimation, domain languages, and reversibility. For code-level quality,
+                see clean-code. For refactoring techniques, see refactoring-patterns.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (91 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa pragmatic-programmer para ... (nombrala en el prompt).
+
+==========================================================================================
+72. PREDICTABLE-REVENUE
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Build a scalable outbound B2B sales machine with specialized roles (SDR,
+                AE, CSM).
+CUANDO USARLA:  Build a scalable outbound B2B sales machine with specialized roles (SDR,
+                AE, CSM). Use when the user mentions "outbound sales", "Cold Calling 2.0",
+                "cold email sequences", "sales pipeline", "SDR process", "sales
+                development", "build an outbound sales team", or "fill my pipeline". Also
+                trigger when setting up a B2B SaaS sales team from scratch or building a
+                lead-qualification framework to improve close rates. Covers the three lead
+                types (seeds/nets/spears), role specialization, the referral-email method,
+                ANUM qualification, and pipeline math. For offer design, see
+                hundred-million-offers. For persuasion science, see influence-psychology.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           9 archivos (115 KB); 8 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa predictable-revenue para ... (nombrala en el prompt).
+
+==========================================================================================
+73. PROGRAMMATIC-SEO
+==========================================================================================
+Categoria:      SEO
+Version:        2.1.0
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Crea paginas SEO a escala con plantillas y datos: directorios, paginas por
+                ciudad, comparativas, integraciones; con playbooks y guia de plataformas.
+CUANDO USARLA:  Cuando necesitas generar decenas o cientos de paginas similares que
+                apunten a keywords distintas.
+DONDE USARLA:   Directorios, marketplaces, SaaS con paginas de integracion/comparacion,
+                sitios locales.
+STACK:          Plantillas, datos, CMS/frameworks
+COMBINA CON:    seo-audit, seo, ai-seo
+DISPARADORES:   programmatic SEO, paginas a escala, paginas por ciudad, pSEO
+TRAE:           4 archivos (29 KB); 2 guias de referencia
+REQUISITOS:     Un set de datos para alimentar las plantillas.
+NOTAS:          Incluye evals/evals.json.
+EJEMPLO:        Disena con programmatic-seo la plantilla y la fuente de datos para paginas
+                «[servicio] en [ciudad]».
+
+==========================================================================================
+74. REACT-SPRING-PHYSICS
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Animacion basada en fisica con React Spring y Popmotion: springs, gestos,
+                inercia y utilidades de composicion.
+CUANDO USARLA:  Interfaces con sensacion natural, interacciones por gesto y movimiento
+                fisicamente realista.
+DONDE USARLA:   Apps React; tambien escenas R3F con movimiento fisico.
+STACK:          React Spring, Popmotion, React
+COMBINA CON:    motion-framer, react-three-fiber
+DISPARADORES:   React Spring, spring physics, inercia, gestos
+TRAE:           7 archivos (71 KB); 3 guias de referencia; scripts: physics_calculator.py,
+                spring_generator.py
+REQUISITOS:     Proyecto React.
+NOTAS:          Enfoque fisico alternativo a motion-framer.
+EJEMPLO:        Haz con react-spring-physics un panel arrastrable que rebote con inercia
+                al soltarlo.
+
+==========================================================================================
+75. REACT-THREE-FIBER
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Escenas 3D declarativas con React Three Fiber (renderer React de
+                Three.js): componentes, estado y abstracciones reutilizables.
+CUANDO USARLA:  Experiencias 3D dentro de apps React: configuradores, portafolios, juegos,
+                visualizacion de datos.
+DONDE USARLA:   Proyectos React/Next con 3D.
+STACK:          React Three Fiber, Three.js, React, Vite
+COMBINA CON:    threejs-webgl, blender-web-pipeline, react-spring-physics,
+                web3d-integration-patterns
+DISPARADORES:   React Three Fiber, R3F, drei, 3D en React
+TRAE:           14 archivos (105 KB); 1 guias de referencia; scripts:
+                component_generator.py, scene_setup.py; assets: examples, starter_r3f
+REQUISITOS:     Proyecto React.
+NOTAS:          Incluye starter Vite+React con Experience, Box y Sphere.
+EJEMPLO:        Crea con react-three-fiber un configurador de producto con rotacion y
+                cambio de color.
+
+==========================================================================================
+76. REFACTORING-PATTERNS
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Apply named refactoring transformations to improve code structure without
+                changing behavior.
+CUANDO USARLA:  Apply named refactoring transformations to improve code structure without
+                changing behavior. Use when the user mentions "refactor this", "code
+                smells", "extract method", "replace conditional", "technical debt", "move
+                method", "inline variable", "decompose conditional", or "clean up this
+                messy code". Also trigger when cleaning up legacy code, preparing code for
+                new features by restructuring, or identifying which transformation fits a
+                specific code smell. Covers smell-driven refactoring, safe transformation
+                sequences, and testing guards. For code-quality foundations, see
+                clean-code. For managing complexity, see software-design-philosophy.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (92 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa refactoring-patterns para ... (nombrala en el prompt).
+
+==========================================================================================
+77. REFACTORING-UI
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.5.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Audit and fix visual hierarchy, spacing, color, and depth in web UIs.
+CUANDO USARLA:  Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use
+                when the user mentions "my UI looks off" (or amateur/unprofessional), "fix
+                the design", "Tailwind styling", "color palette", "visual hierarchy",
+                "design system", "spacing scale", or "component styling". Also trigger
+                when building consistent design tokens, creating dark mode themes,
+                improving data-visualization clarity, or polishing UI details before
+                launch. Covers grayscale-first workflow, constrained design scales,
+                shadows, and component styling. For typeface selection, see
+                web-typography. For usability audits, see ux-heuristics.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (68 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa refactoring-ui para ... (nombrala en el prompt).
+
+==========================================================================================
+78. RELEASE-IT
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Build production-ready systems with stability patterns: circuit breakers,
+                bulkheads, timeouts, and retry logic.
+CUANDO USARLA:  Build production-ready systems with stability patterns: circuit breakers,
+                bulkheads, timeouts, and retry logic. Use when the user mentions
+                "production outage", "circuit breaker", "deployment pipeline", "chaos
+                engineering", "retry storm", "health checks", "my service keeps crashing",
+                "prevent cascading failures", or "make it resilient". Also trigger when
+                designing resilient microservices, planning zero-downtime deployments, or
+                capacity-planning for peak load. Covers stability patterns, capacity
+                planning, deploy/release decoupling, and observability. For data systems,
+                see ddia-systems. For system architecture, see system-design.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (108 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa release-it para ... (nombrala en el prompt).
+
+==========================================================================================
+79. REMOVE-TECHNICAL-DEBT
+==========================================================================================
+Categoria:      Viajes guiados (orquestadores)
+Version:        1.0.2
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guided journey from a large aged codebase everyone fears to touch to one
+                that is safe to change, legible, bounded, and resilient - paid down in
+                place without a rewrite.
+CUANDO USARLA:  Guided journey from a large aged codebase everyone fears to touch to one
+                that is safe to change, legible, bounded, and resilient - paid down in
+                place without a rewrite. Orchestrates eight skills phase by phase -
+                working-with-legacy-code, refactoring-patterns, clean-code,
+                software-design-philosophy, clean-architecture, pragmatic-programmer,
+                release-it, domain-driven-design - asking the user questions at every
+                decision point and recording results in the project docs/ folder
+                (TESTING.md, TECH-DEBT.md, REMOVE-TECHNICAL-DEBT-PLAN.md) so the journey
+                resumes across sessions. Use when the user wants to tame a legacy
+                codebase, pay down technical debt safely, avoid a big-bang rewrite, or
+                says ''we are afraid to touch this code''. For a fresh vibe-coded
+                prototype, improve-code-quality; for greenfield structure,
+                design-code-architecture; for a product-and-UX pass, improve-app; to
+                optimize a working codebase for speed, architecture-optimization. For one
+                framework in isolation, invoke that skill directly.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           2 archivos (27 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa remove-technical-debt para ... (nombrala en el prompt).
+
+==========================================================================================
+80. RIVE-INTERACTIVE
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Animacion vectorial con maquinas de estado y control en runtime (Rive):
+                inputs, ViewModel data binding, integracion React.
+CUANDO USARLA:  Animaciones interactivas con logica (estados, entradas) que van mas alla
+                de reproducir un JSON.
+DONDE USARLA:   UI con personajes/iconos interactivos, onboarding, widgets animados.
+STACK:          Rive, state machines, React Rive
+COMBINA CON:    lottie-animations, motion-framer
+DISPARADORES:   Rive, state machine, animacion interactiva, ViewModel
+TRAE:           5 archivos (26 KB); 1 guias de referencia; scripts:
+                component_generator.py, viewmodel_builder.py
+REQUISITOS:     Archivos .riv creados en el editor de Rive.
+NOTAS:          Alternativa a Lottie cuando se necesita interactividad bidireccional.
+EJEMPLO:        Integra un archivo .riv con maquina de estados en React y controlalo desde
+                un input.
+
+==========================================================================================
+81. SCORECARD-MARKETING
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.5.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Build quiz and assessment funnels that generate qualified leads at 30-50%
+                conversion.
+CUANDO USARLA:  Build quiz and assessment funnels that generate qualified leads at 30-50%
+                conversion. Use when the user mentions "quiz funnel", "scorecard", "lead
+                magnet", "score-based segmentation", or "lead qualification". Also trigger
+                when designing self-assessment tools, building calculators or graders for
+                marketing, or creating personalized result pages that drive conversions.
+                Covers concept hooks, question design, dynamic results by tier, and
+                automated follow-up sequences. For landing page conversion, see
+                cro-methodology. For full marketing plans, see one-page-marketing.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           5 archivos (51 KB); 4 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa scorecard-marketing para ... (nombrala en el prompt).
+
+==========================================================================================
+82. SCROLL-REVEAL-LIBRARIES
+==========================================================================================
+Categoria:      Animacion / Motion
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Reveals simples al hacer scroll con AOS (Animate On Scroll): fades y
+                slides sin orquestacion compleja.
+CUANDO USARLA:  Paginas de marketing o contenido que solo necesitan efectos basicos de
+                aparicion.
+DONDE USARLA:   Landings y sitios de contenido ligeros.
+STACK:          AOS, HTML/CSS/JS
+COMBINA CON:    lightweight-3d-effects, modern-web-design
+DISPARADORES:   AOS, animate on scroll, reveal al scroll
+TRAE:           6 archivos (94 KB); 2 guias de referencia; scripts: aos_generator.py,
+                config_builder.py
+REQUISITOS:     Ninguno.
+NOTAS:          Alternativa simple a gsap-scrolltrigger y locomotive-scroll.
+EJEMPLO:        Agrega con AOS un fade-up escalonado a las tarjetas de beneficios.
+
+==========================================================================================
+83. SCROLL-WORLD-STORYTELLING
+==========================================================================================
+Categoria:      UI / Diseno web
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Turn an article, case study, brand narrative, product journey, or
+                long-form story into a cinematic scroll-driven landing page using one of
+                three renderers: scrubbed video, a real-time Three.js world, or semantic
+                HTML/SVG data and typography.
+CUANDO USARLA:  Turn an article, case study, brand narrative, product journey, or
+                long-form story into a cinematic scroll-driven landing page using one of
+                three renderers: scrubbed video, a real-time Three.js world, or semantic
+                HTML/SVG data and typography. Use when the user asks for a scroll world,
+                fly-through landing page, article-to-website transformation, animated
+                planet, data scrollytelling, video-scrubbed page, connected visual
+                journey, or story-led alternative to ordinary stacked sections.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           19 archivos (4651 KB)
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa scroll-world-storytelling para ... (nombrala en el prompt).
+
+==========================================================================================
+84. SEO
+==========================================================================================
+Categoria:      SEO
+Version:        2.0
+Fuente:         web-quality-skills (autor segun metadata, licencia MIT)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       SEO tecnico y on-page general: meta tags, datos estructurados, sitemap y
+                visibilidad en buscadores.
+CUANDO USARLA:  Para mejorar o corregir lo basico de SEO de un sitio rapidamente.
+DONDE USARLA:   Cualquier sitio web.
+STACK:          Meta tags, JSON-LD / schema, sitemap
+COMBINA CON:    seo-audit, ai-seo, programmatic-seo
+DISPARADORES:   mejorar SEO, meta tags, datos estructurados, sitemap
+TRAE:           2 archivos (17 KB); 1 guias de referencia
+REQUISITOS:     Ninguno.
+NOTAS:          Incluye guia de datos estructurados.
+EJEMPLO:        Revisa mi sitio con la skill seo y agrega los datos estructurados que
+                falten.
+
+==========================================================================================
+85. SEO-AUDIT
+==========================================================================================
+Categoria:      SEO
+Version:        2.2.2
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Audita y diagnostica problemas de SEO: tecnico, on-page, caida de trafico,
+                indexacion, Core Web Vitals, titulos, CTR y SEO local.
+CUANDO USARLA:  Cuando el sitio no posiciona, perdio trafico o quieres un chequeo de salud
+                SEO completo.
+DONDE USARLA:   Cualquier sitio publicado; incluye guias de SEO internacional y local.
+STACK:          Auditoria tecnica y on-page, Search Console
+COMBINA CON:    seo, ai-seo, programmatic-seo
+DISPARADORES:   auditoria SEO, por que no posiciono, trafico cayo, indexacion, Core Web
+                Vitals
+TRAE:           9 archivos (79 KB); 7 guias de referencia
+REQUISITOS:     Acceso al sitio o a sus datos de Search Console para diagnostico real.
+NOTAS:          Incluye evals/evals.json.
+EJEMPLO:        Haz una auditoria SEO de mi sitio y priorizame los 5 arreglos de mayor
+                impacto.
+
+==========================================================================================
+86. SHADER-GLSL
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        0.1.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       This skill should be used when the user asks to "write a fragment shader",
+                "make a GLSL gradient/noise/plasma background", "create an image
+                transition (dissolve, displacement, glitch)", "add distortion or chromatic
+                aberration", "build an SDF shape shader", "wire up a Three.js
+                ShaderMaterial with uniforms", or "do GPU post-processing".
+CUANDO USARLA:  This skill should be used when the user asks to "write a fragment shader",
+                "make a GLSL gradient/noise/plasma background", "create an image
+                transition (dissolve, displacement, glitch)", "add distortion or chromatic
+                aberration", "build an SDF shape shader", "wire up a Three.js
+                ShaderMaterial with uniforms", or "do GPU post-processing". Covers GLSL
+                fragment shaders, noise/fbm, SDFs, domain warping, transitions, and
+                Three.js integration.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           3 archivos (18 KB); 1 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa shader-glsl para ... (nombrala en el prompt).
+
+==========================================================================================
+87. SKILL-CREATOR
+==========================================================================================
+Categoria:      Meta / Proceso
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Guia para crear y actualizar skills: estructura, buenas practicas y
+                scripts para inicializar, validar y empaquetar.
+CUANDO USARLA:  Cuando quieres crear una skill propia o mejorar una existente.
+DONDE USARLA:   Aqui, en el proveedor: es la herramienta para fabricar nuevas skills.
+STACK:          SKILL.md, Python (init_skill, quick_validate, package_skill)
+COMBINA CON:    spec
+DISPARADORES:   crear una skill, nueva skill, actualizar skill
+TRAE:           5 archivos (39 KB); scripts: init_skill.py, package_skill.py,
+                quick_validate.py
+REQUISITOS:     Python 3.
+NOTAS:          Incluye LICENSE.txt propia. Tras crear una skill, ejecuta
+                ./actualizar-registro.py.
+EJEMPLO:        Usa skill-creator para crear una skill que documente mis convenciones de
+                commits.
+
+==========================================================================================
+88. SOFTWARE-DESIGN-PHILOSOPHY
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Manage software complexity through deep modules, information hiding, and
+                strategic programming.
+CUANDO USARLA:  Manage software complexity through deep modules, information hiding, and
+                strategic programming. Use when the user mentions "module design", "API
+                too complex", "shallow class", "complexity budget", "strategic vs
+                tactical", "deep module", "information leakage", "pass-through method",
+                "this code is over-engineered", or "simplify this design". Also trigger
+                when reviewing an interface for simplicity, evaluating whether an
+                abstraction is pulling its weight, deciding whether a comment is worth
+                writing, or choosing between general-purpose and special-purpose
+                approaches. Covers deep vs shallow modules, red flags for complexity, and
+                comments as design documentation. For code quality, see clean-code. For
+                architecture boundaries, see clean-architecture.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (96 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa software-design-philosophy para ... (nombrala en el prompt).
+
+==========================================================================================
+89. SPEC
+==========================================================================================
+Categoria:      Meta / Proceso
+Version:        n/d
+Fuente:         github: czabala847/spec-loop (skills/spec/SKILL.md)
+Idioma:         ES
+Instalada:      2026-10-25
+Invocacion:     manual con /spec
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Disena specs con el metodo spec-driven: triaje del pedido (rechaza lo
+                vago, separa problema de solucion, divide lo grande), preguntas de
+                aclaracion y construccion de la spec por secciones. No escribe codigo.
+CUANDO USARLA:  Al arrancar una feature grande, antes de escribir codigo.
+DONDE USARLA:   Cualquier repositorio; deja las specs en la carpeta specs/ del proyecto.
+STACK:          Markdown, template.md, scripts/specs-index.mjs (Node)
+COMBINA CON:    skill-creator
+DISPARADORES:   /spec <descripcion de la feature>
+TRAE:           4 archivos (63 KB); scripts: specs-index.mjs
+REQUISITOS:     Node.js para el indexador de specs.
+NOTAS:          Solo se ejecuta con /spec (disable-model-invocation). Responde en el
+                idioma del prompt. Es la unica skill con entrada en skills-lock.json.
+EJEMPLO:        /spec Permitir que los usuarios exporten su historial a PDF
+
+==========================================================================================
+90. SPLINE-INTERACTIVE
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Integra escenas de Spline (herramienta 3D visual) en la web: exportacion,
+                interacciones por estado, React Spline.
+CUANDO USARLA:  Cuando un disenador crea la escena 3D en un editor visual y tu la llevas
+                al sitio sin escribir 3D a mano.
+DONDE USARLA:   Heroes 3D, prototipos de UI 3D, sitios React con escenas diseñadas
+                visualmente.
+STACK:          Spline, React Spline
+COMBINA CON:    threejs-webgl, react-three-fiber
+DISPARADORES:   Spline, 3D sin codigo, escena Spline, React Spline
+TRAE:           5 archivos (54 KB); 1 guias de referencia; scripts: component_builder.py,
+                project_generator.py
+REQUISITOS:     Cuenta de Spline y una escena exportada (URL o archivo).
+EJEMPLO:        Embebe una escena de Spline en el hero de mi app React y hazla reaccionar
+                al hover.
+
+==========================================================================================
+91. STEVE-JOBS-DESIGN-REVIEW
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Review designs, products, and features with Steve Jobs'' standards:
+                ruthless simplicity, focus, and end-to-end excellence.
+CUANDO USARLA:  Review designs, products, and features with Steve Jobs'' standards:
+                ruthless simplicity, focus, and end-to-end excellence. Use when the user
+                mentions "Steve Jobs review", "design review", "product review", "what
+                would Steve do", "insanely great", "this feels too complicated", "too many
+                features", "product taste", "saying no", or "is this good enough to ship".
+                Also trigger when critiquing a UI, feature, or roadmap for focus and
+                simplicity, cutting scope to the essential, or pressure-testing the whole
+                experience from first run to daily use. Covers the simplicity audit, the
+                no list, design-is-how-it-works, end-to-end ownership, demo culture, and a
+                Jobs-style review protocol with binary verdicts. For visual design
+                fundamentals, see refactoring-ui. For usability audits, see ux-heuristics.
+                For detail polish, see microinteractions.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (77 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa steve-jobs-design-review para ... (nombrala en el prompt).
+
+==========================================================================================
+92. STORYBRAND-MESSAGING
+==========================================================================================
+Categoria:      Marketing y crecimiento
+Version:        1.5.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Clarify brand messaging using narrative structure that positions the
+                customer as hero.
+CUANDO USARLA:  Clarify brand messaging using narrative structure that positions the
+                customer as hero. Use when the user mentions "brand message", "website
+                copy", "elevator pitch", "one-liner", "brand script", "StoryBrand
+                framework", "customer as hero", or "my messaging isnt resonating". Also
+                trigger when rewriting homepage copy, crafting email nurture sequences, or
+                creating consistent messaging across sales and marketing collateral.
+                Covers landing page copy, marketing collateral, and consistent
+                communication. For memorable messaging, see made-to-stick. For product
+                positioning, see obviously-awesome.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (78 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa storybrand-messaging para ... (nombrala en el prompt).
+
+==========================================================================================
+93. SUBSTANCE-3D-TEXTURING
+==========================================================================================
+Categoria:      Pipeline de assets 3D
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Flujo de texturizado con Adobe Substance 3D Painter: materiales PBR,
+                presets de exportacion para Three.js/Babylon/glTF/mobile, empaquetado ORM
+                y automatizacion con la API Python.
+CUANDO USARLA:  Cuando necesitas texturas PBR optimizadas para tiempo real.
+DONDE USARLA:   Pipelines 3D que terminan en Three.js, R3F, Babylon.js, Unity o Unreal.
+STACK:          Substance 3D Painter, Python API, PBR, glTF
+COMBINA CON:    blender-web-pipeline, threejs-webgl, react-three-fiber, babylonjs-engine
+DISPARADORES:   Substance Painter, PBR, texturas, ORM, export preset
+TRAE:           13 archivos (126 KB); 3 guias de referencia; scripts: batch_export.py,
+                generate_export_preset.py, web_optimizer.py; assets: export_templates
+REQUISITOS:     Adobe Substance 3D Painter (software comercial).
+NOTAS:          Incluye 5 plantillas de exportacion JSON.
+EJEMPLO:        Genera un preset de exportacion de Substance para texturas ORM listas para
+                Three.js.
+
+==========================================================================================
+94. SYSTEM-DESIGN
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Design scalable distributed systems using structured approaches for load
+                balancing, caching, database scaling, and message queues.
+CUANDO USARLA:  Design scalable distributed systems using structured approaches for load
+                balancing, caching, database scaling, and message queues. Use when the
+                user mentions "system design", "scale this", "high availability", "rate
+                limiter", "design a URL shortener", "design Twitter", "design Uber",
+                "design a news feed", "system design interview", "capacity planning", or
+                "distributed architecture". Also trigger when estimating infrastructure
+                requirements, choosing between microservices and monoliths, or designing
+                for millions of concurrent users. Covers common system designs (TinyURL,
+                feeds, chat) and back-of-the-envelope estimation. For data fundamentals,
+                see ddia-systems. For resilience, see release-it.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           7 archivos (82 KB); 6 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa system-design para ... (nombrala en el prompt).
+
+==========================================================================================
+95. TEAM-TOPOLOGIES
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Organize business and technology teams for fast flow using Skelton &
+                Pais''s "Team Topologies".
+CUANDO USARLA:  Organize business and technology teams for fast flow using Skelton &
+                Pais''s "Team Topologies". Use when the user mentions "team topologies",
+                "Conway''s law", "platform team", "stream-aligned team", "team
+                boundaries", "cognitive load", "how should we split teams", "who owns this
+                service", "team dependencies", or "reorg". Also trigger when reorganizing
+                engineering teams, aligning team and service boundaries, splitting a
+                monolith and deciding ownership, reducing cross-team handoffs, or
+                designing an internal platform. Covers the four team types, three
+                interaction modes, the inverse Conway maneuver, and fracture planes. For
+                bounded contexts, see domain-driven-design. For dependency direction in
+                code, see clean-architecture.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (79 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa team-topologies para ... (nombrala en el prompt).
+
+==========================================================================================
+96. TECHNICAL-DOCUMENTATION
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.0.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Audit, write, and improve developer documentation using Google''s
+                Developer Documentation Style Guide and Technical Writing courses.
+CUANDO USARLA:  Audit, write, and improve developer documentation using Google''s
+                Developer Documentation Style Guide and Technical Writing courses. Use
+                this skill for any documentation work, even when the user names no style
+                guide: "audit our docs", "review this README", "write a README", "getting
+                started guide", "how-to or tutorial", "API reference", "docstrings", "CLI
+                help text", "changelog or release notes", "migration guide", or "our docs
+                are confusing". Also use it when writing docs from code, rewriting a doc
+                for clarity, fixing headings, procedures, or code samples, or enforcing
+                consistent voice and terminology across a docs set — prefer it over
+                editing documentation unaided. Covers reader and doc-type fit, second
+                person and active voice, procedures, headings, lists and tables, code
+                samples and placeholders, link text, notices, the word list, timeless
+                docs, and accessibility. For code comments and naming, see clean-code. For
+                marketing or landing-page copy, see storybrand-messaging.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           8 archivos (133 KB); 7 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa technical-documentation para ... (nombrala en el prompt).
+
+==========================================================================================
+97. THREEJS-ANIMATION
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Keyframe, skeletal and morph-target animation, procedural motion and clip
+                blending, on WebGL or with WebGPU and TSL.
+CUANDO USARLA:  Keyframe, skeletal and morph-target animation, procedural motion and clip
+                blending, on WebGL or with WebGPU and TSL. Use when animating objects,
+                playing glTF animations, posing bones, driving morph targets, or mixing
+                and crossfading clips.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           1 archivos (21 KB)
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa threejs-animation para ... (nombrala en el prompt).
+
+==========================================================================================
+98. THREEJS-WEBGL
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Desarrollo 3D con Three.js: escenas, camaras, mallas, materiales, luces,
+                animacion, texturas y render WebGL/WebGPU.
+CUANDO USARLA:  Escenas 3D interactivas, configuradores de producto, visualizaciones o
+                experiencias inmersivas en JS puro.
+DONDE USARLA:   Cualquier sitio o app web con 3D.
+STACK:          Three.js, WebGL/WebGPU, JavaScript
+COMBINA CON:    react-three-fiber, gsap-scrolltrigger, blender-web-pipeline,
+                web3d-integration-patterns
+DISPARADORES:   Three.js, escena 3D, WebGL, materiales, luces
+TRAE:           8 archivos (62 KB); 3 guias de referencia; scripts: setup_scene.py;
+                assets: starter_scene
+REQUISITOS:     Ninguno (hay starter incluido).
+NOTAS:          Es la base del resto de skills 3D.
+EJEMPLO:        Con threejs-webgl crea una escena con un cubo texturizado, luces y
+                OrbitControls.
+
+==========================================================================================
+99. TOP-DESIGN
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.6.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Create award-winning, immersive web experiences at the level of
+                Awwwards-featured agencies.
+CUANDO USARLA:  Create award-winning, immersive web experiences at the level of
+                Awwwards-featured agencies. Use when the user mentions "Awwwards quality",
+                "make my site stunning", "scroll animations", "parallax storytelling",
+                "cinematic web design", "portfolio site", or "brand experience". Also
+                trigger when elevating a standard landing page into a memorable digital
+                experience. Covers dramatic typography, purposeful motion, scroll-based
+                composition, and performance-optimized animation. For foundational UI, see
+                refactoring-ui. For type selection, see web-typography.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (77 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa top-design para ... (nombrala en el prompt).
+
+==========================================================================================
+100. TRACTION-EOS
+==========================================================================================
+Categoria:      Estrategia y negocio
+Version:        1.4.1
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Implement the Entrepreneurial Operating System (EOS) to align vision and
+                execution across a company.
+CUANDO USARLA:  Implement the Entrepreneurial Operating System (EOS) to align vision and
+                execution across a company. Use when the user mentions "EOS",
+                "Entrepreneurial Operating System", "V/TO", "quarterly rocks", "Level 10
+                meetings", "accountability chart", "IDS process", "my company feels
+                chaotic", "we keep having the same problems", or "get the whole team
+                aligned". Also trigger when a growing company needs meeting structure,
+                goal-setting frameworks, or a systematic way to solve recurring
+                organizational issues. Covers the six EOS components: Vision, People,
+                Data, Issues, Process, Traction. For team motivation design, see
+                drive-motivation. For lean experimentation, see lean-startup.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           10 archivos (140 KB); 9 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa traction-eos para ... (nombrala en el prompt).
+
+==========================================================================================
+101. UX-HEURISTICS
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.6.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Evaluate and improve interface usability using heuristic analysis.
+CUANDO USARLA:  Evaluate and improve interface usability using heuristic analysis. Use
+                when the user mentions "usability audit", "users are confused", "form
+                usability", "navigation problems", "Nielsen heuristics", "cognitive
+                walkthrough", or "is this easy to use". Also trigger when reviewing a
+                design for usability issues, improving form-completion rates, or
+                evaluating information architecture and navigation. Covers Krug''s laws,
+                Nielsen''s 10 heuristics, severity ratings, dark-pattern recognition, and
+                accessibility. For visual design fixes, see refactoring-ui. For
+                conversion-focused audits, see cro-methodology.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           8 archivos (81 KB); 7 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa ux-heuristics para ... (nombrala en el prompt).
+
+==========================================================================================
+102. WEB-TYPOGRAPHY
+==========================================================================================
+Categoria:      Diseno UX / UI
+Version:        1.5.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Select, pair, and implement typefaces for web projects.
+CUANDO USARLA:  Select, pair, and implement typefaces for web projects. Use when the user
+                mentions "font pairing", "which typeface", "line height", "responsive
+                typography", "web font loading", "type hierarchy", "variable fonts",
+                "FOUT/FOIT", "typographic scale", or "the text is hard to read". Also
+                trigger when choosing between system fonts and web fonts, optimizing
+                font-loading performance, or designing readable long-form content. Covers
+                readability evaluation, CSS implementation, and performance optimization.
+                For overall UI design systems, see refactoring-ui. For dramatic
+                typographic experiences, see top-design.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (62 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa web-typography para ... (nombrala en el prompt).
+
+==========================================================================================
+103. WEB3D-INTEGRATION-PATTERNS
+==========================================================================================
+Categoria:      3D / WebGL / XR
+Version:        n/d
+Fuente:         no registrada
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Meta-skill para combinar Three.js, GSAP ScrollTrigger, React Three Fiber,
+                Motion y React Spring: arquitectura, estado, rendimiento, errores comunes
+                y matriz de decision.
+CUANDO USARLA:  Cuando un proyecto integra varias librerias 3D y de animacion y debes
+                decidir como se coordinan.
+DONDE USARLA:   Experiencias 3D con scroll, 3D con fisica, apps 3D complejas.
+STACK:          Three.js, R3F, GSAP, Motion, React Spring
+COMBINA CON:    threejs-webgl, react-three-fiber, gsap-scrolltrigger, motion-framer,
+                react-spring-physics
+DISPARADORES:   integrar librerias 3D, scroll con 3D, arquitectura 3D multi-libreria
+TRAE:           1 archivos (21 KB)
+REQUISITOS:     Ninguno.
+NOTAS:          Es un solo archivo, sin scripts.
+EJEMPLO:        Plantea con web3d-integration-patterns la arquitectura de una landing R3F
+                cuya camara se mueve con el scroll.
+
+==========================================================================================
+104. WORKING-WITH-LEGACY-CODE
+==========================================================================================
+Categoria:      Ingenieria de software
+Version:        1.2.0
+Fuente:         copiada de ~/.agents/skills (origen original no registrado)
+Idioma:         EN
+Instalada:      2026-10-25
+Invocacion:     automatica (por contexto) o nombrandola en el prompt
+Estado aqui:    copia real en .claude/skills de este proyecto
+Usada en:       ningun otro proyecto registrado
+
+QUE HACE:       Safely change and test untested codebases using Feathers'' "Working
+                Effectively with Legacy Code".
+CUANDO USARLA:  Safely change and test untested codebases using Feathers'' "Working
+                Effectively with Legacy Code". Use when the user mentions "legacy code",
+                "no tests", "untested codebase", "how do I test this", "seams",
+                "characterization tests", "golden master", "sprout method", "afraid to
+                change this code", "monster method", "dependency breaking", or "inherited
+                a messy codebase". Also trigger when changing code without tests safely,
+                getting a class under test when constructors, statics, or singletons block
+                it, adding features to tangled modules, or planning incremental test
+                coverage for an old codebase. Covers the legacy-code change algorithm,
+                seams, characterization tests, sprout/wrap, and dependency-breaking
+                techniques. For refactoring code that already has tests, see
+                refactoring-patterns. For day-to-day code quality, see clean-code.
+DONDE USARLA:   (pendiente: completar la ficha en skills-meta.json)
+STACK:          n/d
+COMBINA CON:    n/d
+DISPARADORES:   ver la descripcion en SKILL.md
+TRAE:           6 archivos (81 KB); 5 guias de referencia
+REQUISITOS:     n/d
+NOTAS:          Traida al proveedor el 2026-10-25 como copia real desde ~/.agents/skills.
+EJEMPLO:        Usa working-with-legacy-code para ... (nombrala en el prompt).
+
+==========================================================================================
+FIN DEL REGISTRO
+==========================================================================================

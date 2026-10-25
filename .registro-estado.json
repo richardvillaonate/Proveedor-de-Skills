@@ -1,0 +1,1046 @@
+{
+  "skills": {
+    "aframe-webxr": {
+      "hash": "0e41bf40abb2c5c05f50cb457c4463eba6376cc1e6781ee7145ad193b14a7430",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "ai-seo": {
+      "hash": "622d340388c1f1f5e5f2e945c6dd1416dc55a9cedd5c1914363f8041c2ec276d",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "animated-component-libraries": {
+      "hash": "68bc09f9bd44608cfe67959ae67363b4ce323805b015d4ae3c379f9c90c32e13",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "animejs": {
+      "hash": "ba1cebd5e8a68e7fb9bd03a15548095967a52672882c0a4e6b11debe049c7488",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "babylonjs-engine": {
+      "hash": "b01ef56c6edfb0cacf4c0edd6f2240ee04191f5f539919479721ac8c25ae5cd4",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "barba-js": {
+      "hash": "88e978a559ad3c7aff48473c782f389baba7b0998eef6e24f9411cde4b1557e6",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "blender-web-pipeline": {
+      "hash": "2b124f1ca4271233cab9145719ed003b6c72aea1ab90795700749653deacfb10",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "cinematographic-websites": {
+      "hash": "315842f6a8807f7440c0d8de5e32e94e23e9c591b6d29e36f02039c3975f4d23",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "gsap-scrolltrigger": {
+      "hash": "78dc56664dcf67b60a6dad6e88637afe0926b72d4fc9565d41b4d5011e12b5c1",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "lightweight-3d-effects": {
+      "hash": "e14ce99b81b684b4d2111fa89adec981496138e72c14d9af9755a1603d49a83d",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "locomotive-scroll": {
+      "hash": "1cdd4344176618f4448ca819cef26baa7cae5871ab0869eafc5decb3fb3bcc87",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "lottie-animations": {
+      "hash": "284507c6de395f19088d9357d5a018383b640cb85000bffa4922de8cb477b7d2",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "modern-web-design": {
+      "hash": "b54cfcf13452ae8affbad23eabf70692bbbd0a3041c6339a4296d3f42fcf8f1f",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "motion-framer": {
+      "hash": "108f587ccb6a7820d5ce9d5d71f3baeba9a3a2dea68575fdd4a5af2f616aaa29",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "pixijs-2d": {
+      "hash": "c289daee51725e901bb40427f0f8b204226410102f129252c6dd6c0152bd8fd5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "playcanvas-engine": {
+      "hash": "9c5c0ffe48b9ff3b45d1ea8529b8516e67be7ee003314cb0458cec2f5d2abb42",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "programmatic-seo": {
+      "hash": "7e2e590f6b8cca7ca9dc3b13888aa837e07cefc7aa7d39263af71235bc9aaf79",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "react-spring-physics": {
+      "hash": "46d2238ff538885fe477f7cd095107477b295711a61fc33add131c256c3958ce",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "react-three-fiber": {
+      "hash": "23f9d0fa6602e0fe1a0ec40a97e55e2a393645c73709e716a91b402e0cafc1c5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "rive-interactive": {
+      "hash": "f2af37b074f0848ac458ec7dbc13b508cbec955923ec1b8c0cdf85ca0164a160",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "scroll-reveal-libraries": {
+      "hash": "7a4b2f5fe4243aab112e4e3da435701a69d2a24803150974e9b270ea41d92fe9",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "seo": {
+      "hash": "a9f5f5a03f30917ebdaaccff436b7d0e0df68f0c19b273302863b9c5cdb9f20d",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "seo-audit": {
+      "hash": "fe96e2214b52e85405d22f1c634382ebd9393370fd3ce69c0b5b6ca9bbf33437",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "skill-creator": {
+      "hash": "c43f282d208b135a9b2414652ca8918fe1296b07361e566087dce485a1a9da65",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "spec": {
+      "hash": "c61ba3eee1168b5e0b67bb67244ad13801d767fc83e73db2cbb9a8066ce2eed5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "spline-interactive": {
+      "hash": "0e32fff408c99f1cdaa16fd6a9fcb192471044a01bb062e33b727c87128d8b15",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "substance-3d-texturing": {
+      "hash": "1a2eb017c0b6d444c194ecc59bc4589ce9a7d47a3431d11558b8e6138561391d",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "threejs-webgl": {
+      "hash": "9b151501d72eccb507e01a917b1319f79731b75703685dea68270cb7c989f4b7",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "web3d-integration-patterns": {
+      "hash": "e411bbc6e7f7f928b6fd2f209530446cf74dfa1ff9cfd6adb17ba37317d89e9a",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "37signals-way": {
+      "hash": "93b803d471a5fda695ed9d7c598b0be34d2260b2cc87a0f75d62c3deded4a9d3",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "architecture-optimization": {
+      "hash": "3515123e812a4c69da7d1f0e1d16d88b74082be9d57755da30ad6f5d8a52b34c",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "blue-ocean-strategy": {
+      "hash": "940671e3ff7bf4f27653a8700f2064d793bb195e268fc26bb486fe2221a064eb",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "cinematic-gsap-lenis-motion-system": {
+      "hash": "03cf0321613f602a11abc89f55f78c142efe3da73e0dad7dbfc4a31324301ef5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "cinematic-scroll-storytelling": {
+      "hash": "4950df3852b9d17283783c898f600e4627f574d5af3d397955f0ec988430833b",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "clean-architecture": {
+      "hash": "db875720fa0d5102f2b45f965e2b1020df2261cbbd20c678b6047cb39dd7ba5d",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "clean-code": {
+      "hash": "6ed01447599733a2b3a81d404c77cbd3790e5c2918b7205e3c0316a413f7b225",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "cold-start-problem": {
+      "hash": "1252645d33a1d4a37a1537b299171623a6de28777c3895f03872f9b35b83e0a2",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "contagious": {
+      "hash": "8daf3a4283d24c3e53bdb3497d3865a2bf1279b53af99c3487a1d0371118ddef",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "continuous-discovery": {
+      "hash": "98227d07ec25be86448c65158a34d9dfa56516f9d3fe7f7b169750452d288be5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "conversion-optimization": {
+      "hash": "8f9fc462df64bb1d1ad3a56e12bf9c4535a71618e21026199e84851242c07826",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "create-app": {
+      "hash": "cf150a0f9190189c5b92dd68e77ecff867a9a5046491e0ce3aa9151885d66c15",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "create-business": {
+      "hash": "7f94044752ff1d4527b2bd1073cc8598ef3bac8bff3656de711265d85c88a58c",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "create-website": {
+      "hash": "4173d9ff861ccd1951a17819dcbb36210a6e4bbbcdb00100fc4945ce78bedaf1",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "cro-methodology": {
+      "hash": "efe6368d05b49f5d8cfba4b8b6f57bddee6435c0975ccffe6f44464f359b261e",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "crossing-the-chasm": {
+      "hash": "23f34576d7b76d4b41671f2ea09283e2db71b4694348c7c48f4000a9870a4930",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "ddia-systems": {
+      "hash": "8abd8908c2e9b0df7c1215a48d84e7a99fe16fa0108a4de7adfb57b5eb0cb8e2",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "deepseek-saver": {
+      "hash": "0ade2802469f73c644f8a3a27c215adcc357744706f9fbcf97a4c41b027f894a",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "design-code-architecture": {
+      "hash": "eb40347da132d12d636a6ae626f903dadf08ed875cd77ce449e05b1d2139e010",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "design-everyday-things": {
+      "hash": "529338e5ded97d9aebadf7752ed7eaa89c0b8252bd2cbc0f3e5c7fe39805430d",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "design-sprint": {
+      "hash": "49e69009a0048fe5a821f2fc7fcf9e56fd083bcbb2df745b6a6a865665908fa2",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "domain-driven-design": {
+      "hash": "f20fd06fd59a9fa1204cb360a10d6ed9365944919ed218d02b141bf2094a4fab",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "drive-motivation": {
+      "hash": "496874e46142c6af07ee77395cbf2c38b5d90bba2b6b0dae568ce0418f5ed60a",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "find-skills": {
+      "hash": "913b9d37d0d54047dd65222bb8c67b2bf04e3cb87dcad1729068d7a8b2c8c396",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "good-strategy-bad-strategy": {
+      "hash": "c3c8626999d0af6334889998f4ef8face971850248f5fe6764cbb228dce56e7c",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "grow-app": {
+      "hash": "ae90765b0ef775e413fed740321431c8443703bcaf4258ae2f2d15418d50b0e3",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "grow-business": {
+      "hash": "a9872944e0ed0e3a5b17a4bd5b02f4f53881bccab943f941d5c1f16f11dd0ec5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "grow-website": {
+      "hash": "d9d9a20e4836642dc83b8603c086a76ecda40eddbd574ac365476e0ddf3dfa24",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "gsap-core": {
+      "hash": "c4a01101d9e1aafbf4b49f75d74f9349790d8741981ba0237c990093863035a6",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "high-output-management": {
+      "hash": "fbeed532fbf2121e9a51cc5fd515924b10fefa99aa6f40e5972b3f9aab6a91b5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "high-perf-browser": {
+      "hash": "ed991ead6781e213c489cbf4f0a85ea78e440f16ff8ceaef8af9a01ceb1dc19c",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "hooked-ux": {
+      "hash": "a9cc6c43fc5551e952a14da91c46a031d12d1fe1f04b8f7c30211ebd81da5c77",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "hundred-million-offers": {
+      "hash": "016065e8d5803d404856b543b38c7885cefe12c50fbb509c50bf4c90a038cf64",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "hyperframes-registry": {
+      "hash": "3c13e3f7e1d7e87548a82ce6698a5838587a95b4a5f06ad2959d448e0a7c61e6",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "implement_lenis_scroll": {
+      "hash": "595d911a46b2953b97ad2d77bf3bd59b335a5a728355a8ef1091f3615c08c0db",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "improve-app": {
+      "hash": "145dc2825fe58368de405a12630e113c207dc1b0903ba59f5f0a171f953b2476",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "improve-business": {
+      "hash": "323002597418c12244d7a7e3c26c3b4489ce137a2aae64cd6a7d2a295c24a9b7",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "improve-code-quality": {
+      "hash": "729d24d035ef73e8365ed8772d132f19637365df543bfa6315e924314b21de95",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "improve-retention": {
+      "hash": "ec9035b6827738a8e35d69fcb63122796a2e653627882ede867fd1ab87c67da1",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "improve-website": {
+      "hash": "215f0472e8ac081f2e20e5a95f552d527395d8e900ed1c26953c7403e72fa49a",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "influence-psychology": {
+      "hash": "6a7a2eb20f8b1508cdabbd4df1e59a246cd37055a732213b486e84765bc7f6e4",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "inspired-product": {
+      "hash": "aafb3228a665db33754a4119b97dc94825cc6154391a70b3d75222c8da01161a",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "ios-hig-design": {
+      "hash": "fe3c3bfabfcc925306082de4cbb8b33777094e7cb37998d08c29c03060455965",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "jobs-to-be-done": {
+      "hash": "f76cea9cae4a10a313ef1309b45137c9cef77e9672f638aa9ef2c40124e58f13",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "lean-analytics": {
+      "hash": "b359fb3cee0eda032b967f1266ea450995b4f64d9f563af5889d82f5685c5382",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "lean-startup": {
+      "hash": "72c72c4d2667c3bcf413bb3585d2cbde19db091b200ecf82752438c3d76ca83e",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "lean-ux": {
+      "hash": "02771cbb34cef5f7bb4167625208ec82d1089dadaecf0f6dae74a29af25224aa",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "made-to-stick": {
+      "hash": "0d8d04a813d6015395e637aaa15ebd5d6ebca3be5d3193cd3b1c0cebc909b4fa",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "microinteractions": {
+      "hash": "dcac5ec80cffe37795eb10c48730ecf59a7181afc6b00d4b23e3fced7f0c1553",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "mom-test": {
+      "hash": "d693b289e15ed76d40511902cf5580495b980362aa233b0ca36a04a5f5fb4298",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "monetizing-innovation": {
+      "hash": "917001733234ccb9ab85d57b7ef99fa189d688e76615ab383197345c33ce46c5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "negotiation": {
+      "hash": "5c01e3773713579fdf672915fdca193e8d81480245254da6e71635fecffcd131",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "obviously-awesome": {
+      "hash": "b592fd005942dd81014015ef9bb7384aee5024cd0d2ed2fa6a15883fe6893f43",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "one-page-marketing": {
+      "hash": "96cce069ed9f4c088e6705e37b55df4f0515ec08f5404e8f24d400591c43eb28",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "pragmatic-programmer": {
+      "hash": "429db5b2a243091900d8b7217ca16d3ecb1184a1b85c1955455a16205593f5c9",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "predictable-revenue": {
+      "hash": "8a4731bb7271ca2c3293b91e8401e251422e271de4b95e7b6d270d2d658d393a",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "refactoring-patterns": {
+      "hash": "bc213f51c4693882cbbaba918bc10b0732b0ffbe47179445328030fe6393ff4d",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "refactoring-ui": {
+      "hash": "0cdf923ca09b8e6cb01604c7e2e68d966ad6ea6bb0e23e562f36763c09784bd0",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "release-it": {
+      "hash": "8cb0275850e6b1168f39e7175a22c9c78f5dea6931f993265ea4ad9190991b17",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "remove-technical-debt": {
+      "hash": "b153d2d2c6dcad3f087255612eb1815cd80f09611d7da8b5e2837c5c7746fea3",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "scorecard-marketing": {
+      "hash": "0aa488d2178307f346558290a861bb076350edaa2cf1e695d9df5ab294711487",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "scroll-world-storytelling": {
+      "hash": "58c8c1d52a904bdeebe5931fb18b11e29efb073820299230ce0cdeb3e82bdf52",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "shader-glsl": {
+      "hash": "83c04e0c7f7c8928401d737eabccf3547b6dd2f45cae007a5f3924ace07740c3",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "software-design-philosophy": {
+      "hash": "fa5685b7f46d7889730e68dfeb3bba26ecfab59c98ce1531952f45ea060643ba",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "steve-jobs-design-review": {
+      "hash": "9d7ae24bc6d97e15ced4a68f1d5b500c14b62664faa4d7612616eacc787c45b5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "storybrand-messaging": {
+      "hash": "e80eb574efc594afe669acc8e5d87a7a0a31a1ed6498b62b81eb443071f4ae38",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "system-design": {
+      "hash": "474cd6743bf85ea08765eba01b1ccc0ac9599bce680f11889d845cd52e74e00e",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "team-topologies": {
+      "hash": "27d1babf7a594d2c33dddcef6fe4f45288d7a19133b24ed2d5287662302c3dbf",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "technical-documentation": {
+      "hash": "b429e1a85336b3bb092cd437c50bbe4ded10bebae522373209374b959e833fd9",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "threejs-animation": {
+      "hash": "52acf24ba76b47b094e5734622947fcc85deebf2469bb5c8ef77a1f1dcfc3e5c",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "top-design": {
+      "hash": "63f1389c9f7acadd1fe40b43052534b53f3c9a15e6ce3fb39e7aaff1282776d5",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "traction-eos": {
+      "hash": "774a2b7753055018e70ce3815591c86eff44b9284490f062d11ff61fcdf430f1",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "ux-heuristics": {
+      "hash": "dfd67d57dce81ff2fc02f03550ab7a57d8256431a2eae26815cbaab8b7316fda",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "web-typography": {
+      "hash": "b42d92e3640aa48ec63a771836097d6ee4954a84bddc90515f3651363d57ec2b",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    },
+    "working-with-legacy-code": {
+      "hash": "b6fd4641c8dffe5ce683d574f455b45edaff1884d9ec552732ede277b6a5dcbb",
+      "primera_vez": "2026-10-25",
+      "revisada": "2026-10-25"
+    }
+  },
+  "historial": [
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "aframe-webxr"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "ai-seo"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "animated-component-libraries"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "animejs"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "babylonjs-engine"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "barba-js"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "blender-web-pipeline"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "cinematographic-websites"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "gsap-scrolltrigger"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "lightweight-3d-effects"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "locomotive-scroll"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "lottie-animations"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "modern-web-design"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "motion-framer"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "pixijs-2d"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "playcanvas-engine"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "programmatic-seo"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "react-spring-physics"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "react-three-fiber"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "rive-interactive"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "scroll-reveal-libraries"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "seo"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "seo-audit"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "skill-creator"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "spec"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "spline-interactive"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "substance-3d-texturing"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "threejs-webgl"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "web3d-integration-patterns"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "37signals-way"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "architecture-optimization"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "blue-ocean-strategy"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "cinematic-gsap-lenis-motion-system"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "cinematic-scroll-storytelling"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "clean-architecture"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "clean-code"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "cold-start-problem"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "contagious"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "continuous-discovery"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "conversion-optimization"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "create-app"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "create-business"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "create-website"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "cro-methodology"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "crossing-the-chasm"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "ddia-systems"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "deepseek-saver"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "design-code-architecture"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "design-everyday-things"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "design-sprint"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "domain-driven-design"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "drive-motivation"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "find-skills"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "good-strategy-bad-strategy"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "grow-app"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "grow-business"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "grow-website"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "gsap-core"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "high-output-management"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "high-perf-browser"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "hooked-ux"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "hundred-million-offers"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "hyperframes-registry"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "implement_lenis_scroll"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "improve-app"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "improve-business"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "improve-code-quality"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "improve-retention"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "improve-website"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "influence-psychology"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "inspired-product"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "ios-hig-design"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "jobs-to-be-done"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "lean-analytics"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "lean-startup"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "lean-ux"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "made-to-stick"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "microinteractions"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "mom-test"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "monetizing-innovation"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "negotiation"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "obviously-awesome"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "one-page-marketing"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "pragmatic-programmer"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "predictable-revenue"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "refactoring-patterns"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "refactoring-ui"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "release-it"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "remove-technical-debt"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "scorecard-marketing"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "scroll-world-storytelling"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "shader-glsl"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "software-design-philosophy"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "steve-jobs-design-review"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "storybrand-messaging"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "system-design"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "team-topologies"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "technical-documentation"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "threejs-animation"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "top-design"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "traction-eos"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "ux-heuristics"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "web-typography"
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "REGISTRADA",
+      "skill": "working-with-legacy-code"
+    }
+  ]
+}
