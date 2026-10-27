@@ -1,0 +1,195 @@
+PROMPT PARA AUDITAR Y MEJORAR LA EXPERIENCIA DE UNA APLICACION WEB
+
+Actua como lider de UX/UI y coordinador de un equipo de auditoria. Analiza la aplicacion web disponible en este repositorio y entrega un diagnostico profesional, ordenado y basado en evidencia sobre su uso, sus interfaces y su experiencia en celular. El objetivo es proponer mejoras concretas que ayuden a las personas usuarias a completar sus tareas con menos esfuerzo, errores y frustracion.
+
+No implementes cambios durante esta auditoria. No alteres codigo, configuracion, datos ni archivos existentes. Limita la actividad a inspeccionar, probar y documentar. Si una comprobacion no se puede realizar, indica la limitacion y no la presentes como verificada.
+
+RUTA Y USO DE SKILLS
+
+Las skills de este proyecto estan en:
+- Ruta desde la raiz del repositorio: `.agents/skills/`
+- Ruta absoluta actual: `/home/richarddev/Desktop/Richard/Proveedor de Skills/.agents/skills/`
+- Cada skill tiene sus instrucciones en `.agents/skills/<nombre-de-skill>/SKILL.md`.
+
+Antes de auditar, comprueba que la carpeta existe y carga las instrucciones de las skills indicadas abajo. No supongas que una skill esta activa solo por conocer su nombre. Usa la herramienta de skills del entorno con el slug exacto:
+- `skill({ skill: "ux-heuristics" })`
+- `skill({ skill: "design-everyday-things" })`
+- `skill({ skill: "refactoring-ui" })`
+- `skill({ skill: "ux-writing" })`
+
+Si el entorno no ofrece una herramienta para cargar skills, consulta sus archivos directamente desde la raiz del repositorio. Comandos de lectura:
+- `sed -n '1,240p' .agents/skills/ux-heuristics/SKILL.md`
+- `sed -n '1,240p' .agents/skills/design-everyday-things/SKILL.md`
+- `sed -n '1,240p' .agents/skills/refactoring-ui/SKILL.md`
+- `sed -n '1,240p' .agents/skills/ux-writing/SKILL.md`
+- `ls .agents/skills/ux-heuristics/references`
+
+Para consultar las referencias de accesibilidad y auditoria de UX:
+- `sed -n '1,260p' .agents/skills/ux-heuristics/references/audit-template.md`
+- `sed -n '1,300p' .agents/skills/ux-heuristics/references/wcag-checklist.md`
+- `sed -n '1,260p' .agents/skills/ux-heuristics/references/nielsen-heuristics.md`
+- `sed -n '1,260p' .agents/skills/ux-heuristics/references/dark-patterns.md`
+- `sed -n '1,220p' .agents/skills/ux-heuristics/references/krug-principles.md`
+
+Usa las skills con este alcance; no las apliques como una receta fuera de contexto:
+1. `ux-heuristics` — skill principal para heuristicas, severidad, orientacion, accesibilidad y deteccion de patrones oscuros. Usala en los recorridos y en la sintesis de hallazgos.
+2. `design-everyday-things` — revisa descubribilidad, affordances, signifiers, mapeo, restricciones, feedback y recuperacion de errores. Usala al evaluar interacciones y tareas.
+3. `refactoring-ui` — evalua jerarquia visual, espaciado, tipografia, color y consistencia visual. Usala para proponer mejoras de interfaz, no para escribir ni modificar codigo.
+4. `ux-writing` — revisa etiquetas, botones, instrucciones, formularios, estados vacios, mensajes de error y confirmaciones. Usala para proponer microcopy claro y accionable.
+
+El orden recomendado es: reconocer producto y tareas; aplicar `ux-heuristics`; revisar interacciones con `design-everyday-things`; evaluar la presentacion con `refactoring-ui`; redactar alternativas de texto con `ux-writing`; consolidar evidencia y prioridades. Si una skill o referencia no existe, registra cual falta y sigue con las instrucciones disponibles; no inventes su contenido.
+
+EQUIPO DE TRABAJO
+
+Si la plataforma permite crear agentes, asigna un agente por cada rol siguiente. Dales el alcance descrito, pidiendo hallazgos con evidencia y recomendaciones. Si no se pueden crear agentes, realiza las mismas revisiones por separado y luego consolida los resultados.
+
+1. Auditor/a de UX y usabilidad
+   - Revisa flujos, navegacion, arquitectura de informacion, claridad del contenido y facilidad para completar tareas.
+   - Aplica las 10 heuristicas de Nielsen, los principios de Steve Krug y la prueba de orientacion ("Trunk Test").
+
+2. Auditor/a de experiencia movil y responsive
+   - Prueba las pantallas y flujos principales en anchos de 320, 360, 390, 768 y 1024 px, y en escritorio.
+   - Revisa desbordamiento horizontal, legibilidad, jerarquia, menus, formularios, tablas, modales y uso con una mano.
+   - Comprueba orientacion vertical/horizontal cuando sea pertinente y que ninguna accion dependa solo de hover.
+
+3. Auditor/a de accesibilidad
+   - Evalua como referencia WCAG 2.1 nivel AA: contraste, semantica, etiquetas, foco visible, teclado, texto alternativo, mensajes de estado, zoom y reflujo.
+   - Distingue entre revision automatizada y manual. No afirmes conformidad total por pasar una herramienta automatica.
+
+4. Auditor/a de interacciones y tareas
+   - Identifica las tareas principales segun lo que realmente hace la aplicacion.
+   - Prueba botones, enlaces, formularios, busqueda, filtros, acciones destructivas, estados de carga, error, vacio y exito.
+   - Sugiere acciones, botones, accesos rapidos, atajos o una paleta de comandos solo cuando exista una necesidad frecuente y demostrable.
+
+5. Lider de sintesis
+   - Consolida los hallazgos, elimina duplicados, resuelve contradicciones y entrega una lista priorizada por impacto para el usuario.
+   - Separa los hechos observados de las inferencias y de las preguntas pendientes.
+
+METODO DE AUDITORIA
+
+1. Reconocimiento
+   - Identifica el producto, sus usuarios probables, su propuesta de valor, las secciones, rutas, pantallas y funcionalidades.
+   - Inspecciona la estructura del proyecto y la aplicacion en ejecucion si es posible.
+   - Describe que parece poder hacer una persona usuaria y cuales son las tareas mas importantes.
+   - Si no se conoce el publico o el objetivo del producto, marca las hipotesis como tales; no las presentes como hechos.
+
+2. Recorrido de tareas
+   - Recorre los flujos principales de principio a fin, incluyendo errores y estados alternativos cuando sea posible.
+   - Para cada flujo registra: objetivo, pasos, resultado esperado, resultado observado, fricciones y oportunidades.
+   - No inventes resultados ni completes acciones reales que puedan enviar, borrar, comprar o publicar datos. En esos casos, detente antes de confirmar y anota la limitacion.
+
+3. Evaluacion de interfaz
+   - Revisa cada pantalla en cuanto a proposito evidente, jerarquia visual, navegacion, consistencia, lenguaje, densidad, escaneabilidad y orientacion.
+   - Aplica las 10 heuristicas de Nielsen:
+     visibilidad del estado del sistema; correspondencia con el mundo real; control y libertad;
+     consistencia; prevencion de errores; reconocimiento antes que recuerdo; flexibilidad y eficiencia;
+     diseno minimalista; recuperacion de errores; ayuda y documentacion.
+   - Aplica el principio "No me hagas pensar": los nombres, acciones y siguientes pasos deben ser claros sin explicaciones innecesarias.
+   - Comprueba la prueba de orientacion: que producto es, en que pagina estoy, que secciones hay,
+     que puedo hacer, donde estoy dentro de la estructura y como encuentro contenido.
+
+4. Revision de botones y acciones
+   - Para cada accion importante, documenta etiqueta actual, proposito, claridad, prioridad visual,
+     consistencia, estado habilitado/deshabilitado y respuesta despues de pulsarla.
+   - Detecta botones ambiguos, iconos sin nombre accesible, acciones principales poco visibles,
+     objetivos tactiles pequenos, duplicacion de acciones, falta de confirmacion/feedback y acciones
+     destructivas sin recuperacion adecuada.
+   - Propone texto de boton concreto con verbo y objeto (por ejemplo, "Guardar cambios"), jerarquia
+     primaria/secundaria y comportamiento esperado para cada caso relevante.
+   - Distingue botones de enlaces: los botones ejecutan acciones; los enlaces navegan.
+   - Sugiere nuevas acciones solo si resuelven una necesidad observada. Para cada propuesta indica
+     usuario beneficiado, problema que resuelve, ubicacion sugerida y riesgo de agregar complejidad.
+   - Considera atajos de teclado, acciones en lote, favoritos, busquedas guardadas o paleta de comandos
+     unicamente si aceleran tareas recurrentes y no ocultan funciones esenciales a principiantes.
+
+5. Revision movil
+   - Confirma que el contenido se adapta a pantallas pequenas sin perdida de informacion ni scroll
+     horizontal innecesario, incluyendo a 320 px.
+   - Comprueba objetivos tactiles de al menos 44 x 44 px como recomendacion de usabilidad, separacion
+     suficiente entre controles y acciones esenciales alcanzables sin precision excesiva.
+   - Evalua menus, formularios, teclado virtual, modales, tablas, filtros, cabeceras, botones fijos y
+     navegacion inferior cuando existan.
+   - Comprueba que etiquetas, instrucciones y errores no dependan solo de placeholders, color o hover.
+
+6. Accesibilidad y seguridad de la experiencia
+   - Prueba navegacion con teclado, orden y visibilidad del foco, labels, nombres accesibles, contraste,
+     zoom, estructura de encabezados y comprension de errores, siempre que las herramientas disponibles
+     lo permitan.
+   - Busca patrones manipulativos: costos ocultos, opciones preseleccionadas, cancelacion dificil,
+     urgencia falsa, consentimiento confuso, culpa al rechazar o diferencias injustificadas entre aceptar
+     y rechazar. Propone alternativas claras y respetuosas.
+   - Indica las herramientas y metodos usados, sus limites y los hallazgos que requieren validacion con
+     personas usuarias o tecnologia de asistencia.
+
+CRITERIOS PARA REGISTRAR HALLAZGOS
+
+Por cada problema, incluye:
+- ID y nombre breve.
+- Pantalla, ruta o flujo afectado.
+- Evidencia observable (que se vio o que prueba fallo); agrega selector/archivo/linea si se inspecciono codigo.
+- Tarea y tipo de usuario afectados, si se conocen.
+- Principio o criterio relacionado.
+- Frecuencia, impacto y persistencia estimados, explicando si son inferencias.
+- Severidad UX: 0 = no es problema; 1 = cosmetico; 2 = menor; 3 = mayor; 4 = catastrofico.
+- Recomendacion concreta, indicando que cambiar y por que.
+- Esfuerzo estimado: bajo, medio o alto; confianza: alta, media o baja.
+
+No califiques como problema una preferencia personal. No presentes una sugerencia visual como hecho probado. No dupliques el mismo problema en distintas secciones: vincula las pantallas afectadas en un solo hallazgo cuando corresponda.
+
+ENTREGABLE
+
+Entrega el reporte en espanol, con fecha, alcance y limitaciones, usando esta estructura:
+
+1. Resumen ejecutivo
+   - Que es la aplicacion y para que sirve, segun evidencia.
+   - Evaluacion general de UX sobre 10, explicando brevemente el criterio.
+   - Fortalezas principales.
+   - Problemas mas importantes y efectos sobre el usuario.
+
+2. Inventario de interfaces y tareas
+   - Tabla de rutas/pantallas, proposito, tareas posibles y estado de revision.
+   - Flujos principales probados y resultados.
+
+3. Hallazgos priorizados
+   - Tabla con ID, severidad, pantalla/flujo, evidencia, impacto, recomendacion, esfuerzo y confianza.
+   - Ordena primero severidad 4, luego 3, 2 y 1; dentro de cada nivel, prioriza mayor impacto y confianza.
+   - Incluye hallazgos moviles y de accesibilidad en la misma priorizacion.
+
+4. Recomendaciones por interfaz
+   - Para cada pantalla importante, explica que conservar, que simplificar y que cambiar.
+   - Describe una propuesta concreta de jerarquia, navegacion y contenido; no te limites a "mejorar el diseno".
+
+5. Botones, acciones y comandos recomendados
+   - Incluye una tabla: pantalla, accion actual o propuesta, texto recomendado, prioridad, comportamiento/feedback y justificacion.
+   - Separa cambios de botones existentes de nuevas acciones.
+   - Explicita cuales propuestas no se recomiendan y por que, para evitar agregar controles sin valor.
+
+6. Accesibilidad y experiencia movil
+   - Resultados por criterio, dispositivo/ancho y metodo.
+   - Problemas bloqueantes y mejoras concretas.
+   - Marca como "no verificado" cualquier criterio que no se haya podido probar.
+
+7. Plan de mejora
+   - Inmediato: problemas catastroficos y mayores que bloquean tareas o erosionan confianza.
+   - Corto plazo: mejoras de alto impacto y bajo/medio esfuerzo.
+   - Posterior: mejoras de menor prioridad o que necesitan investigacion.
+   - Para cada iniciativa, indica resultado esperado, esfuerzo, dependencias y una senal medible de exito.
+
+8. Validacion posterior
+   - Propone tareas breves para probar las mejoras con usuarios representativos.
+   - Sugiere metricas relacionadas con las tareas, por ejemplo tasa de exito, tiempo, errores,
+     abandono, uso de busqueda o solicitudes de soporte. No inventes una linea base.
+
+9. Ruta hacia 10/10
+   - Indica que problemas deben resolverse para alcanzar la puntuacion maxima.
+   - Explica la puntuacion con diagnosticos aprobados/fallidos y no la presentes como una medida
+     cientifica ni como sustituto de pruebas con usuarios.
+
+FORMATO Y CALIDAD
+
+- Se claro, profesional, concreto y respetuoso con quienes usan el producto.
+- Usa tablas cuando faciliten comparar hallazgos.
+- Evita jerga innecesaria y propuestas genericas como "hacerlo mas moderno".
+- Para cada recomendacion, conecta evidencia -> problema -> cambio -> beneficio esperado.
+- Separa lo comprobado, lo inferido y lo que requiere investigacion.
+- No implementes nada ni crees archivos adicionales salvo que la persona solicitante lo pida despues.

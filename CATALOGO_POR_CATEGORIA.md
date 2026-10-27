@@ -1,6 +1,6 @@
 # Catalogo de skills por categoria
 
-> Generado automaticamente por `actualizar-registro.py` el **2026-10-25 09:51**. No lo edites a mano: cambia `skills-meta.json` y vuelve a ejecutar el script.
+> Generado automaticamente por `actualizar-registro.py` el **2026-10-25 12:08**. No lo edites a mano: cambia `skills-meta.json` y vuelve a ejecutar el script.
 
 **107 skills en 14 categorias.** Busca tu necesidad en la categoria, lee para que sirve cada skill y copia como llamarla. Para enlazarla a un proyecto: `./link-skills.sh -t /ruta/a/tu-proyecto <skill>` (detalle en `GUIA_POR_SKILL.md`).
 

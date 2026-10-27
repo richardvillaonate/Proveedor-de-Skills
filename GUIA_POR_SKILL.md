@@ -1,6 +1,6 @@
 # Guia por skill
 
-> Generada por `actualizar-registro.py` el **2026-10-25 09:51**. Fuente: `skills-meta.json`. Para el concepto general y la instalacion lee `TUTORIAL.md`.
+> Generada por `actualizar-registro.py` el **2026-10-25 12:08**. Fuente: `skills-meta.json`. Para el concepto general y la instalacion lee `TUTORIAL.md`.
 
 En cada comando, `/ruta/a/tu-proyecto` es el proyecto que va a consumir la skill. Ejecutalo desde esta carpeta, o reemplaza `./link-skills.sh` por su ruta absoluta.
 

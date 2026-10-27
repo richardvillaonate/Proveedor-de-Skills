@@ -1,6 +1,6 @@
 ==========================================================================================
 HOJA DE VIDA DE SKILLS - PROVEEDOR LOCAL
-Actualizado: 2026-10-25 09:51    Total: 107 skills
+Actualizado: 2026-10-25 12:08    Total: 107 skills
 Ubicacion: /home/richarddev/Desktop/Proveedor de Skills/.agents/skills
 Archivo generado por actualizar-registro.py (editar skills-meta.json, no este archivo).
 ==========================================================================================
@@ -65,7 +65,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Build lean, opinionated products using the 37signals philosophy from
                 "Getting Real", "Rework", and "Shape Up".
@@ -126,7 +126,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Optimiza contenido para que los buscadores de IA lo citen (AEO/GEO/LLMO):
                 llms.txt, agent-readiness, formatos de contenido que los LLM citan,
@@ -154,7 +154,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Guia para usar colecciones de componentes React animados ya hechos: Magic
                 UI (150+) y React Bits (90+), con integracion shadcn/ui y Tailwind.
@@ -422,7 +422,7 @@ Idioma:         PT
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Disena, implementa y revisa sitios cinematograficos: direccion de arte
                 autoral, narrativa por scroll, hero cinematografico, pin scroll y
@@ -453,7 +453,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Structure software around the Dependency Rule: source code dependencies
                 point inward from frameworks to use cases to entities.
@@ -487,7 +487,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Write readable, maintainable code through disciplined naming, small
                 functions, and clean error handling.
@@ -554,7 +554,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Engineer word-of-mouth and virality using the STEPPS framework (Social
                 Currency, Triggers, Emotion, Public, Practical Value, Stories).
@@ -658,7 +658,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Guided journey from a raw app idea to a validated, cleanly architected
                 first version that ships on a sustainable cadence.
@@ -696,7 +696,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Guided journey from raw idea to a validated, positioned, priced business
                 with a chosen beachhead.
@@ -772,7 +772,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Audit websites and landing pages for conversion issues and design
                 evidence-based A/B tests.
@@ -837,7 +837,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Design data systems by understanding storage engines, replication,
                 partitioning, transactions, and consistency models.
@@ -870,7 +870,7 @@ Idioma:         ES
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Ahorra tokens y dinero al usar modelos DeepSeek (deepseek-flash,
                 deepseek-v4-pro) por la API compatible con Anthropic.
@@ -899,7 +899,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Guided journey from an app idea to a deliberate architecture: boundaries,
                 domain model, data decisions, and resilience, making only the
@@ -938,7 +938,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Apply foundational design principles: affordances, signifiers,
                 constraints, feedback, and conceptual models.
@@ -1002,7 +1002,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Model software around the business domain using bounded contexts,
                 aggregates, and ubiquitous language.
@@ -1096,7 +1096,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Da direccion estetica y criterio visual para interfaces con identidad
                 propia: tipografia, color y composicion que no se leen como plantilla
@@ -1125,7 +1125,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Disena y construye HUDs, menus y overlays de juegos: layout por anclas,
                 escalado y safe areas, navegacion con teclado/gamepad, pila de pantallas y
@@ -1335,7 +1335,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       GSAP y ScrollTrigger completos: tweens, timelines, pinning, scrub,
                 parallax y animacion de DOM, SVG, Canvas, WebGL o Three.js.
@@ -1400,7 +1400,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Optimize web performance through network protocols, resource loading, and
                 browser rendering internals.
@@ -1808,7 +1808,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Design native iOS interfaces following Apple Human Interface Guidelines.
 CUANDO USARLA:  Design native iOS interfaces following Apple Human Interface Guidelines.
@@ -1873,7 +1873,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Choose and audit startup metrics using Croll and Yoskovitz''s "Lean
                 Analytics".
@@ -1907,7 +1907,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Design MVPs, validated learning experiments, and pivot-or-persevere
                 decisions using Build-Measure-Learn.
@@ -2054,7 +2054,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Craft messages that are understood, remembered, and drive action using the
                 SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional,
@@ -2087,7 +2087,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Design the small details -- triggers, rules, feedback, loops and modes --
                 that separate good products from great ones.
@@ -2120,7 +2120,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Tendencias, principios y patrones de diseno web moderno (2024-2025):
                 minimalismo audaz, glassmorphism, scrollytelling, cursor UX, accesibilidad
@@ -2151,7 +2151,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Talk to customers without leading them using Mom Test rules: discuss their
                 life not your idea, ask about specifics in the past, and talk less.
@@ -2220,7 +2220,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Libreria Motion (Framer Motion) para React y JS: componentes motion,
                 variants, gestos, layout animations, AnimatePresence, springs y efectos
@@ -2282,7 +2282,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Define product positioning by mapping competitive alternatives, unique
                 attributes, and best-fit customers to the right market category.
@@ -2314,7 +2314,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Build a complete marketing plan covering the full customer journey from
                 stranger to raving fan.
@@ -2400,7 +2400,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100
 
 QUE HACE:       Apply meta-principles of software craftsmanship: DRY, orthogonality,
                 tracer bullets, and design by contract.
@@ -2464,7 +2464,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Crea paginas SEO a escala con plantillas y datos: directorios, paginas por
                 ciudad, comparativas, integraciones; con playbooks y guia de plataformas.
@@ -2578,7 +2578,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Audit and fix visual hierarchy, spacing, color, and depth in web UIs.
 CUANDO USARLA:  Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use
@@ -2609,7 +2609,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Build production-ready systems with stability patterns: circuit breakers,
                 bulkheads, timeouts, and retry logic.
@@ -2796,7 +2796,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       SEO tecnico y on-page general: meta tags, datos estructurados, sitemap y
                 visibilidad en buscadores.
@@ -2821,7 +2821,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Audita y diagnostica problemas de SEO: tecnico, on-page, caida de trafico,
                 indexacion, Core Web Vitals, titulos, CTR y SEO local.
@@ -2908,7 +2908,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Manage software complexity through deep modules, information hiding, and
                 strategic programming.
@@ -2942,7 +2942,7 @@ Idioma:         ES
 Instalada:      2026-10-25
 Invocacion:     manual con /spec
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Disena specs con el metodo spec-driven: triaje del pedido (rechaza lo
                 vago, separa problema de solucion, divide lo grande), preguntas de
@@ -3030,7 +3030,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Clarify brand messaging using narrative structure that positions the
                 customer as hero.
@@ -3089,7 +3089,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Design scalable distributed systems using structured approaches for load
                 balancing, caching, database scaling, and message queues.
@@ -3156,7 +3156,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Audit, write, and improve developer documentation using Google''s
                 Developer Documentation Style Guide and Technical Writing courses.
@@ -3248,7 +3248,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Create award-winning, immersive web experiences at the level of
                 Awwwards-featured agencies.
@@ -3312,7 +3312,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Evaluate and improve interface usability using heuristic analysis.
 CUANDO USARLA:  Evaluate and improve interface usability using heuristic analysis. Use
@@ -3343,7 +3343,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Escribe y revisa microcopy de interfaz: botones, etiquetas, errores,
                 notificaciones, formularios, onboarding y estados vacios, con criterios de
@@ -3371,7 +3371,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Select, pair, and implement typefaces for web projects.
 CUANDO USARLA:  Select, pair, and implement typefaces for web projects. Use when the user
@@ -3430,7 +3430,7 @@ Idioma:         EN
 Instalada:      2026-10-25
 Invocacion:     automatica (por contexto) o nombrandola en el prompt
 Estado aqui:    copia real en .claude/skills de este proyecto
-Usada en:       ningun otro proyecto registrado
+Usada en:       /home/richarddev/Desktop/DIME100, /home/richarddev/Desktop/Loterias
 
 QUE HACE:       Safely change and test untested codebases using Feathers'' "Working
                 Effectively with Legacy Code".

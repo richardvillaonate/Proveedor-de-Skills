@@ -1,13 +1,13 @@
 # Estado general de skills
 
-> Generado automaticamente por `actualizar-registro.py` el **2026-10-25 09:51**. No lo edites a mano: cambia `skills-meta.json` y vuelve a ejecutar el script.
+> Generado automaticamente por `actualizar-registro.py` el **2026-10-25 12:08**. No lo edites a mano: cambia `skills-meta.json` y vuelve a ejecutar el script.
 
 ## Resumen
 
 - **Skills en el proveedor:** 107 (31.0 MB)
 - **Copias reales en `.claude/skills` de este proyecto:** 107 de 107
 - **Skills con ficha basica (pendientes de detallar):** 75
-- **Proyectos consumidores con enlaces vivos:** 0
+- **Proyectos consumidores con enlaces vivos:** 2
 - **Skills sin ficha completa:** 0
 - **Skills globales en `~/.agents/skills` que aun no estan en el proveedor:** 0
 
@@ -144,7 +144,10 @@ _Aqui = copia real en `.claude/skills` de este proyecto (se sincroniza desde `.a
 
 ## Proyectos conectados
 
-Aun no hay proyectos conectados. `link-skills.sh -t <proyecto>` los registra aqui.
+| Proyecto | Skills enlazadas |
+|---|---|
+| `/home/richarddev/Desktop/DIME100` | `37signals-way`, `clean-architecture`, `clean-code`, `contagious`, `create-app`, `ddia-systems`, `deepseek-saver`, `design-code-architecture`, `design-everyday-things`, `domain-driven-design`, `frontend-design`, `game-ui-ux`, `high-perf-browser`, `ios-hig-design`, `lean-analytics`, `lean-startup`, `microinteractions`, `motion-framer`, `pragmatic-programmer`, `refactoring-ui`, `release-it`, `seo`, `software-design-philosophy`, `spec`, `system-design`, `technical-documentation`, `ux-heuristics`, `ux-writing`, `web-typography`, `working-with-legacy-code` |
+| `/home/richarddev/Desktop/Loterias` | `ai-seo`, `animated-component-libraries`, `cinematographic-websites`, `clean-architecture`, `create-app`, `create-business`, `cro-methodology`, `ddia-systems`, `deepseek-saver`, `design-code-architecture`, `domain-driven-design`, `frontend-design`, `gsap-scrolltrigger`, `high-perf-browser`, `made-to-stick`, `microinteractions`, `modern-web-design`, `mom-test`, `motion-framer`, `obviously-awesome`, `one-page-marketing`, `programmatic-seo`, `refactoring-ui`, `release-it`, `seo`, `seo-audit`, `software-design-philosophy`, `spec`, `storybrand-messaging`, `system-design`, `technical-documentation`, `top-design`, `ux-heuristics`, `ux-writing`, `web-typography`, `working-with-legacy-code` |
 
 ## Pendientes y avisos
 
